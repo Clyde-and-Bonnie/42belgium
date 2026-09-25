@@ -172,12 +172,13 @@ renders as:
 ## What the validator checks
 
 After every commit on a PR, an automated validator runs on the page you
-edited. **Only two things turn the check red**, and both mean the page is
+edited. **Only three things turn the check red**, and all mean the page is
 actually broken:
 
 | Blocking | What to do |
 | --- | --- |
 | `invalid JSON — …` | A comma, a brace or a quote is misplaced. The message names the line and column. |
+| `unknown key "…"` / `missing required key "…"` / `… should be a …` | A key name was changed or deleted, or a value has the wrong form (e.g. text where a list `[...]` is expected). Only edit the text **inside** the quotes, never the key names on the left. The message suggests the right key when it can. |
 | `image not found in public/` | The image path you wrote doesn't match a real file. Check spelling, case. |
 
 Everything else the validator prints is **advice**, not a gate. It's the SEO

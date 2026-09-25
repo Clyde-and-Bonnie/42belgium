@@ -51,7 +51,8 @@ jobs:
           node-version: '22'
 
       # Two deliberate limits on this job:
-      #  --structural-only: only invalid JSON and missing images fail. The SEO
+      #  --structural-only: only invalid JSON, a wrong structure (unknown,
+      #    missing or mistyped key) and missing images fail. The SEO
       #    checklist still prints as advice, but an editor is never blocked by
       #    a judgement call about keyword density or meta length.
       #  scoped to changed files: a full sweep would fail on pre-existing SEO

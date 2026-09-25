@@ -21,8 +21,10 @@ node scripts/validate-seo.mjs --structural-only <the content files you changed>
 CI runs these on every pull request and a red check blocks the merge. Run them
 yourself first — do not open a pull request and let CI find the problem.
 
-Only two things fail that last command: invalid JSON, and an image path with no
-matching file in `public/`. The SEO checklist still prints its findings, but as
+Only three things fail that last command: invalid JSON, a structure the site
+does not expect (an unknown, missing or mistyped key — the expected shape
+mirrors `src/lib/i18n.ts`), and an image path with no matching file in
+`public/`. The SEO checklist still prints its findings, but as
 advice. **Do not act on that advice on your own** — the targets are tuned
 against Google Ads data, so changing copy to satisfy them is an SEO decision
 for Clyde & Bonnie. Dropping `--structural-only` runs the full blocking
