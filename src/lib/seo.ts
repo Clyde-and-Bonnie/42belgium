@@ -36,7 +36,9 @@ export async function buildMetadata(
   );
 
   return {
-    title: content.meta.title,
+    // meta.title already ends with "| 42 Belgium": bypass the root layout's
+    // "%s | 42 Belgium" template so the suffix isn't doubled.
+    title: { absolute: content.meta.title },
     description: content.meta.description,
     alternates: {
       canonical,
