@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "title": "Formation développeur web Bruxelles - Gratuit | 42 Belgium",
+    "description": "Formation développeur web gratuite à Bruxelles et Anvers. Stack moderne (JavaScript, React, Node) et apps livrées en vrai. Voie RNCP 6 pour la reconnaissance.",
+    "slug": "formation-developpeur-web",
+    "primaryQuery": "formation développeur web Bruxelles",
+    "convertingKeywords": [
+      "formation developpeur web",
+      "formation web developer bruxelles",
+      "formation web"
+    ],
+    "lpAngle": "classic"
+  },
+  "hero": {
+    "headline": "La formation développeur web qui te fait sortir avec un portfolio, pas un certificat.",
+    "subheadline": "100% gratuit à 42 Belgium, à Bruxelles et Anvers. Le travail web s'intègre dans un cursus complet en software engineering — JavaScript, React, Node, et les fondations système sous-jacentes. Vrais apps livrées, peer reviewed. Voie RNCP 6 pour la reconnaissance.",
+    "reassurance": "100% gratuit · Sans diplôme requis · Bruxelles & Anvers · Voie RNCP 6",
+    "cta": "Lance ta carrière web →",
+    "image": "/assets/gallery/webfullstack-hero.jpg",
+    "imageAlt": "Étudiant en développement web full stack livrant des apps au campus 42 Belgium"
+  },
+  "clusters": [
+    {
+      "name": "FORMATION DÉVELOPPEUR WEB",
+      "heading": "Une formation développeur web construite autour des livrables, pas des heures de cours.",
+      "body": "La plupart des formations web optimisent la complétion : dix modules, un projet final, un certificat. Utile pour démarrer. La formation développeur web à 42 Belgium propose autre chose : être capable d'entrer dans une équipe junior sans ralentir le reste. Tu ne \"suis\" pas un cours - tu livres des apps dans le cadre d'une formation web plus large. De vraies apps, avec de vrais bugs, relues par de vrais pairs. La formation web developer Bruxelles que tu cherches existe ici : campus en présentiel, code reviews, et la rigueur d'un vrai cursus en software engineering. La formation développement web ici ne s'arrête pas au HTML/CSS - elle te mène jusqu'au point où ton portfolio parle à un recruteur, sans intermédiaire.",
+      "keywords": [
+        "formation développeur web",
+        "formation web developer Bruxelles",
+        "formation web",
+        "formation développement web"
+      ],
+      "decoration": "/assets/code-blue.svg"
+    },
+    {
+      "name": "SPÉCIALISATIONS FRONT/BACK",
+      "heading": "JavaScript, React, HTML/CSS : la stack qui sort des projets, pas des slides.",
+      "body": "Tu ne t'inscris pas à 42 pour faire une formation JavaScript isolée - tu t'inscris pour devenir développeur. Mais JavaScript est partout : dans le navigateur, sur le serveur via Node, et dans les frameworks qui dominent l'écosystème. La formation React fait partie du parcours web parce que c'est le framework que la plupart des recruteurs belges demandent. La formation HTML CSS, elle, est traitée comme la base implicite - tu apprends à construire des UIs maintenables, pas juste à empiler des divs. Le travail développeur web formation ici couvre les deux faces : front (UI, état, performance) et back (APIs, persistance, déploiement). Ce qui change tout, c'est la profondeur : tu comprends ce que font tes outils, pas juste comment les invoquer.",
+      "keywords": [
+        "formation JavaScript",
+        "formation React",
+        "formation HTML CSS",
+        "développeur web formation"
+      ],
+      "bullets": [
+        "JavaScript partout : navigateur, Node, frameworks dominants",
+        "React : vraies UIs, gestion d'état, performance",
+        "La couche profonde : HTTP, REST APIs, bases de données, déploiement",
+        "Front + back : tu comprends tes outils, pas juste comment les invoquer"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "En quoi c'est différent d'un bootcamp dev web ?",
+      "answer": "Trois choses. D'abord, le périmètre : le travail web à 42 s'inscrit dans un cursus complet en software engineering (C, systèmes, algorithmes, bases de données — puis web), donc tu comprends ce qui se passe sous les abstractions que tu utilises. Ensuite, le format : projet-based, peer-reviewed, en présentiel sur le campus — pas des vidéos. Enfin, le coût : 100% gratuit, sans frais, sans income share. Le compromis : ça prend plus de temps qu'un bootcamp 12 semaines. Le travail web spécialisé arrive en général entre 12 et 18 mois."
+    },
+    {
+      "question": "Quelles technologies on utilise vraiment ?",
+      "answer": "HTML, CSS, JavaScript, TypeScript, React (et d'autres frameworks JS selon les projets), Node.js, Express, APIs REST et GraphQL, bases de données SQL et NoSQL, Docker, Git, et déploiement cloud de base. Le mix exact évolue chaque année. La constante : tu livres de vraies apps, pas des exercices."
+    },
+    {
+      "question": "Quels métiers visent les diplômés ?",
+      "answer": "Développeur fullstack junior, front end developer, back end developer, web engineer en startup, en agence, et en équipe tech de grandes boîtes belges. Beaucoup de diplômés sont recrutés pendant leurs stages chez nos partenaires, avant la fin du cursus."
+    }
+  ],
+  "stats": [
+    {
+      "value": "98%",
+      "label": "des diplômés du cursus avancé décrochent un job"
+    },
+    {
+      "value": "100%",
+      "label": "Gratuit - aucun frais"
+    },
+    {
+      "value": "42",
+      "label": "Campus dans le monde"
+    },
+    {
+      "value": "0",
+      "label": "Prérequis"
+    }
+  ],
+  "ctaFinal": {
+    "title": "La formation développeur web qui te fait sortir avec un portfolio, pas un certificat.",
+    "description": "Travail web dans le tronc commun, vraies apps livrées, voie RNCP 6. 100% gratuit, sans diplôme exigé. Candidature toute l'année.",
+    "cta": "Lance ta carrière web →"
+  },
+  "schemaOrg": {
+    "course": {
+      "name": "42 Belgium - Formation Développeur Web",
+      "description": "Formation développeur web gratuite à Bruxelles et Anvers, dans le cadre du cursus 42. JavaScript, React, Node et les fondations système, à travers des projets réels. Voie RNCP 6 pour la reconnaissance européenne au niveau bachelor.",
+      "provider": "42 Belgium",
+      "url": "https://42belgium.be/fr/formation-developpeur-web",
+      "courseMode": "blended",
+      "educationalLevel": "beginner"
+    }
+  }
+}

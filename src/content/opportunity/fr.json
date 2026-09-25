@@ -1,0 +1,142 @@
+{
+  "meta": {
+    "title": "Formation Professionnelle Gratuite Bruxelles | 42 Belgium",
+    "description": "Formation professionnelle gratuite à Bruxelles, sans CESS. Reconversion IT pour adultes - formation en ligne ou en présentiel. Candidature ouverte.",
+    "slug": "formation-professionnelle-bruxelles",
+    "primaryQuery": "formation professionnelle Bruxelles",
+    "convertingKeywords": [
+      "formation professionnelle Bruxelles",
+      "formation pour adultes Bruxelles",
+      "formation gratuite",
+      "formation en ligne Bruxelles",
+      "formation gratuite bruxelles",
+      "école de formation Bruxelles",
+      "formations à Bruxelles",
+      "formations gratuites",
+      "formation Bruxelles sans CESS",
+      "formation en ligne gratuite"
+    ]
+  },
+  "hero": {
+    "headline": "Formation professionnelle en tech - gratuite, sans diplôme requis",
+    "subheadline": "La porte d'entrée vers la tech. Quel que soit ton parcours.",
+    "reassurance": "100% gratuit · Sans CESS · Campus à Bruxelles",
+    "cta": "Commence ta reconversion →"
+  },
+  "clusters": [
+    {
+      "name": "ACCESSIBILITÉ & BRUXELLES",
+      "heading": "Une formation ancrée à Bruxelles, ouverte à tous",
+      "body": "Tu cherches une formation professionnelle Bruxelles, une formation pour adultes Bruxelles, ou une formation en ligne Bruxelles ? 42 Belgium propose des formations à Bruxelles complètes qui t'accompagnent de zéro jusqu'à l'emploi tech. Notre école de formation Bruxelles est ancrée au cœur de la capitale belge, à deux pas de la gare centrale. Le campus est ouvert 24h/24, 7j/7 - tu choisis ton rythme. Le programme combine présentiel et distance : une partie du travail peut se faire en formation en ligne Bruxelles depuis chez toi, mais l'expérience peer-to-peer nécessite des moments ensemble. C'est là que les vraies compétences se construisent.",
+      "keywords": [
+        "formation professionnelle Bruxelles",
+        "formation pour adultes Bruxelles",
+        "formation en ligne Bruxelles",
+        "école de formation Bruxelles",
+        "formations à Bruxelles"
+      ],
+      "bullets": [
+        "Campus au cœur de Bruxelles, à deux pas de la gare centrale",
+        "Ouvert 24h/24, 7j/7 — tu choisis ton rythme",
+        "Présentiel + distance selon les moments",
+        "Apprentissage peer-to-peer, pas de profs"
+      ]
+    },
+    {
+      "name": "GRATUITÉ",
+      "heading": "Gratuit. Vraiment gratuit.",
+      "body": "42 Belgium est une formation gratuite - sans frais cachés ni petits caractères. Pas de caution, pas de mensualité, pas de facture surprise à la fin. Que tu cherches une formation gratuite Bruxelles, des formations gratuites, ou une formation en ligne gratuite, tu trouves ici un programme 100% financé. Pourquoi ? Parce que nous pensons que le talent, pas le budget, doit décider qui accède à l'éducation tech. Le modèle existe, il est prouvé par les 42 campus à travers le monde. La gratuité n'est pas une promo de lancement : c'est le principe fondateur du réseau 42.",
+      "keywords": [
+        "formation gratuite",
+        "formation gratuite Bruxelles",
+        "formation en ligne gratuite",
+        "formations gratuites"
+      ],
+      "subheading": "Gratuit ne veut pas dire au rabais.",
+      "image": "/assets/gallery/6-min-scaled-1.jpg",
+      "imageAlt": "Étudiants en reconversion travaillant sur le campus 42 Belgium",
+      "comparison": {
+        "leftLabel": "Une formation gratuite classique",
+        "rightLabel": "42 Belgium",
+        "criteria": ["Apprentissage", "Preuve des compétences", "Feedback", "Accompagnement", "Débouché"],
+        "rows": [
+          { "left": "Vidéos théoriques à visionner seul", "right": "Projets réels, par la pratique" },
+          { "left": "Un certificat PDF", "right": "Un portfolio concret" },
+          { "left": "Aucun ou automatisé", "right": "Code reviews entre pairs" },
+          { "left": "Aucun ou non personnalisé", "right": "Communauté 24/7 sur le campus" },
+          { "left": "Sans connexion avec le monde du travail", "right": "Fait pour te mener vers un job dans la tech" }
+        ]
+      }
+    },
+    {
+      "name": "SANS BARRIÈRE DE DIPLÔME",
+      "lowBarrier": true,
+      "heading": "Pas de CESS ? Pas de souci.",
+      "body": "Cette formation Bruxelles sans CESS est ouverte à tous. Pas de diplôme exigé, pas de parcours académique requis. 42 Belgium est conçue pour la reconversion professionnelle d'adultes qui veulent se reconvertir dans l'IT sans repasser par les bancs d'une université.",
+      "dontAsk": [
+        "Pas de CESS",
+        "Pas de diplôme",
+        "Pas de CV",
+        "Pas d'expérience",
+        "Pas de parcours académique",
+        "Pas de limite d'âge"
+      ],
+      "lookFor": [
+        "Du potentiel",
+        "L'envie de te reconvertir",
+        "La motivation de commencer"
+      ],
+      "subheading": "La seule condition : la motivation.",
+      "bodyPart2": "L'accès se fait via un test en ligne : une série de jeux logiques, pas de questions de code. Nous mesurons ton potentiel, pas ton passé. Si tu viens de l'hôtellerie, de la vente, de l'enseignement, de l'administration, tu es exactement le profil que nous accueillons. La majorité de nos étudiants n'avait jamais écrit une ligne de code avant d'arriver. Quelques semaines plus tard, ils livrent des projets concrets. Ta formation sans diplôme Belgique commence ici.",
+      "keywords": [
+        "formation Bruxelles sans CESS",
+        "formation sans diplôme Belgique",
+        "reconversion professionnelle",
+        "se reconvertir dans l'IT"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "C'est vraiment gratuit ?",
+      "answer": "Oui, 100%. Pas de frais de scolarité, pas de coûts cachés, pas de surprise. La formation est financée pour que le talent soit la seule condition d'accès."
+    },
+    {
+      "question": "Faut-il avoir un CESS ou un diplôme supérieur ?",
+      "answer": "Non. Cette formation Bruxelles sans CESS est accessible sans aucun diplôme antérieur. L'unique étape d'entrée est un test en ligne qui évalue ton potentiel, pas ton passé."
+    },
+    {
+      "question": "Est-ce une formation pour adultes en reconversion ?",
+      "answer": "Oui, 42 Belgium est conçue pour les adultes en reconversion professionnelle. Pas de limite d'âge. Pas de parcours académique prérequis. Motivation et temps - c'est tout."
+    },
+    {
+      "question": "Puis-je suivre la formation à distance ?",
+      "answer": "Le programme combine formation en ligne Bruxelles et présentiel. Une partie du travail se fait à distance, mais l'expérience peer-to-peer nécessite des moments en présentiel au campus."
+    },
+    {
+      "question": "Combien de temps dure la formation ?",
+      "answer": "Le cursus principal dure entre 18 et 36 mois selon ton rythme. Tu avances à ta vitesse, sans pression de date limite imposée."
+    }
+  ],
+  "stats": [
+    { "value": "100%", "label": "Gratuit - aucun frais" },
+    { "value": "973", "label": "Inscriptions en 4 mois" },
+    { "value": "42", "label": "Campus dans le monde" },
+    { "value": "0", "label": "Prérequis de diplôme" }
+  ],
+  "ctaFinal": {
+    "title": "Prêt·e à te reconvertir dans l'IT ?",
+    "description": "Formation professionnelle Bruxelles, gratuite, sans diplôme requis. Rejoins des milliers de personnes qui ont changé de carrière grâce à 42 Belgium.",
+    "cta": "Commence ta reconversion →"
+  },
+  "schemaOrg": {
+    "course": {
+      "name": "42 Belgium - Formation professionnelle Bruxelles",
+      "description": "Formation professionnelle gratuite à Bruxelles pour adultes en reconversion. Aucun diplôme requis.",
+      "provider": "42 Belgium",
+      "url": "https://42belgium.be/fr/formation-professionnelle-bruxelles",
+      "courseMode": "blended",
+      "educationalLevel": "débutant"
+    }
+  }
+}

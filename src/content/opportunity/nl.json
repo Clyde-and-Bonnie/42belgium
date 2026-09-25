@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "title": "Welke Opleiding Past Bij Mij? | 42 Belgium Oriëntatie",
+    "description": "Zoek je een nieuwe carrière in IT? 42 Belgium helpt je de opleiding te vinden die bij jou past. Gratis begeleiding, omscholing, geen diploma vereist.",
+    "slug": "omscholing-welke-opleiding",
+    "primaryQuery": "omscholing / welke opleiding past bij mij / studiekeuze",
+    "convertingKeywords": [
+      "welke opleiding past bij mij",
+      "omscholing",
+      "studiekeuze belgie",
+      "vacature met interne opleiding",
+      "cursus gratis",
+      "studiekeuze",
+      "hoe omscholen"
+    ]
+  },
+  "hero": {
+    "headline": "Welke opleiding past bij mij? - Ontdek je pad in IT",
+    "subheadline": "Niet zeker welk pad je moet kiezen? Wij helpen je het te vinden.",
+    "reassurance": "Gratis · Geen diploma vereist · Persoonlijke begeleiding",
+    "cta": "Ontdek je opleiding →"
+  },
+  "clusters": [
+    {
+      "name": "ORIËNTATIE & STUDIEKEUZE",
+      "heading": "Vind de opleiding die past bij jouw volgende carrière",
+      "body": "De vraag 'welke opleiding past bij mij' is de start van elke echte loopbaanverandering - geen impulsieve aankoop, wel een bewuste keuze. Of je nu zoekt naar studiekeuze, studiekeuze belgie, of welke studie past bij mij, 42 Belgium helpt je structuur vinden in deze zoektocht. Wij verkopen geen bootcamp met scripts: wij begeleiden je door een echte oriëntatiefase. Je bezoekt ons campus, ontmoet studenten en alumni, en krijgt een eerlijk beeld van wat een IT-carrière inhoudt. Niet alleen de mooie kanten. Ook het werk, de uren, en de verwachtingen. Dan pas beslis je - op basis van feiten, niet van marketing.",
+      "keywords": [
+        "welke opleiding past bij mij",
+        "studiekeuze",
+        "studiekeuze belgie",
+        "welke studie past bij mij"
+      ],
+      "decoration": "/assets/3-chevrons-pink.svg",
+      "decorationPosition": "top-left"
+    },
+    {
+      "name": "OMSCHOLING",
+      "heading": "Omscholing zonder ruis",
+      "body": "Omscholing naar IT is mogelijk - ook zonder technische achtergrond. Of je nu zoekt naar hoe omscholen, een omscholingstraject, of loopbaanomschakeling, 42 Belgium biedt een programma voor volwassenen die actief aan het oriënteren zijn.",
+      "subheading": "Uit elke sector, één gemeenschappelijke drive.",
+      "bodyPart2": "Onze studenten komen uit elke mogelijke sector: horeca, onderwijs, verkoop, administratie, zorg. Ze hebben één ding gemeen: de wil om iets nieuws te leren. Wij respecteren die reis. We nemen de tijd om samen met jou te zien of tech echt bij jou past. Geen snelle belofte, geen valse garantie - wel een eerlijk traject.",
+      "keywords": [
+        "omscholing",
+        "hoe omscholen",
+        "omscholingstraject",
+        "loopbaanomschakeling"
+      ]
+    },
+    {
+      "name": "JOB + OPLEIDING",
+      "heading": "Een opleiding die je klaarstoomt voor een echte job",
+      "body": "Zoek je een vacature met interne opleiding, een cursus gratis, of gewoon loopbaanadvies? 42 Belgium combineert opleiding met een reëel traject naar werk in de IT-sector. Geen baangarantie - wij beloven wat wij kunnen waarmaken. Wel een concrete pijplijn naar tech-werkgevers die onze afgestudeerden actief rekruteren: Belfius, Proximus, Deloitte, Euroclear en tientallen andere Belgische en Europese bedrijven. Je verlaat 42 met een portfolio van echte projecten, niet met een diploma dat in een schuif ligt. Dat is het verschil tussen een opleiding en een echte carrière-sprong. Onze alumni werken als developer, data engineer, security consultant, DevOps specialist, en soms in volledig remote functies voor buitenlandse werkgevers. Jouw pad is er een van velen - maar het begint met één stap: de oriëntatie.",
+      "keywords": [
+        "vacature met interne opleiding",
+        "cursus gratis",
+        "loopbaanadvies"
+      ],
+      "decoration": "/assets/code-blue.svg",
+      "bullets": [
+        "Persoonlijke begeleiding bij studiekeuze",
+        "Geen verplichting tot inschrijven",
+        "Gratis oriëntatieproces",
+        "Netwerk van werkgevers in tech",
+        "Portfolio van echte projecten - geen certificaat"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Hoe weet ik of IT iets voor mij is?",
+      "answer": "Daarom bestaat onze online test en de Piscine: een immersieve periode van vier weken waarin je ontdekt of tech jouw pad is. Geen druk om te blijven als het niet past."
+    },
+    {
+      "question": "Is 42 Belgium echt gratis?",
+      "answer": "Ja, 100%. Geen inschrijvingsgeld, geen verborgen kosten, geen borg. Wij geloven dat talent, niet budget, toegang tot tech-onderwijs bepaalt."
+    },
+    {
+      "question": "Heb ik een diploma nodig?",
+      "answer": "Nee. Geen diploma, geen CV nodig. Alleen de wil om onze online test te doen en je potentieel te laten zien. Oriëntatie gebeurt op basis van logica, niet van papieren."
+    },
+    {
+      "question": "Krijg ik een baangarantie?",
+      "answer": "Nee - wij beloven geen garantie, omdat wij eerlijk zijn. Wel hebben onze afgestudeerden een sterke positie op de IT-arbeidsmarkt, met directe toegang tot ons werkgeversnetwerk."
+    },
+    {
+      "question": "Wat gebeurt er tijdens een oriëntatiegesprek?",
+      "answer": "We nodigen je uit op campus voor een rondleiding, een gesprek met alumni en een uitleg over het programma. Geen sales pitch - een echte kennismaking."
+    }
+  ],
+  "stats": [
+    { "value": "100%", "label": "Gratis - geen kosten" },
+    { "value": "973", "label": "Inschrijvingen in 4 maanden" },
+    { "value": "42", "label": "Campussen wereldwijd" },
+    { "value": "0", "label": "Diploma vereist" }
+  ],
+  "ctaFinal": {
+    "title": "Klaar om je opleiding te vinden?",
+    "description": "42 Belgium begeleidt je bij je studiekeuze en omscholing naar IT. Geen diploma vereist. Geen kosten. Start met een oriëntatiegesprek op campus.",
+    "cta": "Ontdek je opleiding →"
+  },
+  "schemaOrg": {
+    "course": {
+      "name": "42 Belgium - IT-opleiding en omscholing",
+      "description": "Gratis IT-opleiding voor volwassenen die zich willen omscholen. Persoonlijke begeleiding bij studiekeuze.",
+      "provider": "42 Belgium",
+      "url": "https://42belgium.be/nl/omscholing-welke-opleiding",
+      "courseMode": "blended",
+      "educationalLevel": "beginner"
+    }
+  }
+}

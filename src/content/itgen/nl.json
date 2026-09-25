@@ -1,0 +1,123 @@
+{
+  "meta": {
+    "title": "ICT-opleiding Brussel - Gratis naar werk in IT | 42 Belgium",
+    "description": "Gratis ICT-opleiding in Brussel en Antwerpen. Leer programmeren via echte projecten, zonder diploma of ervaring, en groei door naar een ICT-job.",
+    "slug": "ict-opleiding-brussel",
+    "primaryQuery": "ICT opleiding / ICT vacatures",
+    "convertingKeywords": [
+      "ict opleiding",
+      "ict vacatures",
+      "it opleidingen",
+      "opleiding it",
+      "werken in de it",
+      "studiekeuze kiezen",
+      "code programmer",
+      "programmeur opleiding",
+      "cursus programmeren",
+      "it-opleiding",
+      "leren programmeren",
+      "it opleiding",
+      "opleiding ict"
+    ],
+    "lpAngle": "classic"
+  },
+  "hero": {
+    "headline": "De ICT-opleiding die je klaarstoomt voor een job in IT.",
+    "subheadline": "Gratis en projectgebaseerd, in Brussel en Antwerpen. Je leert programmeren met andere studenten, bouwt een portfolio op en groeit door naar knelpuntberoepen in IT.",
+    "reassurance": "100% gratis · Geen diploma vereist · Geen voorkennis nodig · Brussel & Antwerpen",
+    "cta": "Start je ICT-carrière →",
+    "image": "/assets/gallery/itgen-hero.jpg",
+    "imageAlt": "Studenten van het coding bootcamp leren programmeren op de campus van 42 Belgium"
+  },
+  "clusters": [
+    {
+      "name": "ICT OPLEIDING",
+      "heading": "Een ICT-opleiding die meetelt op de arbeidsmarkt.",
+      "body": "Bij 42 Belgium volg je een ICT-opleiding die anders werkt dan een klassieke school. Je leert door aan projecten te werken, niet door les te volgen. De campus is 24/7 open in Brussel en Antwerpen. Of je nu zoekt naar IT-opleidingen, een IT-opleiding, een ICT-opleiding of een programmeursopleiding: het programma blijft hetzelfde. Het is gestructureerd, peer-to-peer en gericht op de praktijk. Tijdens de IT-opleiding werk je rond systemen, algoritmen, databases en webtechnologieën. Daarna kies je zelf wanneer je je specialiseert. Geen lesgeld, geen diploma vereist, geen tijdslimiet: je gaat door tot je klaar bent voor de arbeidsmarkt.",
+      "keywords": [
+        "ICT opleiding",
+        "IT opleidingen",
+        "opleiding IT",
+        "programmeur opleiding",
+        "IT opleiding"
+      ],
+      "bullets": [
+        "24/7 open campus in Brussel en Antwerpen",
+        "Projectmatig en peer-to-peer, geen klassieke lessen",
+        "Systemen, algoritmen, databases, webtechnologieën",
+        "Geen lesgeld, geen diploma vereist, geen tijdslimiet"
+      ]
+    },
+    {
+      "name": "ICT JOBS & WERK",
+      "heading": "Van ICT-opleiding naar je eerste ICT-job.",
+      "body": "Een opleiding telt pas als die ergens toe leidt. Bij 42 Belgium is dat de Belgische ICT-arbeidsmarkt: een van de snelst groeiende in Europa, met meer ICT-vacatures dan er gekwalificeerde mensen zijn om ze in te vullen. Veel studenten starten al tijdens hun traject met een stage bij een van onze partnerbedrijven. Anderen gaan na de Common Core rechtstreeks aan de slag in IT. Voor wie nog een studiekeuze moet maken: 42 is geen traditioneel diploma. Je rondt het traject af met een portfolio en een netwerk dat al actief is in de sector. Onze partners rekruteren elk jaar uit elke lichting studenten.",
+      "keywords": [
+        "ICT vacatures",
+        "werken in de IT",
+        "studiekeuze kiezen"
+      ],
+      "decoration": "/assets/code-blue.svg"
+    },
+    {
+      "name": "LEREN PROGRAMMEREN",
+      "heading": "Leren programmeren, stap voor stap, in de praktijk.",
+      "body": "Nog nooit geprogrammeerd? Ongeveer de helft van onze studenten zat in hetzelfde schuitje bij hun start. Leren programmeren bij 42 begint met de Piscine: vier weken intensieve onderdompeling waarin je vanaf dag één C-code schrijft, zonder voorafgaande uitleg. Dat is bewust zo. Het programma dat daarna volgt, werkt op dezelfde manier: je leert door het zelf te doen. Zoek je op 'leren programmeren' of 'programmeren voor beginners', dan vind je tutorials en filmpjes. Handig om te starten, maar ze brengen je niet automatisch dichter bij een job. Bij 42 wel: vanaf de eerste week werk je aan projecten die in de praktijk meetellen.",
+      "keywords": [
+        "leren programmeren",
+        "cursus programmeren",
+        "code programmer",
+        "programmeren voor beginners"
+      ],
+      "decoration": "/assets/3-chevrons-pink.svg",
+      "decorationPosition": "top-left"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is deze ICT-opleiding echt gratis?",
+      "answer": "Ja. 42 Belgium is volledig gratis: geen inschrijfgeld, geen verborgen kosten. De school wordt ondersteund door partnerbedrijven, dus studenten betalen nooit. Je leert programmeren van de Piscine tot het einde van de Common Core, op onze campussen in Brussel en Antwerpen."
+    },
+    {
+      "question": "Kan ik me inschrijven zonder diploma of ervaring?",
+      "answer": "Ja. Ongeveer de helft van onze studenten had nog nooit een regel code geschreven voor ze begonnen. Er is geen diploma vereist. Je moet alleen gemotiveerd zijn, minstens 18 jaar zijn en het recht hebben om te werken of te studeren in de EU. De selectie verloopt via de Piscine: vier weken voltijdse programmeeronderdompeling waarin je probeert, faalt, leert en opnieuw begint. Slaag je, dan start je met de Common Core."
+    },
+    {
+      "question": "Welke job kan ik doen na de opleiding?",
+      "answer": "Onze afgestudeerden gaan aan de slag in ICT: als developer, sysadmin, DevOps-profiel, data specialist, cybersecurity specialist of in meer gespecialiseerde rollen rond AI en systemen. 98% van wie het gevorderde traject afmaakt, vindt werk. Velen worden al tijdens hun stage bij onze partners gerekruteerd, nog voor het einde van het traject."
+    }
+  ],
+  "stats": [
+    {
+      "value": "98%",
+      "label": "van de gevorderde afgestudeerden vindt een job"
+    },
+    {
+      "value": "100%",
+      "label": "gratis, zonder lesgeld"
+    },
+    {
+      "value": "42",
+      "label": "campussen wereldwijd"
+    },
+    {
+      "value": "0",
+      "label": "diploma's of voorkennis vereist"
+    }
+  ],
+  "ctaFinal": {
+    "title": "Een ICT-opleiding die echt naar een job in IT leidt.",
+    "description": "Geen lesgeld, geen diploma vereist. Alleen de Piscine en de wil om door te bijten. Schrijf je in en ontdek of 42 Belgium bij je past.",
+    "cta": "Start je ICT-carrière →"
+  },
+  "schemaOrg": {
+    "course": {
+      "name": "42 Belgium - ICT-opleiding",
+      "description": "Gratis ICT-opleiding in Brussel en Antwerpen. Peer-to-peer en projectgebaseerd leren, zonder vereisten, van de Common Core tot specialisaties in development, data, cyber en AI.",
+      "provider": "42 Belgium",
+      "url": "https://42belgium.be/nl/ict-opleiding-brussel",
+      "courseMode": "blended",
+      "educationalLevel": "beginner"
+    }
+  }
+}

@@ -1,0 +1,90 @@
+@import "tailwindcss";
+
+/* ─── Smooth scroll for anchor links ─── */
+html {
+  scroll-behavior: smooth;
+}
+
+/* ─── Hide scrollbar on horizontal carousels ─── */
+.no-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* ── Futura PT: loaded from Adobe Fonts (Typekit) via <link> in layout.tsx head ── */
+
+/* ── Design tokens ── */
+:root {
+  --color-primary: #00babc;
+  --color-secondary: #ed3491;
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-dark: #32373c;
+  --color-gray-100: #f5f5f5;
+  --color-gray-200: #e5e5e5;
+  --color-gray-400: #a3a3a3;
+  --color-gray-600: #525252;
+
+  --background: #ffffff;
+  --foreground: #000000;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--color-primary);
+  --color-secondary: var(--color-secondary);
+  --font-sans: "futura-pt", "Futura", "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "futura-pt", "Futura", "Inter", ui-sans-serif, system-ui, sans-serif;
+  font-weight: 500;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+/* ─── FAQ panel fade-in (8px translate + opacity) ─── */
+@keyframes faqFadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate-faqFadeIn {
+  animation: faqFadeIn 300ms ease-out;
+}
+@media (prefers-reduced-motion: reduce) {
+  .animate-faqFadeIn {
+    animation: none;
+  }
+}
+
+/* ─── Partner strip marquee (continuous left scroll, list doubled in JSX) ─── */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.animate-marquee {
+  animation: marquee 50s linear infinite;
+}
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+@media (prefers-reduced-motion: reduce) {
+  .animate-marquee {
+    animation: none;
+  }
+}

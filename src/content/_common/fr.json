@@ -1,0 +1,178 @@
+{
+  "_comment": "À remplir : sections partagées par toutes les LPs FR (afterForty, whatYouBuild, realStories, howToApply, openDays). Voir _common/en.json comme référence de structure.",
+  "afterForty": {
+    "heading": "La vie après 42 : 98% de taux d'emploi.",
+    "description": "98% des étudiants qui terminent le cursus avancé décrochent un job. Beaucoup sont recrutés pendant un stage ou en travaillant encore sur leurs projets à 42. Tu sors avec un portfolio, une expérience concrète, et un réseau d'alumni mondial dans chaque grande ville tech.",
+    "stat": {
+      "value": "98%",
+      "label": "des diplômés du cursus avancé décrochent un job"
+    },
+    "careers": [
+      {
+        "icon": "fa-solid fa-code",
+        "label": "Développeur ou ingénieur logiciel"
+      },
+      {
+        "icon": "fa-solid fa-chart-line",
+        "label": "Data scientist ou spécialiste IA"
+      },
+      {
+        "icon": "fa-solid fa-shield-halved",
+        "label": "Analyste cybersécurité"
+      },
+      {
+        "icon": "fa-solid fa-server",
+        "label": "Ingénieur DevOps ou systèmes"
+      },
+      {
+        "icon": "fa-solid fa-mobile-screen",
+        "label": "Développeur mobile et web"
+      },
+      {
+        "icon": "fa-solid fa-rocket",
+        "label": "Entrepreneur"
+      }
+    ],
+    "communityNote": "Être diplômé ne veut pas dire faire ses adieux. Les alumni restent étudiants à vie — toujours les bienvenus sur le campus pour échanger, mentorer, ou continuer à apprendre."
+  },
+  "whatYouBuild": {
+    "heading": "Ce que tu vas vraiment développer.",
+    "intro": "Le programme 42 Belgium est structuré autour de vrais projets, pas de cours magistraux. Quatre phases, une trajectoire — de ta première ligne de code au lancement de ta carrière.",
+    "phases": [
+      {
+        "number": "01",
+        "title": "Cursus Core",
+        "duration": "6-24 mois, moy. 18",
+        "icon": "fa-solid fa-code",
+        "description": "Tu apprends à coder de zéro, puis tu progresses à travers des projets de plus en plus complexes. Le core donne à chaque étudiant une base solide — hard skills et soft skills.",
+        "items": [
+          "**Langages** - C, Python, et d'autres en cours de route",
+          "**Algorithmes & structures de données** - la logique derrière chaque codebase",
+          "**UNIX, systèmes de fichiers, processus** - comment un logiciel tourne réellement",
+          "**Programmation réseau** - l'architecture des apps modernes",
+          "**Programmation orientée objet** - écrire du code qui se déploie à grande échelle",
+          "**Projets client-serveur** - construire le backend de vrais systèmes",
+          "**Programmation web** - du HTML au déploiement full-stack",
+          "**Programmation graphique** - rendu visuel, création d'interfaces",
+          "**Intelligence artificielle** - les fondamentaux qui propulsent les systèmes modernes",
+          "**Programmation concurrente** - multi-threading et parallélisme"
+        ]
+      },
+      {
+        "number": "02",
+        "title": "Première expérience professionnelle",
+        "duration": "Recommandé",
+        "icon": "fa-solid fa-briefcase",
+        "description": "Après le core, beaucoup d'étudiants partent en stage ou en premier job tech. Pas obligatoire, mais fortement recommandé. Cette phase aide souvent à confirmer tes intérêts et à revenir chez 42 avec des objectifs plus clairs.",
+        "items": [
+          "**Mettre en pratique tes compétences** dans des conditions réelles",
+          "**Comprendre les workflows professionnels**, les outils, et la dynamique d'équipe",
+          "**Explorer les pistes de carrière** possibles avant de te spécialiser"
+        ]
+      },
+      {
+        "number": "03",
+        "title": "Cursus avancé",
+        "duration": "Jusqu'à 5 ans (rythme flexible)",
+        "icon": "fa-solid fa-layer-group",
+        "description": "Choisis ta spécialisation et approfondis — jusqu'à un niveau équivalent master.\n\n**Comment ça marche :** comme dans un jeu vidéo, tu peux essayer, échouer, recommencer jusqu'à réussir. Au fur et à mesure que tu valides des projets, ton niveau augmente pour refléter les compétences acquises. À chaque niveau, tu découvres de nouveaux domaines du code et de l'IT. Chaque parcours est unique, tout en couvrant un socle commun.",
+        "items": [
+          "Intelligence artificielle & Data",
+          "Cybersécurité",
+          "Développement web & mobile",
+          "Systèmes d'exploitation",
+          "Programmation graphique"
+        ],
+        "flexibility": [
+          "Tu n'es pas obligé de te limiter à une spécialisation ou de la terminer en entier.",
+          "Tu peux passer d'une track à une autre, explorer différents domaines, et choisir les projets qui matchent tes objectifs.",
+          "Chaque étudiant est libre de décider quand diplômer et devenir officiellement Alumni 42."
+        ],
+        "globalMobility": "Cette phase peut se faire non seulement à Bruxelles ou Anvers, mais aussi dans n'importe quel autre campus 42 dans le monde."
+      },
+      {
+        "number": "04",
+        "title": "Lancement de carrière",
+        "duration": "98% recrutés",
+        "icon": "fa-solid fa-rocket",
+        "description": "Beaucoup d'étudiants signent leur job pendant cette phase — souvent avant d'être officiellement diplômés. Les certifications industrie (AWS et autres) ajoutent de la crédibilité professionnelle.",
+        "items": [
+          "**Mettre tes compétences avancées en pratique** dans des rôles plus longs et spécialisés",
+          "**Construire une expertise plus profonde** et ton réseau",
+          "**Sécuriser des opportunités long terme** - beaucoup reçoivent des offres ici"
+        ]
+      }
+    ],
+    "plusNote": "Plus : certifications industrie (cloud AWS et autres), et une philosophie du partage qui façonne ta manière d'apprendre."
+  },
+  "realStories": {
+    "heading": "De vraies histoires d'étudiants.",
+    "description": "Trois alumni racontent leur parcours à 42 — avec leurs propres mots.",
+    "videos": [
+      {
+        "name": "Kevin",
+        "subtitle": "42 Stories · sprint de sélection Piscine",
+        "youtubeId": "OO_dbpwed3s"
+      },
+      {
+        "name": "Morgane",
+        "subtitle": "42 Stories · sprint de sélection Piscine",
+        "youtubeId": "DGQnrVNZRZ0"
+      },
+      {
+        "name": "Sam",
+        "subtitle": "42 Stories · sprint de sélection Piscine",
+        "youtubeId": "sDcqpzBtjtM"
+      }
+    ]
+  },
+  "howToApply": {
+    "heading": "Comment rejoindre 42 Belgium.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Test de logique en ligne (~1h)",
+        "description": "Pas besoin de coder, c'est juste de la logique. Choisis un endroit calme, tu ne pourras ni mettre en pause ni recommencer. Reste concentré et avance — tu vas y arriver !"
+      },
+      {
+        "number": "02",
+        "title": "Rendez-vous - sur le campus ou en ligne",
+        "description": "Viens visiter notre campus à Bruxelles ou Anvers et apprends-en plus sur le programme.\n\nCertaines sessions de check-in sont aussi en ligne, mais n'oublie pas de t'inscrire !"
+      },
+      {
+        "number": "03",
+        "title": "Commence la Piscine",
+        "description": "Tu seras immergé pendant 4 semaines sur notre campus à Bruxelles ou Anvers. Tu auras un avant-goût du code, de notre approche unique, et de la vie à 42. De quoi vraiment savoir si 42 est fait pour toi."
+      },
+      {
+        "number": "04",
+        "title": "Démarre le Core",
+        "description": "Après avoir validé la Piscine, tu pourras officiellement commencer le Core Program.\n\nTu auras accès au campus 24h/24, tu travailleras sur de vrais projets, et tu rejoindras une communauté entière de codeurs."
+      }
+    ],
+    "ctaLabel": "Postule maintenant →",
+    "microcopy": "Prochaines dates de Piscine sur le campus - tu peux postuler à tout moment."
+  },
+  "openDays": {
+    "heading": "Viens nous rencontrer lors d'une Open Day.",
+    "intro": "Pas de pression, pas d'engagement. Visite le campus, rencontre l'équipe, pose toutes tes questions — à Bruxelles ou Anvers.",
+    "campuses": [
+      {
+        "name": "Bruxelles",
+        "address": "Cantersteen 12",
+        "subHeading": "À côté de la Gare Centrale.",
+        "description": "À cinq minutes à pied de la Gare Centrale. Visite le campus, rencontre les étudiants actuels, vois à quoi ressemble vraiment le peer-to-peer learning.",
+        "image": "/assets/gallery/OpenDaysBrussels.png"
+      },
+      {
+        "name": "Anvers",
+        "address": "Mediaplein 1",
+        "subHeading": "Au cœur de la ville.",
+        "description": "Notre campus d'Anvers est en plein cœur du quartier créatif et media de la ville. Viens passer un après-midi avec l'équipe.",
+        "image": "/assets/gallery/42Belgium-Antwerp1.png"
+      }
+    ],
+    "ctaLabel": "Voir les prochaines Open Days",
+    "ctaHref": "https://www.eventbrite.com/cc/open-days-42-belgium-2935099"
+  }
+}

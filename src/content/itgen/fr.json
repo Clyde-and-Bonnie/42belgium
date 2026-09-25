@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "title": "Formation informatique Bruxelles - Gratuite | 42 Belgium",
+    "description": "Formation informatique gratuite à Bruxelles et en Belgique. Apprends à coder sur des projets réels - sans diplôme, sans expérience, sans frais. Postule dès maintenant.",
+    "slug": "formation-informatique-bruxelles",
+    "primaryQuery": "formation informatique Bruxelles",
+    "convertingKeywords": [
+      "formation informatique",
+      "formation informatique gratuite",
+      "formation informatique bruxelles",
+      "formation informatique belgique",
+      "formation en informatique",
+      "google ateliers numérique",
+      "formation d informatique",
+      "formation it bruxelles",
+      "apprendre a coder",
+      "formation en ligne informatique",
+      "formation it",
+      "cours informatique bruxelles",
+      "cours informatique",
+      "site de codage gratuit",
+      "apprendre l informatique",
+      "formation digitale Bruxelles"
+    ],
+    "lpAngle": "classic"
+  },
+  "hero": {
+    "headline": "La formation informatique qui te mène à l'emploi.",
+    "subheadline": "Gratuite, par projets, à Bruxelles et Anvers. Tu apprends à coder avec tes pairs, tu construis un vrai portfolio, et tu sors prêt pour les métiers que les entreprises peinent à recruter.",
+    "reassurance": "100% gratuit · Sans diplôme · Sans expérience requise · Bruxelles & Anvers",
+    "cta": "Rejoins le bootcamp →",
+    "image": "/assets/gallery/itgen-hero.jpg",
+    "imageAlt": "Étudiants du coding bootcamp apprenant à coder au campus 42 Belgium"
+  },
+  "clusters": [
+    {
+      "name": "FORMATION IT À BRUXELLES",
+      "heading": "Une formation informatique à Bruxelles. Un job tech à la sortie.",
+      "body": "La formation informatique à Bruxelles que propose 42 Belgium n'a pas grand-chose à voir avec une école classique. Le campus est ouvert 24/7, à deux pas de la gare du Midi. Tu apprends à coder par la pratique, sur des projets concrets, avec d'autres apprenants - pas avec des profs. Cette formation IT fonctionne par projets validés en peer-to-peer : tu débogues, tu livres, tu recommences. Anvers offre exactement le même cursus. Et que tu vives à Bruxelles, à Liège ou ailleurs, la formation informatique Belgique reste accessible : nos partenaires recrutent sur les deux campus, et la communauté alumni s'étend sur tout le pays.",
+      "keywords": [
+        "formation informatique Bruxelles",
+        "formation informatique Belgique",
+        "formation IT Bruxelles",
+        "formation digitale Bruxelles"
+      ],
+      "bullets": [
+        "Campus ouvert 24/7, à deux pas de la gare du Midi",
+        "On apprend par la pratique, en peer-to-peer — pas avec des profs",
+        "Même cursus à Bruxelles et à Anvers",
+        "Des partenaires qui recrutent + une communauté alumni dans tout le pays"
+      ]
+    },
+    {
+      "name": "GRATUITÉ & ACCESSIBILITÉ",
+      "heading": "Gratuit, accessible, ouvert à tous.",
+      "body": "100% gratuit : aucuns frais d'inscription, aucune mensualité, aucun coût caché. Et au-delà du prix, l'accessibilité passe par le reste : pas de diplôme requis, accessible dès 18 ans, candidature ouverte toute l'année. Si tu cherches une formation informatique gratuite en ligne, tu trouveras des formats comme Google Ateliers Numérique ou des MOOCs : utiles pour démarrer, mais limités pour aller jusqu'à un métier. Notre formation en informatique propose un cursus complet, en présentiel sur deux campus belges, ouverts 24/7. La formation en ligne informatique a ses avantages côté flexibilité, mais elle ne remplace pas la dynamique d'un campus et d'une communauté qui apprend en même temps que toi.",
+      "keywords": [
+        "formation informatique gratuite",
+        "formation en ligne informatique",
+        "google ateliers numérique",
+        "formation en informatique"
+      ],
+      "decoration": "/assets/code-blue.svg"
+    },
+    {
+      "name": "APPRENDRE À CODER",
+      "heading": "Apprendre à coder, étape par étape, par la pratique.",
+      "body": "Tu n'as jamais codé de ta vie ? La moitié de nos étudiants étaient au même point en arrivant. Apprendre à coder à 42 commence par la Piscine - quatre semaines de plongée intensive où tu écris du C dès le premier jour, sans qu'on t'ait expliqué quoi que ce soit en amont. C'est volontaire. La formation IT qui suit fonctionne de la même façon : tu apprends en faisant. Aucun cours informatique à Bruxelles ne te plongera aussi vite dans la pratique. Notre formation développeur est conçue pour t'amener du zéro au niveau employable - peu importe ton parcours d'avant. Le seul prérequis, c'est l'envie de chercher quand quelque chose ne fonctionne pas.",
+      "keywords": [
+        "apprendre à coder",
+        "cours informatique Bruxelles",
+        "formation développeur",
+        "formation it"
+      ],
+      "decoration": "/assets/3-chevrons-pink.svg",
+      "decorationPosition": "top-left"
+    }
+  ],
+  "faq": [
+    {
+      "question": "La formation est-elle vraiment 100% gratuite ?",
+      "answer": "Oui - 42 Belgium est totalement gratuit, sans frais d'inscription ni coûts cachés. L'école est soutenue par des entreprises partenaires, donc les apprenants ne paient jamais. Tu peux apprendre à coder gratuitement de la Piscine au Tronc Commun jusqu'au Cursus Avancé, sur nos campus de Bruxelles et d'Anvers."
+    },
+    {
+      "question": "Est-ce que je peux candidater sans diplôme ni expérience ?",
+      "answer": "Oui. Environ la moitié de nos étudiants n'avaient jamais écrit une ligne de code avant de candidater, et aucun diplôme n'est demandé - juste de la motivation, avoir 18 ans ou plus, et le droit de travailler ou d'étudier dans l'UE. La sélection se fait via la Piscine : quatre semaines d'immersion intensive où tu testes, échoues, apprends et recommences. Si tu valides, tu intègres le Tronc Commun."
+    },
+    {
+      "question": "Quel job après la formation ?",
+      "answer": "Nos diplômés rejoignent le marché de l'emploi tech : développeur·euse, ingénieur·e DevOps, data, cyber, ou des rôles plus spécialisés en IA et systèmes. 98% de ceux qui finissent le cursus avancé décrochent un job - beaucoup sont recrutés pendant leurs stages chez nos partenaires, avant même la fin du cursus."
+    }
+  ],
+  "stats": [
+    {
+      "value": "98%",
+      "label": "des diplômés du cursus avancé décrochent un job"
+    },
+    {
+      "value": "100%",
+      "label": "Gratuit - aucun frais"
+    },
+    {
+      "value": "42",
+      "label": "Campus dans le monde"
+    },
+    {
+      "value": "0",
+      "label": "Prérequis"
+    }
+  ],
+  "ctaFinal": {
+    "title": "Une formation informatique qui mène vraiment à un métier dans la tech.",
+    "description": "Pas de frais, pas de diplôme exigé. Juste la Piscine et l'envie d'apprendre. Candidate et viens voir si 42 Belgium te correspond.",
+    "cta": "Rejoins le bootcamp →"
+  },
+  "schemaOrg": {
+    "course": {
+      "name": "42 Belgium - Formation informatique",
+      "description": "Formation informatique gratuite à Bruxelles et Anvers. Pédagogie par projets entre pairs, sans prérequis, du tronc commun jusqu'aux spécialisations développeur·euse, data, cyber et IA.",
+      "provider": "42 Belgium",
+      "url": "https://42belgium.be/fr/formation-informatique-bruxelles",
+      "courseMode": "blended",
+      "educationalLevel": "beginner"
+    }
+  }
+}

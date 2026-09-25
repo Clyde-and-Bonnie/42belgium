@@ -1,0 +1,80 @@
+name: CI
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: Lint & build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Lint
+        run: npm run lint
+
+      # The build is the check that matters: if it fails, the deploy fails and
+      # the live site keeps serving the previous version.
+      - name: Build
+        run: npm run build
+
+  content:
+    name: Content checks
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # Needed to diff against the base branch and find what changed.
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      # Two deliberate limits on this job:
+      #  --structural-only: only invalid JSON and missing images fail. The SEO
+      #    checklist still prints as advice, but an editor is never blocked by
+      #    a judgement call about keyword density or meta length.
+      #  scoped to changed files: a full sweep would fail on pre-existing SEO
+      #    findings in pages the author never opened.
+      # Clyde & Bonnie still get the full blocking checklist locally with
+      # `npm run validate:seo`.
+      - name: Collect the content files this pull request touches
+        id: changed
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: |
+          # Whole directory rather than a *.json glob: a git pathspec of
+          # 'src/content/**/*.json' silently misses JSON files at the root.
+          # validate-seo.mjs does its own filtering (non-JSON and _-prefixed
+          # files are skipped), so passing everything is safe.
+          FILES=$(git diff --name-only --diff-filter=d "$BASE_SHA" HEAD -- src/content/ | tr '\n' ' ')
+          echo "Changed content files: ${FILES:-(none)}"
+          echo "files=$FILES" >> "$GITHUB_OUTPUT"
+
+      - name: Validate the edited pages
+        if: steps.changed.outputs.files != ''
+        # Passed through the environment rather than interpolated into the
+        # script, so a branch cannot inject shell through a filename.
+        env:
+          FILES: ${{ steps.changed.outputs.files }}
+        run: node scripts/validate-seo.mjs --structural-only $FILES

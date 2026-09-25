@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "title": "Full stack developer opleiding - Gratis | 42 Belgium",
+    "description": "Gratis full stack developer opleiding bij 42 Belgium: bouw echte webapps, geen oefeningen. JavaScript, React, Node en de systeembasis. Traject naar RNCP 6.",
+    "slug": "fullstack-developer-opleiding",
+    "primaryQuery": "front end developer opleiding / full stack developer opleiding",
+    "convertingKeywords": [
+      "front end developer opleiding",
+      "welke studiekeuze past bij mij",
+      "full stack developer opleiding"
+    ],
+    "lpAngle": "classic"
+  },
+  "hero": {
+    "headline": "Word full stack developer door echte webapps te bouwen, niet via slides.",
+    "subheadline": "100% gratis, in Brussel en Antwerpen. Web development zit ingebed in een volledig software engineering-curriculum: JavaScript, React, Node en de systeembasis daaronder. Je levert echte apps op, met peer reviews. Met een traject naar RNCP 6-erkenning op bachelorniveau.",
+    "reassurance": "100% gratis · Geen diploma vereist · Brussel & Antwerpen · RNCP 6 mogelijk",
+    "cta": "Start je webdev-opleiding →",
+    "image": "/assets/gallery/webfullstack-hero.jpg",
+    "imageAlt": "Full-stack webdevelopment-student bouwt apps op de campus van 42 Belgium"
+  },
+  "clusters": [
+    {
+      "name": "WEB DEVELOPMENT OPLEIDING",
+      "heading": "Een web development opleiding rond apps die je echt bouwt, geen videomodules.",
+      "body": "De meeste front end developer opleidingen focussen op afronden: tien modules, een eindproject en een certificaat. Nuttig voor je eerste stappen, maar niet genoeg om als junior developer in een team mee te draaien. Een full stack developer opleiding bij 42 Belgium mikt op iets anders: leren bouwen op een niveau waarmee je een dev-team niet vertraagt. Je \"volgt\" hier geen web developer opleiding in de klassieke zin. Je levert apps op als onderdeel van een breder software engineering-curriculum. Echte apps, met echte bugs, nagekeken door echte peers. Een web development opleiding bij 42 wijkt af van de klassieke aanpak: leren op campus, code reviews en de discipline van een echt software engineering-curriculum. Tegen het einde heb je een portfolio waar je naar kunt verwijzen. Dat is wat een recruiter écht beoordeelt.",
+      "keywords": [
+        "front end developer opleiding",
+        "full stack developer opleiding",
+        "web developer opleiding",
+        "web development opleiding"
+      ],
+      "decoration": "/assets/code-blue.svg"
+    },
+    {
+      "name": "ORIËNTATIE",
+      "heading": "Twijfel je nog over je studiekeuze? Dat mag.",
+      "body": "Als je \"welke studiekeuze past bij mij\" intypt en op een dev-pagina belandt, ben je waarschijnlijk nog niet helemaal zeker van je richting. Dat is oké. 42 Belgium is bewust ontworpen voor mensen die nog aan het oriënteren zijn. Je hebt geen diploma nodig, er is geen leeftijdsgrens boven 18 jaar en we vragen geen specifieke vooropleiding. De Piscine — vier weken intensieve onderdompeling in code — werkt als beslismoment in twee richtingen. Jij ontdekt of programmeren bij jou past. Wij zien of jij past bij het traject. Als de match werkt, ga je door naar de Common Core. Als de match niet werkt, weet je dat tenminste meteen. Zonder contract dat je vasthoudt. Zonder verloren geld.",
+      "keywords": [
+        "welke studiekeuze past bij mij"
+      ]
+    },
+    {
+      "name": "TECHNOLOGIEËN",
+      "heading": "De technologieën die in je projecten terugkomen.",
+      "body": "Je schrijft je niet in bij 42 om alleen JavaScript te leren. Je schrijft je in om developer te worden. Maar JavaScript komt vaak terug: in de browser, op de server via Node.js en in frameworks die vandaag standaard zijn in web development. Een losse HTML cursus draait vooral om markup. Bij 42 ga je verder: naar werkende UI's, state management en performance. Web development courses elders behandelen vaak één technologie tegelijk. Hier leer je de stack als geheel kennen, via projecten die samenhangen. De diepere laag — HTTP, REST API's, databases en deployment — loopt vanaf het begin door het curriculum. Wat telt op de arbeidsmarkt is niet alleen welke technologie je kent op je diplomadag, maar hoe snel je de volgende oppikt.",
+      "keywords": [
+        "HTML cursus",
+        "JavaScript leren",
+        "web development courses"
+      ],
+      "bullets": [
+        "JavaScript overal: browser, Node, standaardframeworks",
+        "React: echte UI's, state management, performance",
+        "De diepere laag: HTTP, REST API's, databases, deployment",
+        "De échte skill: hoe snel je de volgende tool oppikt"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Hoe is dit anders dan een web dev bootcamp?",
+      "answer": "Drie dingen. Ten eerste: de scope. Web development bij 42 zit in een volledig software engineering-curriculum: C, systemen, algoritmen, databases en daarna web. Je begrijpt dus ook wat er onder de abstractielaag gebeurt. Ten tweede: het format. Projectmatig, peer-reviewed en op campus. Geen videomodules. Ten derde: de kostprijs. 100% gratis, geen lesgeld en geen income share. Het compromis: het duurt langer dan een bootcamp van 12 weken. De meeste studenten bereiken de webspecialisatie na 12 tot 18 maanden."
+    },
+    {
+      "question": "Welke technologieën gebruik je écht?",
+      "answer": "HTML, CSS, JavaScript, TypeScript, React en andere JavaScript-frameworks waar nodig, Node.js, Express, REST- en GraphQL-API's, SQL- en NoSQL-databases, Docker, Git en basiskennis van cloud deployment. De exacte mix verandert elk jaar. De constante: je levert echte apps op, geen oefeningen."
+    },
+    {
+      "question": "Welke jobs kan je doen nadat je afstudeert?",
+      "answer": "Afgestudeerden starten vaak als junior full stack developer, front end developer, back end developer of web engineer in startups, agencies en tech teams van gevestigde bedrijven. Veel afgestudeerden worden tijdens hun stage bij onze partners gerekruteerd, nog voor het einde van het traject."
+    }
+  ],
+  "stats": [
+    {
+      "value": "98%",
+      "label": "van de gevorderde afgestudeerden vindt een job"
+    },
+    {
+      "value": "100%",
+      "label": "Gratis, geen lesgeld"
+    },
+    {
+      "value": "42",
+      "label": "Campussen wereldwijd"
+    },
+    {
+      "value": "0",
+      "label": "Vereisten"
+    }
+  ],
+  "ctaFinal": {
+    "title": "De web developer opleiding waarmee je portfolio overtuigt, niet je certificaat.",
+    "description": "Web development in de Common Core, echte apps en een traject naar RNCP 6-erkenning. Volledig gratis, geen diploma vereist. Inschrijven kan het hele jaar door.",
+    "cta": "Start je webdev-opleiding →"
+  },
+  "schemaOrg": {
+    "course": {
+      "name": "42 Belgium - Full stack developer opleiding",
+      "description": "Gratis full stack developer opleiding bij 42 Belgium, in Brussel en Antwerpen. JavaScript, React, Node.js en de systeembasis daaronder, via echte projecten. Met een traject naar RNCP 6-erkenning op bachelorniveau.",
+      "provider": "42 Belgium",
+      "url": "https://42belgium.be/nl/fullstack-developer-opleiding",
+      "courseMode": "blended",
+      "educationalLevel": "beginner"
+    }
+  }
+}

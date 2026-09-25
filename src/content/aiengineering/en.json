@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "title": "Master in Artificial Intelligence - Free | 42 Belgium",
+    "description": "Free master in artificial intelligence in Belgium. Engineer-level program: from ML fundamentals to production deployment. Project-based, no tuition.",
+    "slug": "artificial-intelligence-master-program",
+    "primaryQuery": "masters in artificial intelligence / AI engineering",
+    "convertingKeywords": [
+      "masters in artificial intelligence",
+      "artificial intelligence course",
+      "ai course",
+      "study ai",
+      "define artificial intelligence",
+      "learning ai",
+      "free ai course",
+      "ai engineer",
+      "ai master"
+    ],
+    "lpAngle": "classic"
+  },
+  "hero": {
+    "headline": "A master in artificial intelligence that produces engineers, not theorists.",
+    "subheadline": "Free at 42 Belgium, in Brussels and Antwerp. You build ML systems from the ground up: data pipelines, model training, evaluation, and production deployment — inside the AI specialisation of a full software engineering curriculum. RNCP 7 pathway available for master-level European recognition.",
+    "reassurance": "100% free · No degree required · Brussels & Antwerp · RNCP 7 path available",
+    "cta": "Apply to the AI program →",
+    "image": "/assets/gallery/aieng-hero.png",
+    "imageAlt": "AI engineering student training ML models at 42 Belgium"
+  },
+  "clusters": [
+    {
+      "name": "MASTER-LEVEL AI PROGRAMS",
+      "heading": "A master in artificial intelligence built on engineering, not slides.",
+      "body": "If you came here to study AI at a serious level - this is the right place. The 42 Belgium master in artificial intelligence isn't a degree we issue; it's a structured AI master pathway built on the Phase 3 specialisation of the 42 curriculum, with RNCP 7 as the formal recognition for those who pass it.",
+      "subheading": "What \"master-level\" actually means here.",
+      "bodyPart2": "You don't sit through lectures - you build. Data pipelines, model training, evaluation, deployment. Each project is the kind a hiring engineer can actually evaluate. The crossover with master data sciences is real: linear algebra, statistics, ML algorithms, infrastructure. The difference is that you write the code, debug the code, and ship the code. That's what \"engineer-level AI expertise\" means here, and it's what makes the AI master in Belgium produce people who can do the work.",
+      "keywords": [
+        "masters in artificial intelligence",
+        "AI master",
+        "study AI",
+        "master data sciences"
+      ],
+      "decoration": "/assets/3-chevrons-pink.svg",
+      "decorationPosition": "top-left",
+      "decorationOpacity": 0.1
+    },
+    {
+      "name": "AI ENGINEERING & COURSES",
+      "heading": "The artificial intelligence course inside a real engineering pipeline.",
+      "body": "Most artificial intelligence course content stops at the model. Ours doesn't - we train AI engineers, not just AI users. The AI course at 42 Belgium covers the full lifecycle: data acquisition, preprocessing, model selection, training, evaluation, deployment, monitoring, retraining. You spend months learning AI through projects that simulate what a production team actually faces - missing data, leakage, drift, latency constraints. Learning AI here isn't memorising tutorials; it's building intuition you can defend in code reviews. By the time you graduate, an AI engineer recruiter can ask hard questions about your stack and you'll have answers grounded in work, not in concepts. That's how learning AI translates into employability - you've shipped something.",
+      "keywords": [
+        "artificial intelligence course",
+        "AI course",
+        "AI engineer",
+        "learning AI",
+        "learn AI"
+      ],
+      "bullets": [
+        "The full ML lifecycle: data, training, deployment, monitoring",
+        "Real production problems: missing data, leakage, drift, latency",
+        "Months of real projects, not tutorials",
+        "Graduate able to defend your stack in a code review"
+      ]
+    },
+    {
+      "name": "NOT AN AI BOOTCAMP",
+      "heading": "Why we don't call this an AI bootcamp.",
+      "body": "If you searched \"AI bootcamp\" or \"artificial intelligence free online\" and ended up here, you should know the page is different. We don't run an AI bootcamp because bootcamps optimise for the appearance of progress - certificates, intro modules, weekend cohorts. They produce people who can talk about AI. The artificial intelligence work at 42 Belgium optimises for the opposite: depth, time on task, and projects that hiring engineers actually respect. You can find artificial intelligence free online in a hundred places - YouTube, Coursera, MOOC platforms. They're useful starts. They're not equivalent to a 12-to-18-month Phase 3 specialisation with code reviews from peers, production deployment, and a formal RNCP 7 recognition path. We're transparent about which one is which.",
+      "keywords": [
+        "AI bootcamp",
+        "artificial intelligence free online"
+      ],
+      "decoration": "/assets/code-blue.svg",
+      "decorationOpacity": 0.1
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is this a real master in artificial intelligence?",
+      "answer": "42 Belgium doesn't issue its own master's degree, but the AI specialisation maps onto RNCP 7 — the European framework that recognises master-equivalent qualifications. Pass RNCP 7 and you hold a professional diploma recognised at master level across Europe. Beyond that, the practical work is what hiring engineers care about, and that's where the program is engineered to compete."
+    },
+    {
+      "question": "How technical does it get? What math/CS background do I need?",
+      "answer": "Everyone at 42 starts with the Common Core — no one goes straight to the AI specialisation. The Common Core covers C, systems, algorithms and networks: the foundations Phase 3 builds on. Math comes back in context — linear algebra, calculus, probability — as you need them for ML projects. Most students reach Phase 3 between 12 and 18 months in. Experienced developers may move faster, but no one skips the foundations."
+    },
+    {
+      "question": "What jobs do graduates take after the AI specialisation?",
+      "answer": "AI engineer, ML engineer, data scientist, MLOps engineer, and applied research roles. The Belgian and European job markets are short on people who can actually ship production ML — not researchers, not prompt engineers — and the 42 specialisation targets that gap. Many graduates are recruited during their internships with partner companies, before they finish the program."
+    }
+  ],
+  "stats": [
+    {
+      "value": "98%",
+      "label": "of advanced grads secure a job"
+    },
+    {
+      "value": "100%",
+      "label": "Free - no tuition"
+    },
+    {
+      "value": "42",
+      "label": "Campuses worldwide"
+    },
+    {
+      "value": "0",
+      "label": "Prerequisites"
+    }
+  ],
+  "ctaFinal": {
+    "title": "The master in artificial intelligence that earns its keep.",
+    "description": "Phase 3 specialisation, ML engineering from data to deployment, RNCP 7 pathway. All free, no tuition, no degree required. Apply year-round.",
+    "cta": "Apply to the AI program →"
+  },
+  "schemaOrg": {
+    "course": {
+      "name": "42 Belgium - Master in Artificial Intelligence",
+      "description": "A free master-level AI program at 42 Belgium, delivered as a Phase 3 specialisation in the curriculum. Covers ML fundamentals through production deployment, with the RNCP 7 framework providing master-level European recognition.",
+      "provider": "42 Belgium",
+      "url": "https://42belgium.be/en/artificial-intelligence-master-program",
+      "courseMode": "blended",
+      "educationalLevel": "beginner"
+    }
+  }
+}

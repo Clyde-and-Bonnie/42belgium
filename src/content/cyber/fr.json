@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "title": "Formation cybersécurité Bruxelles - Gratuite | 42 Belgium",
+    "description": "Formation cybersécurité gratuite à Bruxelles et Anvers. Spécialisation Phase 3 du cursus 42, préparation aux certifications industrie (AWS, RNCP 6 & 7).",
+    "slug": "formation-cybersecurite-bruxelles",
+    "primaryQuery": "formation cybersécurité",
+    "convertingKeywords": [
+      "formation cybersécurité"
+    ],
+    "lpAngle": "classic"
+  },
+  "hero": {
+    "headline": "La formation en cybersécurité qui te mène à un vrai job.",
+    "subheadline": "Gratuite chez 42 Belgium, à Bruxelles et Anvers. Tu analyses des vulnérabilités, écris des exploits en environnement de laboratoire, durcis des systèmes, et dissèques de vrais incidents — dans le cadre d'un cursus complet en software engineering. Prépa AWS disponible, voie RNCP 6 & 7 ouverte.",
+    "reassurance": "100% gratuit · Sans diplôme requis · Bruxelles & Anvers · Voie RNCP 6 & 7",
+    "cta": "Lance ta carrière en cybersécurité →",
+    "image": "/assets/gallery/cyber-hero.png",
+    "imageAlt": "Étudiante en cybersécurité analysant du code à l'écran"
+  },
+  "clusters": [
+    {
+      "name": "FORMATION CYBERSÉCURITÉ",
+      "heading": "Une formation cybersécurité qui s'apprend en attaquant et en défendant.",
+      "body": "La formation cybersécurité chez 42 Belgium est une spécialisation Phase 3 du cursus, après le tronc commun. Avant d'arriver à la cyber, tu auras déjà livré du C, du système, du réseau et des bases de données - les fondations sur lesquelles la sécurité informatique repose vraiment. À partir de là, tu travailles par projets : analyse de vulnérabilités, exploits en environnement contrôlé, durcissement de systèmes, scénarios d'incident à reproduire et à résoudre. La cybersécurité en Belgique a besoin de profils capables de faire le travail, pas seulement de citer des standards. La formation cybersécurité ici se mesure à ce que tu sors capable d'exécuter : pas à un volume de cours suivis, mais à un portfolio que des recruteurs en sécurité peuvent évaluer ligne par ligne.",
+      "keywords": [
+        "formation cybersécurité",
+        "cybersécurité Belgique",
+        "sécurité informatique"
+      ],
+      "bullets": [
+        "Spécialisation Phase 3, après le tronc commun",
+        "Analyser, exploiter, durcir, reconstruire",
+        "Calqué sur le SOC et la red team",
+        "Un portfolio évaluable ligne par ligne"
+      ]
+    },
+    {
+      "name": "SPÉCIALISATIONS TECHNIQUES",
+      "heading": "Hacking éthique, pentest, sécurité réseau : la matière du programme.",
+      "body": "Tu ne peux pas défendre ce que tu n'as pas attaqué. C'est le principe qui structure les modules techniques. Le hacking éthique fait partie intégrante du parcours : tu apprends à lire du code avec l'œil de l'attaquant, à exploiter des vulnérabilités dans des environnements de laboratoire, à reverse-engineer des binaires. La formation pentest dépasse le maniement d'outils - elle développe le modèle mental : où sont les hypothèses fragiles, quelles présomptions s'écroulent sous pression, comment un système tient ou cède. La sécurité réseau s'aborde de la même façon : tu analyses, tu attaques, tu durcis, tu reconfigures. À la sortie de la spécialisation, tu sais écrire l'exploit et tu sais écrire le patch. C'est ce qui sépare un profil junior employable d'un script kiddie certifié.",
+      "keywords": [
+        "hacking éthique",
+        "formation pentest",
+        "sécurité réseau"
+      ],
+      "image": "/assets/gallery/cyber-ethical-hacking.png",
+      "imageAlt": "Étudiant en cybersécurité analysant du code dans un labo sombre"
+    },
+    {
+      "name": "CERTIFICATIONS",
+      "heading": "Les certifications cybersécurité auxquelles 42 te prépare.",
+      "body": "42 Belgium ne délivre pas elle-même de certifications cybersécurité spécifiques. Ce que le cursus fait, c'est te préparer à celles que l'industrie reconnaît. La spécialisation cyber prépare aux examens cloud type AWS Security et plus largement aux certifications cybersécurité internationales. Pour qui cherche une formation sécurité informatique qui ouvre sur un diplôme, le cadre RNCP est la voie officielle : en réussissant le RNCP 6, tu obtiens un diplôme professionnel reconnu dans toute l'Europe au niveau bachelor. Le RNCP 7 va jusqu'au niveau master. Donc la réponse à 'où sont les certifications cybersécurité dans tout ça ?' est nette : elles arrivent après le travail, sont délivrées par des organismes externes, et deviennent atteignables précisément parce que tu auras fait le boulot en amont.",
+      "keywords": [
+        "certifications cybersécurité",
+        "formation sécurité informatique"
+      ],
+      "decoration": "/assets/code-blue.svg"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Quelles certifications je peux vraiment obtenir ?",
+      "answer": "42 Belgium ne délivre pas elle-même de certifications cyber spécifiques. L'équivalence diplôme passe par le RNCP : en réussissant le RNCP 6, tu obtiens un diplôme professionnel reconnu dans toute l'Europe au niveau bachelor. Le RNCP 7 va jusqu'au master. Au-delà, le cursus te prépare aux examens industrie type AWS Security, et le travail concret que tu auras livré devient ta preuve technique au moment de les passer."
+    },
+    {
+      "question": "Combien d'expérience IT faut-il avant de se spécialiser en cyber ?",
+      "answer": "Aucune pour entrer à 42, mais la spécialisation cyber est en Phase 3 - après le tronc commun. Concrètement, tu auras déjà livré du C, du système, du réseau et de la base de données avant de te spécialiser. La plupart des étudiants atteignent ce stade entre 12 et 18 mois. Si tu es déjà un pro IT en reconversion, tu peux avancer plus vite, mais le cursus ne saute pas les fondations."
+    },
+    {
+      "question": "Est-ce qu'il y a un stage en sécurité IT dans le cursus ?",
+      "answer": "Oui - les stages sont recommandés en Phase 2 et Phase 4. Pour les étudiants en cyber, ça peut être un poste d'analyste SOC, de junior pentester ou d'ingénieur sécurité chez un partenaire. Le stage n'est pas une option à côté de la spé : c'est là que le travail fait sur le campus rencontre les contraintes d'une vraie équipe de sécurité."
+    }
+  ],
+  "stats": [
+    {
+      "value": "98%",
+      "label": "des diplômés du cursus avancé décrochent un job"
+    },
+    {
+      "value": "100%",
+      "label": "Gratuit - aucun frais"
+    },
+    {
+      "value": "42",
+      "label": "Campus dans le monde"
+    },
+    {
+      "value": "0",
+      "label": "Prérequis"
+    }
+  ],
+  "ctaFinal": {
+    "title": "La formation cybersécurité qui se mesure à ce que tu sais faire.",
+    "description": "Spécialisation Phase 3, prépa AWS Security et certifications industrie, voie RNCP 6 & 7 ouverte. Gratuit, sans diplôme exigé. Candidature toute l'année.",
+    "cta": "Lance ta carrière en cybersécurité →"
+  },
+  "schemaOrg": {
+    "course": {
+      "name": "42 Belgium - Formation cybersécurité",
+      "description": "Formation cybersécurité gratuite à Bruxelles et Anvers, spécialisation Phase 3 du cursus 42. Préparation aux certifications industrie (AWS Security et autres) et voie ouverte vers le diplôme RNCP 6 & 7 reconnu en Europe.",
+      "provider": "42 Belgium",
+      "url": "https://42belgium.be/fr/formation-cybersecurite-bruxelles",
+      "courseMode": "blended",
+      "educationalLevel": "beginner"
+    }
+  }
+}

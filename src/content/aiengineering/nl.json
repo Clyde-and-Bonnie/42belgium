@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "title": "AI-opleiding - Van code tot productie | 42 Belgium",
+    "description": "Gratis AI-opleiding in Brussel en Antwerpen. Specialisatie in machine learning en deep learning, van datapipelines tot productie. Fase 3 van het 42-curriculum.",
+    "slug": "opleiding-artificial-intelligence",
+    "primaryQuery": "opleiding AI / artificial intelligence studeren",
+    "convertingKeywords": [
+      "opleiding ai",
+      "artificial intelligence studeren"
+    ],
+    "lpAngle": "classic"
+  },
+  "hero": {
+    "headline": "De AI-opleiding die ML-engineers vormt, geen API-gebruikers.",
+    "subheadline": "Gratis bij 42 Belgium, in Brussel en Antwerpen. Je werkt aan de volledige ML-cyclus: datapipelines, modeltraining, evaluatie en deployment in productie — binnen de AI-specialisatie van een volledig software engineering-curriculum. Met een RNCP 7-pad richting erkenning op masterniveau.",
+    "reassurance": "100% gratis · Geen diploma vereist · Brussel & Antwerpen · RNCP 7 mogelijk",
+    "cta": "Start je AI-opleiding →",
+    "image": "/assets/gallery/aieng-hero.png",
+    "imageAlt": "AI-student traint ML-modellen op de campus van 42 Belgium"
+  },
+  "clusters": [
+    {
+      "name": "OPLEIDING AI",
+      "heading": "Een AI-opleiding die de volledige cyclus afdekt, van code tot productie.",
+      "body": "De AI-opleiding bij 42 Belgium is een Fase 3-specialisatie binnen het 42-curriculum. Voor je hieraan begint, heb je al gewerkt met C, systemen, algoritmen en databases — de fundamenten waarop alle serieuze AI-projecten rusten. Je verdiept je hier in artificial intelligence als specialist, niet als losse module. De AI-opleiding dekt de volledige cyclus af: dataverzameling, voorbewerking, modeltraining, evaluatie, uitrol en monitoring. Een AI-opleiding zonder die productiekant blijft theorie zonder echte impact. Hier werk je projectmatig aan de problemen die echte ML-teams tegenkomen: ontbrekende data, drift en latentie-eisen. Dat is wat een AI-opleiding op gevorderd niveau onderscheidt van een MOOC of een bootcamp.",
+      "keywords": [
+        "opleiding AI",
+        "AI opleiding",
+        "artificial intelligence studeren",
+        "artificiële intelligentie opleiding"
+      ],
+      "bullets": [
+        "De volledige ML-cyclus: data, training, uitrol, monitoring",
+        "Echte productieproblemen: ontbrekende data, drift, latentie",
+        "Maanden echte projecten, geen tutorials",
+        "Afstuderen met een stack die je kunt verdedigen in code review"
+      ]
+    },
+    {
+      "name": "AI SPECIALIST",
+      "heading": "Word AI-specialist, geen AI-gebruiker.",
+      "body": "Een opleiding tot AI-specialist betekent meer dan tools leren gebruiken. Het betekent het verschil begrijpen tussen een model dat werkt op een trainingsset en een model dat stabiel draait in productie. Bij 42 Belgium leer je dat verschil door het zelf te ervaren: je traint modellen, je breekt ze, je optimaliseert ze, je deployt ze. Het machine learning-deel en het deep learning-deel gaan hand in hand. Tegen het einde van de specialisatie ken je niet alleen scikit-learn en PyTorch — je weet wanneer een aanpak verkeerd zit, wanneer een dataset niet representatief is, en wanneer je beter een simpeler model neemt. Dat is wat werkgevers van een AI-specialist verwachten, en dat is waar deze opleiding naartoe werkt.",
+      "keywords": [
+        "opleiding AI specialist"
+      ],
+      "decoration": "/assets/code-blue.svg",
+      "decorationOpacity": 0.1
+    }
+  ],
+  "faq": [
+    {
+      "question": "Geeft 42 een masterdiploma in AI?",
+      "answer": "42 Belgium geeft zelf geen masterdiploma uit, maar de AI-specialisatie sluit aan op het RNCP 7-kader — dat is het Europese referentiekader voor erkenning op masterniveau. Door het RNCP 7-niveau te behalen krijg je een professioneel diploma dat in heel Europa op masterniveau erkend is. Daarnaast telt voor ML-recruiters vooral het concrete werk dat je hebt afgeleverd."
+    },
+    {
+      "question": "Welk technisch niveau heb je nodig voor de AI-specialisatie?",
+      "answer": "Geen, om bij 42 te starten. Maar de AI-specialisatie zit in Fase 3, na de Common Core. Concreet: je hebt al C, systemen, algoritmen en databaseprojecten afgewerkt voor je je specialiseert. Wiskunde komt aan bod — lineaire algebra, differentiaalrekening, kansrekening — geïntegreerd in de ML-projecten. Geen vooropleiding vereist, maar Fase 3 is bewust op ingenieursniveau."
+    },
+    {
+      "question": "Welke jobs kun je doen na de AI-opleiding?",
+      "answer": "AI engineer, ML engineer, data scientist, MLOps engineer en rollen in applied research. De Belgische en Europese arbeidsmarkt kampt met een tekort aan mensen die echt productie-ML kunnen bouwen en onderhouden — niet alleen onderzoekers of prompt engineers — en de specialisatie richt zich op die kloof. Veel afgestudeerden krijgen al een aanbieding tijdens hun stage."
+    }
+  ],
+  "stats": [
+    {
+      "value": "98%",
+      "label": "van de gevorderde afgestudeerden vindt een job"
+    },
+    {
+      "value": "100%",
+      "label": "gratis, zonder lesgeld"
+    },
+    {
+      "value": "42",
+      "label": "campussen wereldwijd"
+    },
+    {
+      "value": "0",
+      "label": "diploma's of voorkennis vereist"
+    }
+  ],
+  "ctaFinal": {
+    "title": "Een AI-opleiding waarmee je modellen bouwt die in productie draaien.",
+    "description": "Fase 3-specialisatie, van code tot productie-ML, RNCP 7-pad. Volledig gratis, geen diploma vereist. Inschrijvingen het hele jaar door open.",
+    "cta": "Start je AI-opleiding →"
+  },
+  "schemaOrg": {
+    "course": {
+      "name": "42 Belgium - AI-opleiding",
+      "description": "Gratis AI-opleiding in Brussel en Antwerpen, als Fase 3-specialisatie binnen het 42-curriculum. Dekt de volledige ML-cyclus van data tot productie-deployment, met een RNCP 7-pad voor erkenning op masterniveau in Europa.",
+      "provider": "42 Belgium",
+      "url": "https://42belgium.be/nl/opleiding-artificial-intelligence",
+      "courseMode": "blended",
+      "educationalLevel": "beginner"
+    }
+  }
+}

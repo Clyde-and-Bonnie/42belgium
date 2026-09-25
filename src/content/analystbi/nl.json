@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "title": "data-analist opleiding - Power BI, SQL, Python | 42 Belgium",
+    "description": "Gratis data-analist opleiding in Brussel en Antwerpen. Leer SQL, Power BI, Python en Tableau via echte projecten. Met traject naar RNCP 6-erkenning.",
+    "slug": "opleiding-data-analist",
+    "primaryQuery": "data-analist opleiding",
+    "convertingKeywords": [
+      "data-analist",
+      "opleiding data-analist",
+      "sql-training",
+      "data-analist opleiding",
+      "data-analistopleiding"
+    ],
+    "lpAngle": "classic"
+  },
+  "hero": {
+    "headline": "Een data-analist opleiding opgebouwd rond Power BI, SQL en echte datasets.",
+    "subheadline": "100% gratis, in Brussel en Antwerpen. Je werkt met de stack die een data-analist écht gebruikt: SQL, Power BI, Python met pandas en Tableau. Op concrete datasets, niet via slides. Met een traject naar RNCP 6-erkenning op bachelorniveau.",
+    "reassurance": "100% gratis · Geen diploma vereist · Brussel & Antwerpen · RNCP 6 mogelijk",
+    "cta": "Start je datacarrière →",
+    "image": "/assets/gallery/dataan-hero.png",
+    "imageAlt": "Data-analiststudent werkt met dashboards en SQL op de campus van 42 Belgium"
+  },
+  "clusters": [
+    {
+      "name": "DATA-ANALIST OPLEIDING",
+      "heading": "Een data-analist opleiding met echte datasets, niet alleen oefeningen.",
+      "body": "De meeste data-analist opleidingen blijven bij de basis: SQL-syntax, een Power BI-dashboard en een pandas-notebook uit een tutorial. De opleiding data-analist bij 42 Belgium gaat verder. Via projecten werk je met echte datasets: rommelige joins, ontbrekende waarden en definities die elkaar tegenspreken. Precies de situaties die je als data-analist in een bedrijf tegenkomt. De data-analistopleiding dekt de volledige workflow af: data extraheren uit systemen, schoonmaken, modelleren en inzichten presenteren waar stakeholders iets mee kunnen doen. Je leert niet alleen wat een data-analist doet — je doet het ook. Elk project vertrekt vanuit een concrete businessvraag. Je portfolio toont echte outputs: queries die je zelf hebt geschreven, dashboards die je hebt gebouwd en analyses die mee richting geven aan beslissingen.",
+      "keywords": [
+        "data-analist",
+        "data-analist opleiding",
+        "opleiding data-analist",
+        "data-analistopleiding"
+      ],
+      "decoration": "/assets/3-chevrons-pink.svg"
+    },
+    {
+      "name": "SQL & DATA TOOLS",
+      "heading": "SQL, Power BI, Tableau: de toolset die een data-analist écht nodig heeft.",
+      "body": "Een moderne data-analist werkt voortdurend met meerdere tools tegelijk. De opleiding bij 42 Belgium geeft je grip op die stack. Power BI gebruik je voor dashboards en rapporten die stakeholders in één oogopslag kunnen begrijpen. Een goede Power BI-opleiding leert je niet alleen waar je moet klikken, maar hoe je dashboards bouwt die echt iets zeggen. Tableau gebruik je voor visuele analyses en dataverkenning. De SQL-training gaat verder dan SELECT-statements: window functions, CTE's, query-optimalisatie en werken met meerdere schema's. Een cursus data-analyse die alleen tools opsomt, maakt je nog geen data-analist. Onze data-analyseopleiding draait om de denkwijze achter het werk: hoe structureer je een probleem zodat data er een antwoord op kan geven? Dat is het verschil tussen iemand die queries kopieert en iemand die analyses ontwerpt.",
+      "keywords": [
+        "SQL-training",
+        "Power BI-opleiding",
+        "cursus data-analyse",
+        "data-analyseopleiding"
+      ],
+      "bullets": [
+        "Power BI — dashboards die stakeholders in één oogopslag lezen",
+        "SQL voorbij SELECT — window functions, CTE's, query-optimalisatie",
+        "Tableau voor visuele analyse, versie-beheerde reproduceerbare rapporten",
+        "De échte skill: problemen structureren zodat data kan antwoorden"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Waarin verschilt dit van een Coursera data-analist cursus?",
+      "answer": "Twee dingen: de scope en het format. Ten eerste zit de opleiding bij 42 Belgium ingebed in een volledig software engineering-curriculum. Je leert dus niet alleen analytics, maar begrijpt ook hoe data door echte systemen stroomt. Ten tweede werk je projectmatig met peers, op campus en via code reviews. Niet alleen achter een scherm met video's. Je portfolio bevat werk dat een recruiter echt kan beoordelen — geen extra certificaat."
+    },
+    {
+      "question": "Welke tools en talen leer je echt?",
+      "answer": "Je leert SQL in meerdere dialecten, Python met pandas en NumPy, de basis van scikit-learn, Power BI voor dashboarding, Tableau en de data-tools die daaromheen draaien. Daarnaast krijg je de engineering-basis mee die je helpt om snel nieuwe tools op te pikken: git, samenwerken in teams op gedeelde codebases en inzicht in wat er onder de abstractielaag gebeurt."
+    },
+    {
+      "question": "Krijg je aan het einde een erkende kwalificatie?",
+      "answer": "Ja, via het RNCP 6-kader. Als je RNCP 6 behaalt, krijg je een professioneel diploma dat in Europa erkend wordt op bachelorniveau. 42 reikt zelf geen data-analist certificaat uit. Maar het werk dat je tijdens de opleiding oplevert, vormt vaak een sterker bewijs dan de meeste certificaten."
+    }
+  ],
+  "stats": [
+    {
+      "value": "98%",
+      "label": "van de gevorderde afgestudeerden vindt een job"
+    },
+    {
+      "value": "100%",
+      "label": "Gratis, geen lesgeld"
+    },
+    {
+      "value": "42",
+      "label": "Campussen wereldwijd"
+    },
+    {
+      "value": "0",
+      "label": "Vereisten"
+    }
+  ],
+  "ctaFinal": {
+    "title": "Een data-analist opleiding waarmee je portfolio overtuigt.",
+    "description": "Power BI, SQL, Python, echte projecten en een traject naar RNCP 6-erkenning. Volledig gratis, geen diploma vereist. Inschrijven kan het hele jaar door.",
+    "cta": "Start je datacarrière →"
+  },
+  "schemaOrg": {
+    "course": {
+      "name": "42 Belgium - data-analist opleiding",
+      "description": "Gratis data-analist opleiding in Brussel en Antwerpen, binnen het 42-curriculum. Je leert SQL, Power BI, Python data tooling en business intelligence via echte projecten, met een traject naar RNCP 6-erkenning op bachelorniveau in Europa.",
+      "provider": "42 Belgium",
+      "url": "https://42belgium.be/nl/opleiding-data-analist",
+      "courseMode": "blended",
+      "educationalLevel": "beginner"
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "title": "Coding Bootcamp Belgium - Free, Get Hired | 42 Belgium",
+    "description": "Free coding bootcamp in Belgium. Learn to code on real projects, then move into an ICT job. No degree, no tuition. Brussels & Antwerp campuses.",
+    "slug": "coding-bootcamp-belgium",
+    "primaryQuery": "coding bootcamp Belgium / ICT jobs",
+    "convertingKeywords": [
+      "coding bootcamp",
+      "coding bootcamp belgium",
+      "ict jobs",
+      "it traineeship",
+      "learn to code",
+      "coding",
+      "learn coding for free"
+    ],
+    "lpAngle": "classic"
+  },
+  "hero": {
+    "headline": "The coding bootcamp that gets you an ICT job.",
+    "subheadline": "Free, project-based training in Brussels and Antwerp. You learn to code with peers, build a real portfolio, and walk into the ICT roles employers can't fill.",
+    "reassurance": "100% free · No degree required · No experience needed · Brussels & Antwerp",
+    "cta": "Apply to the bootcamp →",
+    "image": "/assets/gallery/itgen-hero.jpg",
+    "imageAlt": "Coding bootcamp students learning to code at 42 Belgium"
+  },
+  "clusters": [
+    {
+      "name": "CODING BOOTCAMP",
+      "heading": "A coding bootcamp built for how people really learn to code.",
+      "body": "At 42 Belgium, the coding bootcamp isn't a series of lectures or recorded videos. It's a 24/7 campus in Brussels or Antwerp where you learn to code by writing code - from day one. No teachers, no grades, no tuition. You work through projects with peers, debug together, and ship real things. Coding is a skill you build through iteration: first imperfectly, then confidently. That's the whole loop, and that's what our coding bootcamp Belgium is built around. Whether you've never written a line of code or already dabble on weekends, the pedagogy adapts to you. The only thing we ask: curiosity, persistence, and the willingness to figure things out alongside other beginners.",
+      "keywords": [
+        "coding bootcamp",
+        "coding bootcamp Belgium",
+        "learn to code",
+        "coding"
+      ],
+      "bullets": [
+        "A 24/7 campus in Brussels or Antwerp",
+        "No teachers, no grades, no tuition",
+        "Learn by writing code from day one, with peers",
+        "Beginners welcome — curiosity and persistence, that's it"
+      ]
+    },
+    {
+      "name": "ICT JOBS & TRAINEESHIP",
+      "heading": "From the bootcamp to your first ICT job.",
+      "body": "Training only matters if it leads somewhere. At 42 Belgium, that somewhere is the Belgian ICT jobs market - one of the hottest in Europe, with thousands of open roles and not enough qualified people. Most students take an IT traineeship - an internship with one of our partner companies - during the program. It's not mandatory, but strongly recommended: many graduates are recruited during the placement itself. Others move into junior dev, sysadmin, cyber, or data roles straight after the curriculum. The bridge between the coding bootcamp and these ICT jobs is short because the network is dense - partners hire from 42 every year, and graduates refer graduates. And yes, you can learn coding for free here. We don't charge tuition. The deal is simple: you put in the work, we provide the campus, the pedagogy, and the door to the industry.",
+      "keywords": [
+        "ICT jobs",
+        "IT traineeship",
+        "learn coding for free"
+      ],
+      "decoration": "/assets/code-blue.svg"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is the coding bootcamp really free?",
+      "answer": "Yes - 42 Belgium is completely free, no tuition, no hidden costs. The school is supported by partner companies, so students never pay. You can learn coding for free from the Piscine all the way through the Common Core, on our Brussels and Antwerp campuses."
+    },
+    {
+      "question": "Do I need experience or a degree to apply?",
+      "answer": "No. About half of our students had never written a line of code before applying, and there's no degree requirement - just motivation, and being 18+ with the right to work or study in the EU. The selection itself is the Piscine: a 4-week, full-time coding immersion where you try, fail, learn, and repeat. Make it through and you're in the Common Core."
+    },
+    {
+      "question": "What's the IT traineeship and how does it work?",
+      "answer": "After the Common Core, most students take a first internship - what we call an IT traineeship - with one of our partner companies, working on real projects on-site. It's not mandatory, but strongly recommended: many students are recruited during the placement itself. It's the main bridge between the curriculum and your first ICT job."
+    }
+  ],
+  "stats": [
+    {
+      "value": "98%",
+      "label": "of advanced grads secure a job"
+    },
+    {
+      "value": "100%",
+      "label": "Free - no tuition"
+    },
+    {
+      "value": "42",
+      "label": "Campuses worldwide"
+    },
+    {
+      "value": "0",
+      "label": "Prerequisites"
+    }
+  ],
+  "ctaFinal": {
+    "title": "Your first ICT job starts with a coding bootcamp that takes you seriously.",
+    "description": "No tuition. No degree required. Just the Piscine and the willingness to figure things out. Apply and see if 42 Belgium fits.",
+    "cta": "Apply to the bootcamp →"
+  },
+  "schemaOrg": {
+    "course": {
+      "name": "42 Belgium - Coding Bootcamp",
+      "description": "Free, peer-to-peer coding bootcamp in Brussels and Antwerp. Learn to code on real projects, no degree or experience required, with a direct bridge into ICT jobs through partner internships.",
+      "provider": "42 Belgium",
+      "url": "https://42belgium.be/en/coding-bootcamp-belgium",
+      "courseMode": "blended",
+      "educationalLevel": "beginner"
+    }
+  }
+}

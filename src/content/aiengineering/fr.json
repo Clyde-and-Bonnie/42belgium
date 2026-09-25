@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "title": "Formation intelligence artificielle - Gratuite | 42 Belgium",
+    "description": "Formation intelligence artificielle gratuite en Belgique. Spécialisation IA/ML pour développeurs : du code aux modèles en production. Phase 3 du cursus 42.",
+    "slug": "formation-intelligence-artificielle",
+    "primaryQuery": "formation intelligence artificielle",
+    "convertingKeywords": [
+      "formation intelligence artificielle",
+      "cours ia",
+      "formation ia",
+      "formation en intelligence artificielle"
+    ],
+    "lpAngle": "classic"
+  },
+  "hero": {
+    "headline": "La formation intelligence artificielle qui forme des ingénieurs ML, pas des utilisateurs d'API.",
+    "subheadline": "Gratuite chez 42 Belgium, à Bruxelles et Anvers. Tu travailles sur le cycle complet ML : pipelines de données, entraînement, évaluation, déploiement — dans le cadre de la spécialisation IA d'un cursus complet en software engineering. Voie RNCP 7 ouverte pour la reconnaissance niveau master.",
+    "reassurance": "100% gratuit · Sans diplôme requis · Bruxelles & Anvers · Voie RNCP 7",
+    "cta": "Deviens ingénieur IA →",
+    "image": "/assets/gallery/aieng-hero.png",
+    "imageAlt": "Étudiant en IA entraînant des modèles ML au campus 42 Belgium"
+  },
+  "clusters": [
+    {
+      "name": "FORMATION IA",
+      "heading": "Une formation IA qui couvre tout le cycle, du code à la production.",
+      "body": "La formation intelligence artificielle chez 42 Belgium est une spécialisation Phase 3 du cursus, après le tronc commun. Concrètement, ce n'est pas un cours IA d'initiation - c'est une formation en intelligence artificielle pour qui sait déjà coder, comprend les structures de données, et veut passer de la théorie à des systèmes ML qui tournent. La formation IA couvre tout le cycle : acquisition et nettoyage de données, choix et entraînement de modèles, évaluation, déploiement, monitoring. Tu n'écoutes pas - tu livres. Chaque projet ressemble à ce qu'une équipe IA en entreprise affronte vraiment : données manquantes, leakage, drift, contraintes de latence. C'est ce qui sépare une vraie formation intelligence artificielle d'un MOOC qui se finit en weekend.",
+      "keywords": [
+        "formation intelligence artificielle",
+        "formation IA",
+        "formation en intelligence artificielle",
+        "cours IA"
+      ],
+      "bullets": [
+        "Tout le cycle ML : données, entraînement, déploiement, monitoring",
+        "Les vrais problèmes de prod : données manquantes, leakage, drift, latence",
+        "Des mois de projets réels, pas des tutos",
+        "Sortir capable de défendre ta stack en code review"
+      ]
+    },
+    {
+      "name": "MACHINE LEARNING & DEEP LEARNING",
+      "heading": "Machine learning et deep learning : la matière technique du programme.",
+      "body": "La spécialisation couvre le machine learning classique - régression, classification, clustering, méthodes d'ensemble - avant d'attaquer le deep learning : réseaux convolutifs, recurrents, attention, transformers. La formation ML ici n'est pas une suite de notebooks Jupyter à recopier. Tu implémentes les algorithmes, tu comprends pourquoi un gradient descend ou explose, tu lis des papiers et tu reproduis leurs résultats. Le deep learning ne s'apprend pas en regardant - il s'apprend en debuggant un modèle qui ne converge pas, en optimisant une inférence trop lente, en ajustant des hyperparamètres jusqu'à ce que ça marche. C'est ce niveau de profondeur que le marché de l'emploi ML attend, et c'est exactement ce que la spécialisation produit.",
+      "keywords": [
+        "machine learning",
+        "deep learning",
+        "formation ML"
+      ],
+      "decoration": "/assets/code-blue.svg",
+      "decorationOpacity": 0.1
+    }
+  ],
+  "faq": [
+    {
+      "question": "Est-ce que c'est un vrai master en IA ?",
+      "answer": "42 Belgium ne délivre pas son propre diplôme master, mais la spécialisation IA s'inscrit dans le cadre RNCP 7 - le niveau master du référentiel européen. En réussissant le RNCP 7, tu obtiens un diplôme professionnel reconnu au niveau master dans toute l'Europe. Au-delà, c'est le travail concret livré qui compte pour les recruteurs en ingénierie ML."
+    },
+    {
+      "question": "Quel niveau technique faut-il pour entrer dans la spé IA ?",
+      "answer": "Aucun pour entrer à 42, mais la spé IA est en Phase 3 - après le tronc commun. Concrètement, tu auras maîtrisé le C, les systèmes, les algorithmes et les bases de données avant d'y arriver. Les maths reviennent : algèbre linéaire, calcul différentiel, probabilités - couvertes dans le contexte des projets ML. Pas besoin d'un diplôme préalable, mais la Phase 3 est délibérément de niveau ingénieur."
+    },
+    {
+      "question": "Quels métiers visent les diplômés de la spé IA ?",
+      "answer": "AI engineer, ML engineer, data scientist, MLOps engineer, ingénieur recherche appliquée. Le marché belge et européen manque cruellement de profils capables de mettre du ML en production - pas des chercheurs, pas des prompt engineers - et la spé 42 cible précisément cet écart. Beaucoup de diplômés sont recrutés pendant leurs stages chez nos partenaires."
+    }
+  ],
+  "stats": [
+    {
+      "value": "98%",
+      "label": "des diplômés du cursus avancé décrochent un job"
+    },
+    {
+      "value": "100%",
+      "label": "Gratuit - aucun frais"
+    },
+    {
+      "value": "42",
+      "label": "Campus dans le monde"
+    },
+    {
+      "value": "0",
+      "label": "Prérequis"
+    }
+  ],
+  "ctaFinal": {
+    "title": "La formation IA qui aboutit à des modèles qui tournent.",
+    "description": "Spécialisation Phase 3, du code aux modèles en production, voie RNCP 7. 100% gratuit, sans diplôme exigé. Candidature toute l'année.",
+    "cta": "Deviens ingénieur IA →"
+  },
+  "schemaOrg": {
+    "course": {
+      "name": "42 Belgium - Formation intelligence artificielle",
+      "description": "Formation intelligence artificielle gratuite à Bruxelles et Anvers, en tant que spécialisation Phase 3 du cursus 42. Couvre tout le cycle ML/DL : du code aux modèles en production, avec voie ouverte vers le diplôme RNCP 7.",
+      "provider": "42 Belgium",
+      "url": "https://42belgium.be/fr/formation-intelligence-artificielle",
+      "courseMode": "blended",
+      "educationalLevel": "beginner"
+    }
+  }
+}

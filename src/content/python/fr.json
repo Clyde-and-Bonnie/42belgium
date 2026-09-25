@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "title": "Apprendre Python à Bruxelles - Gratuit | 42 Belgium",
+    "description": "Apprendre Python à 42 Belgium, gratuitement et par projets. Python est intégré au tronc commun du cursus 42 - du langage à des systèmes en production.",
+    "slug": "apprendre-python-bruxelles",
+    "primaryQuery": "apprendre Python / formation Python",
+    "convertingKeywords": [
+      "apprendre python",
+      "formation python"
+    ],
+    "lpAngle": "classic"
+  },
+  "hero": {
+    "headline": "Apprendre Python comme un outil de travail, pas comme un exercice.",
+    "subheadline": "100% gratuit, à Bruxelles et Anvers. Python est intégré au tronc commun du cursus 42 - tu démarres en C, puis Python, algorithmes, et le travail système que les vrais ingénieurs font. Voie RNCP 6 pour la reconnaissance niveau bachelor.",
+    "reassurance": "100% gratuit · Sans diplôme requis · Bruxelles & Anvers · Voie RNCP 6",
+    "cta": "Commence Python aujourd'hui →",
+    "image": "/assets/gallery/python-hero.jpg",
+    "imageAlt": "Étudiant codant en Python au campus 42 Belgium"
+  },
+  "clusters": [
+    {
+      "name": "APPRENDRE PYTHON",
+      "heading": "Apprendre Python par les projets, pas par les tutoriels.",
+      "body": "La plupart des chemins pour apprendre Python passent par des tutoriels : tape ceci dans la console, copie cela dans un notebook, recommence. Utile une semaine. Chez 42 Belgium, on apprend Python autrement. Le tronc commun traite Python comme un outil de travail : tu écris des scripts qui résolvent de vrais problèmes, tu débugges ton propre code, tu lis le code des autres en peer review. La formation Python ici n'est pas un cours Python débutant linéaire - c'est une exposition continue à la pratique. La programmation Python s'apprend en construisant, en cassant, en optimisant. C'est ce qui distingue ce qu'on fait ici d'une vidéo YouTube ou d'un MOOC : le rythme d'ingénierie, les vrais projets, le retour de tes pairs.",
+      "keywords": [
+        "apprendre Python",
+        "formation Python",
+        "cours Python débutant",
+        "Python programmation"
+      ],
+      "bullets": [
+        "De vrais scripts dès le départ, pas des bouts de tuto",
+        "Débugger ton propre code, pas du copier-coller",
+        "Du peer review, comme en équipe",
+        "Penser en fonctions : list vs generator, du code qui dure"
+      ]
+    },
+    {
+      "name": "PYTHON POUR LA DATA & LE WEB",
+      "heading": "Python pour la data, pour le web, pour la production - pas juste pour apprendre.",
+      "body": "Python n'est pas un langage générique chez 42 - c'est un outil que tu utilises pour des cas concrets. La spécialisation Python data science arrive en Phase 3 : pandas, NumPy, scikit-learn, projet end-to-end sur de vraies données. Le Python web development s'aborde via les frameworks (Flask, FastAPI, Django), les APIs, les déploiements. Python Bruxelles n'est pas un cours à part - c'est l'écosystème d'apprenants qui travaillent sur ces stacks à côté de toi, sur le campus, en peer-to-peer. À la sortie, tu n'as pas juste \"appris Python\" - tu sais construire des features que les entreprises belges déploient en production. C'est la différence entre un certificat et une compétence vendable.",
+      "keywords": [
+        "Python data science",
+        "Python web development",
+        "Python Bruxelles"
+      ],
+      "decoration": "/assets/code-blue.svg"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Est-ce que c'est un cours Python autonome ?",
+      "answer": "Non - Python à 42 Belgium est intégré au tronc commun, pas un cours séparé. Tu démarres avec C dans les premières semaines, puis Python arrive avec les algorithmes, les systèmes et les bases de données. Une fois quelques projets livrés, Python n'est plus un \"langage que tu apprends\" - c'est un outil que tu utilises."
+    },
+    {
+      "question": "Combien de temps avant de coder vraiment en Python ?",
+      "answer": "Quelques semaines. Le tronc commun dure 12 à 18 mois au total, mais le travail Python démarre tôt. La vraie question est : combien de temps avant de produire du Python que tu peux mettre en prod ? Ça dépend du nombre de projets que tu livres - ce qui dépend de toi."
+    },
+    {
+      "question": "Est-ce qu'on obtient une certification Python ?",
+      "answer": "Pas directement par 42. On ne délivre pas de certification spécifique Python - le cursus forme des ingénieurs, pas des détenteurs de certificats. Si tu finis le cursus complet, le cadre RNCP 6 te donne un diplôme professionnel reconnu au niveau bachelor en Europe. Pour les certifs éditeurs (PCEP, PCAP), le travail Python ici te prépare à les passer en parallèle."
+    }
+  ],
+  "stats": [
+    {
+      "value": "98%",
+      "label": "des diplômés du cursus avancé décrochent un job"
+    },
+    {
+      "value": "100%",
+      "label": "Gratuit - aucun frais"
+    },
+    {
+      "value": "42",
+      "label": "Campus dans le monde"
+    },
+    {
+      "value": "0",
+      "label": "Prérequis"
+    }
+  ],
+  "ctaFinal": {
+    "title": "La formation Python qui forme des ingénieurs, pas des détenteurs de certificats.",
+    "description": "Python dans le tronc commun, voie RNCP 6, projets concrets. 100% gratuit, sans diplôme exigé. Candidature toute l'année.",
+    "cta": "Commence Python aujourd'hui →"
+  },
+  "schemaOrg": {
+    "course": {
+      "name": "42 Belgium - Formation Python",
+      "description": "Formation Python gratuite à Bruxelles et Anvers, intégrée au tronc commun du cursus 42. Python par projets - data science, web, systèmes - avec voie RNCP 6 pour la reconnaissance européenne au niveau bachelor.",
+      "provider": "42 Belgium",
+      "url": "https://42belgium.be/fr/apprendre-python-bruxelles",
+      "courseMode": "blended",
+      "educationalLevel": "beginner"
+    }
+  }
+}

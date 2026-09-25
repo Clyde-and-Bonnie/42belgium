@@ -1,0 +1,17 @@
+# Every pull request is reviewed by Clyde & Bonnie before it reaches main.
+#
+# For this to actually gate merges, main must be protected with
+# "Require a pull request before merging" + "Require review from Code Owners"
+# (Settings -> Branches). CODEOWNERS on its own only requests the review.
+
+* @clydeandbonnie
+
+# Routing, canonicals, hreflang and build configuration. Changes here can
+# de-index pages, so they never go in as a routine content edit.
+/src/lib/         @clydeandbonnie
+/src/app/         @clydeandbonnie
+/next.config.ts   @clydeandbonnie
+
+# Tooling and CI.
+/scripts/         @clydeandbonnie
+/.github/         @clydeandbonnie

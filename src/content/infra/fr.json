@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "title": "Formation DevOps - De sysadmin au Cloud | 42 Belgium",
+    "description": "Formation DevOps et administrateur système gratuite à Bruxelles et Anvers. Linux, réseau, Cloud AWS, conteneurs. Voie RNCP 6 pour la reconnaissance.",
+    "slug": "formation-devops-administrateur",
+    "primaryQuery": "formation DevOps / formation administrateur système",
+    "convertingKeywords": [
+      "formation devops",
+      "formation administrateur systeme et reseau",
+      "formation technicien informatique",
+      "formation administrateur systeme",
+      "formation reseau informatique",
+      "devops course"
+    ],
+    "lpAngle": "classic"
+  },
+  "hero": {
+    "headline": "La formation DevOps qui transforme les sysadmins en ingénieurs cloud.",
+    "subheadline": "100% gratuit chez 42 Belgium, à Bruxelles et Anvers. Le travail infrastructure s'inscrit dans un cursus complet en software engineering — Linux, réseau, conteneurs, plateformes cloud, CI/CD. Prépa AWS certification disponible. Voie RNCP 6 pour la reconnaissance niveau bachelor.",
+    "reassurance": "100% gratuit · Sans diplôme requis · Bruxelles & Anvers · Prépa AWS + RNCP 6",
+    "cta": "Lance ta carrière Infra/DevOps →",
+    "image": "/assets/gallery/infra-hero.jpg",
+    "imageAlt": "Étudiants dans la salle informatique du campus 42 Belgium"
+  },
+  "clusters": [
+    {
+      "name": "DEVOPS & CLOUD",
+      "heading": "Une formation DevOps qui déploie pour de vrai, pas en schémas.",
+      "body": "Une formation DevOps n'a de valeur que si tu sors capable de déployer pour de vrai. Chez 42 Belgium, le travail infrastructure n'est pas un module séparé - il traverse le cursus depuis le C bas niveau jusqu'au déploiement conteneurisé en spécialisation Phase 3. La devops course couvre ce que la production demande aujourd'hui : AWS, serveurs Linux, fondamentaux réseau, Docker, Kubernetes en surface, infrastructure-as-code. Pour viser les certifications industrie, la Cloud AWS formation prépare aux examens AWS (Solutions Architect, SysOps, DevOps Engineer) - 42 ne les délivre pas elle-même, AWS le fait. Le but n'est pas un certificat encadré au mur. C'est la mémoire musculaire de casser un truc en staging, comprendre ce qui plante, et livrer le fix avant que l'astreinte change de main.",
+      "keywords": [
+        "formation DevOps",
+        "devops course",
+        "Cloud AWS formation"
+      ],
+      "bullets": [
+        "AWS, Linux, Docker, Kubernetes, CI/CD, IaC",
+        "L'infra traverse le cursus, pas un module à part",
+        "Prépa certifs AWS : Solutions Architect, SysOps, DevOps Engineer",
+        "Casser en staging, livrer le fix avant l'astreinte"
+      ]
+    },
+    {
+      "name": "ADMIN SYSTÈME & RÉSEAU",
+      "heading": "Linux, réseau, internals système : les fondations sous le DevOps.",
+      "body": "Avant de te prétendre administrateur système ou ingénieur DevOps, il faut comprendre ce qui tourne sous les abstractions. Le tronc commun de 42 prend ça au sérieux : la formation administrateur système se fait par projets, pas par clic-clic - tu construis un minishell, tu gères des processus, tu configures des services from scratch. La formation administrateur système et réseau ici dépasse les tâches mémorisées : tu comprends pourquoi TCP retransmet, pourquoi une requête DNS échoue, pourquoi un processus mange de la mémoire. La formation réseau informatique est intégrée à la même logique : les couches OSI, les routes, le DNS, le TLS - tout ça via la pratique. Plus tu vas profond en Linux et en réseau, moins le cloud est surprenant - parce que le cloud, c'est Linux sur la machine de quelqu'un d'autre.",
+      "keywords": [
+        "formation administrateur système",
+        "formation administrateur système et réseau",
+        "formation réseau informatique"
+      ],
+      "image": "/assets/gallery/devop.png",
+      "imageAlt": "Étudiants travaillant ensemble sur Linux et le réseau au campus 42 Belgium",
+      "imageLeft": true
+    },
+    {
+      "name": "TECHNICIEN IT",
+      "heading": "De technicien IT à profil DevOps : la formation qui ferme l'écart.",
+      "body": "Beaucoup arrivent ici comme techniciens IT ou self-taught qui ont monté en compétences sur le tas. La formation technicien informatique classique te donne les bases hardware et support, mais elle ne ferme pas l'écart vers le software engineering qu'attendent les rôles DevOps. C'est ce qu'on adresse à 42 Belgium. La Linux formation que tu suis dans le tronc commun va au-delà du sysadmin de base : tu écris du C qui parle au noyau, tu manipules les processus comme un dev pas comme un opérateur, tu lis des man pages et tu reconstitues le comportement par expérimentation. À la sortie, tu n'es plus un technicien IT qui sait taper des commandes - tu es un profil hybride qui peut écrire les services, les déployer, et les maintenir.",
+      "keywords": [
+        "formation technicien informatique",
+        "Linux formation"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Je suis déjà sysadmin / technicien IT - est-ce que j'ai besoin du cursus complet ?",
+      "answer": "Ça dépend de ton ambition. Si tu vises des rôles DevOps senior ou platform engineering, oui : le gap chez la plupart des sysadmins est le côté soft (écrire des services, pas juste les faire tourner). C'est dans le tronc commun de 42 que cet écart se ferme. Tu avances plus vite qu'un débutant, mais tu ne sautes pas le tronc commun. La Phase 3 te permet ensuite de te focaliser sur l'infrastructure en profondeur."
+    },
+    {
+      "question": "Est-ce qu'on sort avec des certifications AWS / Azure / GCP ?",
+      "answer": "42 Belgium ne délivre pas les certifications cloud - elles viennent directement d'AWS, Microsoft et Google. Ce que le cursus fait, c'est te préparer à passer celles qui comptent : AWS Solutions Architect, SysOps, DevOps Engineer, et leurs équivalents Azure/GCP. Le travail concret livré pendant le cursus sert de preuve en entretien, indépendamment des certifs que tu décides de passer."
+    },
+    {
+      "question": "Quels métiers visent les diplômés en infra ?",
+      "answer": "DevOps engineer, cloud engineer, SRE, platform engineer, ingénieur réseau, spécialiste infrastructure-as-code. Le marché belge manque de profils infra et embauche volontiers des juniors qui peuvent livrer. Beaucoup de diplômés démarrent via des stages chez nos partenaires et basculent en permanent avant la fin du cursus."
+    }
+  ],
+  "stats": [
+    {
+      "value": "98%",
+      "label": "des diplômés du cursus avancé décrochent un job"
+    },
+    {
+      "value": "100%",
+      "label": "Gratuit - aucun frais"
+    },
+    {
+      "value": "42",
+      "label": "Campus dans le monde"
+    },
+    {
+      "value": "0",
+      "label": "Prérequis"
+    }
+  ],
+  "ctaFinal": {
+    "title": "La formation DevOps où tu livres de l'infrastructure, pas des schémas.",
+    "description": "Linux, réseau, prépa AWS, voie RNCP 6. Dans un cursus complet en software engineering. 100% gratuit, sans diplôme exigé.",
+    "cta": "Lance ta carrière Infra/DevOps →"
+  },
+  "schemaOrg": {
+    "course": {
+      "name": "42 Belgium - Formation DevOps & Administrateur Système",
+      "description": "Formation DevOps et administrateur système gratuite à Bruxelles et Anvers, dans le cursus 42. Linux, réseau, cloud computing, prépa certification AWS et CI/CD à travers des projets réels. Voie RNCP 6 pour la reconnaissance européenne au niveau bachelor.",
+      "provider": "42 Belgium",
+      "url": "https://42belgium.be/fr/formation-devops-administrateur",
+      "courseMode": "blended",
+      "educationalLevel": "beginner"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "title": "Web Developer & Full Stack Course - Free | 42 Belgium",
+    "description": "A free full stack developer course at 42 Belgium - learn to build and ship real web apps, not toy projects. Career-driven, RNCP 6 path, no tuition.",
+    "slug": "full-stack-developer-course",
+    "primaryQuery": "web developer / full stack developer",
+    "convertingKeywords": [
+      "web developer",
+      "web development classes",
+      "full stack developer"
+    ],
+    "lpAngle": "classic"
+  },
+  "hero": {
+    "headline": "Become a full stack web developer through real apps, not slides.",
+    "subheadline": "100% free at 42 Belgium, in Brussels and Antwerp. Web work lives inside a full software engineering curriculum — JavaScript, React, Node, and the systems foundations underneath. Real apps shipped, peer reviewed. RNCP 6 path available.",
+    "reassurance": "100% free · No degree required · Brussels & Antwerp · RNCP 6 path available",
+    "cta": "Start building web apps →",
+    "image": "/assets/gallery/webfullstack-hero.jpg",
+    "imageAlt": "Full-stack web development student shipping apps at 42 Belgium"
+  },
+  "clusters": [
+    {
+      "name": "WEB DEVELOPER & FULLSTACK",
+      "heading": "A full stack developer track built around shipping apps, not classroom hours.",
+      "body": "Most web development classes optimise for completion: ten modules, a final project, a certificate. Useful for finding your footing. The full stack developer work at 42 Belgium optimises for something else — being able to move into a junior dev role and not slow the team down. You don't \"take\" a web developer course here; you ship apps as part of the broader curriculum. Real apps, with real bugs, reviewed by real peers. By the time you graduate, the question \"have you built something\" has a clear answer — and a repo to point at. That's what hiring managers in Brussels and Antwerp actually look at, regardless of whether you came through a bootcamp, a degree, or 42.",
+      "keywords": [
+        "web developer",
+        "full stack developer",
+        "web development classes"
+      ],
+      "decoration": "/assets/code-blue.svg"
+    },
+    {
+      "name": "TECHNOLOGIES",
+      "heading": "The technologies that show up in the projects.",
+      "body": "You don't enrol at 42 to learn JavaScript — you enrol to become a developer. But JavaScript shows up everywhere along the way. Modern web work means JS in the browser, JS on the server (Node), and the frameworks that have become the default. React is one of those frameworks: not the only one, but the one most Belgian employers ask about. A front end developer at 42 graduates having built real UIs, debugged real state management, and dealt with real performance constraints. The deeper layer — HTTP, REST APIs, databases, deployment — runs through the curriculum from the start. What matters isn't which technology you know at graduation; it's how fast you can learn the next one. That's the engineering literacy this place trains.",
+      "keywords": [
+        "JavaScript",
+        "React",
+        "front end developer"
+      ],
+      "bullets": [
+        "JavaScript everywhere: browser, Node, default frameworks",
+        "React: real UIs, state management, performance",
+        "The deeper layer: HTTP, REST APIs, databases, deployment",
+        "The real skill: how fast you learn the next tool"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "How is this different from a web dev bootcamp?",
+      "answer": "Three things. First, scope: web work at 42 sits inside a full software engineering curriculum (C, systems, algorithms, databases — then web), so you understand what's below the abstractions you use. Second, format: project-based, peer-reviewed, in person on campus — not video modules. Third, cost: 100% free, no tuition, no income share. The trade-off: it takes longer than 12-week bootcamps. Most students reach the web specialisation 12 to 18 months in."
+    },
+    {
+      "question": "Which technologies will I actually use?",
+      "answer": "HTML, CSS, JavaScript, TypeScript, React (and other JS frameworks as needed), Node.js, Express, REST and GraphQL APIs, SQL and NoSQL databases, Docker, Git, and basic cloud deployment. The exact mix shifts every year as the industry shifts. The constant: you ship real apps, not exercises."
+    },
+    {
+      "question": "What jobs do graduates take?",
+      "answer": "Junior full stack developer, front end developer, back end developer, web engineer at startups, agencies, and tech teams in established companies. Many graduates are recruited during their internships with partner companies, before they finish the program."
+    }
+  ],
+  "stats": [
+    {
+      "value": "98%",
+      "label": "of advanced grads secure a job"
+    },
+    {
+      "value": "100%",
+      "label": "Free - no tuition"
+    },
+    {
+      "value": "42",
+      "label": "Campuses worldwide"
+    },
+    {
+      "value": "0",
+      "label": "Prerequisites"
+    }
+  ],
+  "ctaFinal": {
+    "title": "The full stack developer course where you build the portfolio that gets you hired.",
+    "description": "Web work inside the Common Core, real apps shipped, RNCP 6 path. All free, no tuition, no degree required. Apply year-round.",
+    "cta": "Start building web apps →"
+  },
+  "schemaOrg": {
+    "course": {
+      "name": "42 Belgium - Full Stack Web Developer Course",
+      "description": "A free full stack web developer course at 42 Belgium, in Brussels and Antwerp. JavaScript, React, Node, and the systems foundations underneath, all through real projects. RNCP 6 framework available for European bachelor-level recognition.",
+      "provider": "42 Belgium",
+      "url": "https://42belgium.be/en/full-stack-developer-course",
+      "courseMode": "blended",
+      "educationalLevel": "beginner"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "title": "Data scientist opleiding - Stats, ML, Python | 42 Belgium",
+    "description": "Gratis data scientist opleiding bij 42 Belgium: statistiek, ML, Python en deep learning op masterniveau. Met traject naar RNCP 7-erkenning in Europa.",
+    "slug": "data-scientist-opleiding",
+    "primaryQuery": "data scientist opleiding",
+    "convertingKeywords": [
+      "data scientist opleiding",
+      "opleiding data scientist"
+    ],
+    "lpAngle": "classic"
+  },
+  "hero": {
+    "headline": "De data scientist opleiding voor statistiek, ML en Python op diepteniveau.",
+    "subheadline": "Voor technisch geschoolde profielen en ingenieurs, bij 42 Belgium in Brussel en Antwerpen. Data science zit in de AI-specialisatie in fase 3: statistiek, ML-algoritmen, deep learning en Python op productieniveau. 100% gratis. Met een traject naar RNCP 7-erkenning op masterniveau in Europa.",
+    "reassurance": "100% gratis · Geen diploma vereist · Brussel & Antwerpen · RNCP 7 mogelijk",
+    "cta": "Start het Data Science-programma →",
+    "image": "/assets/gallery/datasc-hero.png",
+    "imageAlt": "Data-scientiststudent werkt aan ML-modellen op de campus van 42 Belgium"
+  },
+  "clusters": [
+    {
+      "name": "DATA SCIENTIST OPLEIDING",
+      "heading": "Een data scientist opleiding waarin de wiskunde overeind blijft onder druk.",
+      "body": "Als je naar een data scientist opleiding zoekt, ben je waarschijnlijk al vertrouwd met wiskunde. De opleiding data scientist bij 42 Belgium neemt dat serieus: geen oppervlakkige statistiek, geen ML als versiering. Een gewone data science cursus brengt je vaak tot scikit-learn-niveau. Hier ga je verder, tot je begrijpt waarom een model convergeert, wanneer het faalt en hoe je het from scratch implementeert als dat nodig is. De machine learning opleiding zit in de AI-specialisatie in fase 3, na de Common Core die de engineeringbasis legt. Aan het einde heb je geen los certificaat in de hand. Je hebt een portfolio met code die ML-engineers kunnen lezen en beoordelen.",
+      "keywords": [
+        "data scientist opleiding",
+        "opleiding data scientist",
+        "data science cursus",
+        "machine learning opleiding"
+      ],
+      "decoration": "/assets/3-chevrons-pink.svg",
+      "decorationPosition": "top-left"
+    },
+    {
+      "name": "PYTHON & ML",
+      "heading": "Python, statistiek en deep learning op productieniveau.",
+      "body": "Python data science bij 42 Belgium gaat verder dan notebooks: pandas, NumPy, scikit-learn en PyTorch, gebruikt in echte pipelines, niet op opgepoetste Kaggle-datasets. De statistische basis is expliciet: distributies, hypothesetoetsing, bias-variantie, regularisatie en het waarom achter elke techniek. Het aanbod rond deep learning in België is vaak academisch of sterk consultancygericht. Bij 42 leer je het anders: je implementeert convolutionele en recurrente netwerken, werkt met attention en transformers, en leert de engineering achter trainen op schaal — gradient descent debuggen, hyperparameteroptimalisatie en gedistribueerd trainen. Het punt is niet om van jou een onderzoeker te maken. Het punt is dat je begrijpt wat er werkelijk gebeurt wanneer een productie-ML-systeem breekt. Dat is het verschil tussen iemand die modellen runt en iemand die ze ontwerpt.",
+      "keywords": [
+        "Python data science",
+        "deep learning België"
+      ],
+      "bullets": [
+        "Expliciete statistiek: distributies, hypothesetoetsing, bias-variantie",
+        "ML vanaf de fundamenten — je implementeert het, je debugt het",
+        "Deep learning: CNN's, RNN's, transformers, trainen op schaal",
+        "Python: pandas, NumPy, scikit-learn, PyTorch op echte pipelines"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is dit een echt masterdiploma in data science?",
+      "answer": "42 Belgium geeft zelf geen masterdiploma uit. De data science-specialisatie sluit aan op het RNCP 7-kader voor erkenning op masterniveau. Als je RNCP 7 behaalt, krijg je een professioneel diploma dat in Europa erkend wordt op masterniveau. Het werk zelf — modellering, statistiek en productie-ML — is wat ML-recruiters beoordelen."
+    },
+    {
+      "question": "Welke wiskunde- en CS-achtergrond heb je nodig om te starten?",
+      "answer": "Geen, om te starten. Iedereen begint met de Common Core, ongeacht je vooropleiding. Maar de data science-specialisatie in fase 3 zit op ingenieursniveau, en de wiskunde komt stevig terug: lineaire algebra, multivariabele calculus, kansrekening en optimalisatie. Met een sterke wiskundige basis kun je je richten op ML in plaats van op de fundamenten. Begin je zonder die basis, dan bouw je ze onderweg op."
+    },
+    {
+      "question": "Welke rollen nemen afgestudeerden op?",
+      "answer": "Afgestudeerden starten vaak als data scientist, ML engineer, applied research engineer, MLOps engineer of quantitative analist. In sommige gevallen ook als data engineer, al is dat eerder aangrenzend dan het hoofdtraject. De Belgische en Europese arbeidsmarkt heeft een tekort aan mensen die productie-ML op diepteniveau kunnen leveren. De 42-specialisatie richt zich precies op die kloof."
+    }
+  ],
+  "stats": [
+    {
+      "value": "98%",
+      "label": "van de gevorderde afgestudeerden vindt een job"
+    },
+    {
+      "value": "100%",
+      "label": "Gratis, geen lesgeld"
+    },
+    {
+      "value": "42",
+      "label": "Campussen wereldwijd"
+    },
+    {
+      "value": "0",
+      "label": "Vereisten"
+    }
+  ],
+  "ctaFinal": {
+    "title": "De data scientist opleiding waarmee je modellen bouwt die in productie standhouden.",
+    "description": "AI-specialisatie in fase 3, statistiek, ML en Python op diepteniveau, met een traject naar RNCP 7-erkenning. Volledig gratis, geen diploma vereist.",
+    "cta": "Start het Data Science-programma →"
+  },
+  "schemaOrg": {
+    "course": {
+      "name": "42 Belgium - Data scientist opleiding",
+      "description": "Gratis data scientist opleiding bij 42 Belgium, in Brussel en Antwerpen. Statistiek, machine learning, deep learning en Python op productieniveau, met traject naar RNCP 7-erkenning op masterniveau in Europa.",
+      "provider": "42 Belgium",
+      "url": "https://42belgium.be/nl/data-scientist-opleiding",
+      "courseMode": "blended",
+      "educationalLevel": "beginner"
+    }
+  }
+}

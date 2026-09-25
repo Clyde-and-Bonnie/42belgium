@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "title": "Prompt Engineering Course - LLMs & RAG | 42 Belgium",
+    "description": "A free prompt engineering course inside 42 Belgium's AI specialisation. LLM APIs, RAG, automation workflows, prompt chaining. On campus, project-based.",
+    "slug": "prompt-engineering-course",
+    "primaryQuery": "prompt engineering course / AI prompt engineer",
+    "convertingKeywords": [
+      "prompt engineering course",
+      "ai prompt engineer"
+    ],
+    "lpAngle": "bold"
+  },
+  "hero": {
+    "headline": "The prompt engineering course that takes you from prompt to production.",
+    "subheadline": "42 Belgium is a software engineering school. The AI specialisation in Phase 3 covers LLM APIs, RAG pipelines, prompt chaining, and AI automation — the stuff that turns LLMs into systems. If you came for a fast prompt engineering certificate, this isn't that. If you came to build, it is.",
+    "reassurance": "100% free · No degree required · Brussels & Antwerp · RNCP 7 path available",
+    "cta": "Start your GenAI journey →",
+    "image": "/assets/gallery/genai-hero.png",
+    "imageAlt": "Student building LLM and RAG systems at 42 Belgium"
+  },
+  "clusters": [
+    {
+      "name": "PROMPT ENGINEERING",
+      "heading": "Why there's no standalone prompt engineering course here.",
+      "body": "Most prompt engineering course content teaches templates: \"use this phrase, structure your prompt like that.\" Useful for an afternoon. The role of AI prompt engineer in any company that ships real GenAI isn't typing better prompts into ChatGPT — it's designing prompt chains that survive edge cases, version-controlling prompt assets, building evals, and deciding when prompts should give way to fine-tuning or RAG. That work is engineering. So we don't carve prompt engineering out as a separate course; we teach it inside the broader AI specialisation in Phase 3, alongside the systems thinking that makes it useful. If you want a quick prompt engineering certificate, plenty of platforms sell those. If you want to be the person companies trust to architect a GenAI feature, this is the path.",
+      "keywords": [
+        "prompt engineering course",
+        "AI prompt engineer",
+        "prompt engineering"
+      ],
+      "decoration": "/assets/code-blue.svg"
+    },
+    {
+      "name": "GENERATIVE AI & LLMs",
+      "heading": "What the GenAI work actually covers: APIs, RAG, automation.",
+      "body": "A generative AI course that stops at typing advanced prompts into ChatGPT is a tutorial. At 42 Belgium, the GenAI portion of the AI specialisation covers the layer that makes LLMs useful in production: LLM API integration (OpenAI, Anthropic, open models), RAG pipelines for grounding outputs in real data, vector databases, and orchestration frameworks. The AI automation course content here means building agents, chaining tool calls, and designing fallback behaviours when models drift or fail. Serious LLM training in the deep sense — fine-tuning, distillation, parameter-efficient methods — is available for those who go deep, though most production work stops at the API and RAG level. The point: you leave able to architect a GenAI feature, not just demo one.",
+      "keywords": [
+        "generative AI course",
+        "AI automation course",
+        "LLM training",
+        "ChatGPT advanced"
+      ],
+      "bullets": [
+        "LLM API integration: OpenAI, Anthropic, open models",
+        "RAG pipelines + vector databases to ground outputs in real data",
+        "Agents: chaining tool calls, fallback when models drift",
+        "Deeper if you want it: fine-tuning, distillation, PEFT"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Does 42 Belgium offer a standalone prompt engineering certificate?",
+      "answer": "No — 42 Belgium doesn't offer a standalone prompt engineering certificate. Prompt engineering is integrated into the broader AI specialisation in Phase 3, alongside ML and LLM systems work. If a short certificate is what you need, platforms like Coursera, DeepLearning.AI, or vendor courses (OpenAI, Anthropic) offer those. If you want to be the engineer companies trust to build GenAI systems, the 42 path is here."
+    },
+    {
+      "question": "How much coding background do I need?",
+      "answer": "Significant. Everyone at 42 starts with the Common Core — regardless of prior experience. That's where you build C, systems, networking, algorithms and the foundations the GenAI specialisation depends on. Developers and technical professionals often move through the Common Core faster than newcomers, but no one skips it. The AI specialisation (where the GenAI work lives) comes after, in Phase 3."
+    },
+    {
+      "question": "What stack do graduates actually work with?",
+      "answer": "OpenAI and Anthropic APIs, open-source LLMs (Llama, Mistral, Qwen), vector databases (Pinecone, Weaviate, pgvector), orchestration frameworks (LangChain, LlamaIndex, plain Python), eval tools, and standard cloud infrastructure (AWS, GCP). The exact tools change every quarter — the engineering thinking doesn't."
+    }
+  ],
+  "stats": [
+    {
+      "value": "98%",
+      "label": "of advanced grads secure a job"
+    },
+    {
+      "value": "100%",
+      "label": "Free - no tuition"
+    },
+    {
+      "value": "42",
+      "label": "Campuses worldwide"
+    },
+    {
+      "value": "0",
+      "label": "Prerequisites"
+    }
+  ],
+  "ctaFinal": {
+    "title": "Not a quick prompt course. The engineering school behind production GenAI.",
+    "description": "AI specialisation in Phase 3, LLM APIs, RAG, automation, RNCP 7 path. All free, no tuition, no degree required. Apply year-round.",
+    "cta": "Start your GenAI journey →"
+  },
+  "schemaOrg": {
+    "course": {
+      "name": "42 Belgium - AI & Prompt Engineering Specialisation",
+      "description": "A free AI specialisation at 42 Belgium that includes prompt engineering, LLM APIs, RAG pipelines and automation workflows. Part of the broader software engineering curriculum, with RNCP 7 European master-level recognition.",
+      "provider": "42 Belgium",
+      "url": "https://42belgium.be/en/prompt-engineering-course",
+      "courseMode": "blended",
+      "educationalLevel": "beginner"
+    }
+  }
+}

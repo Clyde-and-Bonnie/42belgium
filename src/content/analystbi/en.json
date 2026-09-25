@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "title": "Data Analyst Bootcamp - Power BI, SQL, Python | 42 Belgium",
+    "description": "A free data analyst bootcamp in Belgium. Learn Power BI, SQL, Python pandas, and Tableau through real projects. From beginner to portfolio-ready, no tuition.",
+    "slug": "data-analyst-bootcamp",
+    "primaryQuery": "data analyst bootcamp / data analyst course",
+    "convertingKeywords": [
+      "data analyst",
+      "data analyst bootcamp",
+      "data analysis course",
+      "bootcamp data analyst",
+      "data analyst course"
+    ],
+    "lpAngle": "classic"
+  },
+  "hero": {
+    "headline": "A data analyst bootcamp built around Power BI, SQL, and real data.",
+    "subheadline": "100% free in Brussels and Antwerp. You work with the tool stack analysts actually ship with - SQL, Power BI, Python, Tableau - on real datasets, not slides. RNCP 6 path available for formal recognition.",
+    "reassurance": "100% free · No degree required · Brussels & Antwerp · RNCP 6 path available",
+    "cta": "Start your data career →",
+    "image": "/assets/gallery/dataan-hero.png",
+    "imageAlt": "Data analyst student working with dashboards and SQL at 42 Belgium"
+  },
+  "clusters": [
+    {
+      "name": "DATA ANALYST TRAINING",
+      "heading": "A data analyst bootcamp built on real datasets, not toy examples.",
+      "body": "Most data analyst bootcamp content stops at the basics - SQL syntax, a Power BI dashboard, a tutorial-grade pandas notebook. The 42 Belgium bootcamp data analyst track goes further. Through the data analysis course, you work on real datasets with messy joins, missing values, and competing definitions - the situations actual analysts face. The data analyst course covers the full workflow: extracting data from production systems, cleaning it, modelling it, presenting findings that stakeholders can act on. You don't just learn what a data analyst does - you do it. Each project ties to a concrete business question, and your portfolio shows real outputs: queries you wrote, dashboards you built, decisions you helped inform. That's what makes the difference when a hiring manager opens your CV.",
+      "keywords": [
+        "data analyst",
+        "data analyst bootcamp",
+        "data analysis course",
+        "bootcamp data analyst",
+        "data analyst course"
+      ],
+      "decoration": "/assets/3-chevrons-pink.svg"
+    },
+    {
+      "name": "BI TOOLS",
+      "heading": "The BI toolkit, used in production: Power BI, SQL, and beyond.",
+      "body": "A modern data analyst lives in three or four tools simultaneously. The 42 Belgium bootcamp gives you working command of the stack analysts actually use. Power BI for dashboards and reporting that stakeholders can read at a glance. SQL training that goes past SELECT statements: window functions, CTEs, query optimisation, working across schemas. The business intelligence layer is where analysts add the most value, and we treat it as engineering - version-controlled queries, clean naming, reproducible reports. If you've been searching for a business analysis certification, the RNCP 6 path here gives you a professional diploma recognised across Europe at bachelor level. The tools are the surface; the deeper skill is structuring problems so the data can actually answer them.",
+      "keywords": [
+        "Power BI",
+        "SQL training",
+        "business intelligence",
+        "business analysis certification"
+      ],
+      "bullets": [
+        "Power BI — dashboards stakeholders read at a glance",
+        "SQL training beyond SELECT — window functions, CTEs, query optimisation",
+        "Version-controlled queries, clean naming, reproducible reports",
+        "The deeper skill: structuring problems so the data can answer them"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "How is this different from a Coursera data analyst course?",
+      "answer": "Two things. First, scope: the 42 Belgium track sits inside a full software engineering curriculum, so you don't just learn analytics — you learn how data flows through real systems. Second, format: you work on projects with peers, in person on campus, through code reviews — not alone with video. Your portfolio shows work hiring managers can evaluate, not certificates everyone has."
+    },
+    {
+      "question": "What tools and languages will I actually learn?",
+      "answer": "SQL across multiple dialects, Python (pandas, NumPy, basic scikit-learn), Power BI for dashboards, Tableau, and the data pipeline tools that surround them. You also gain the engineering foundation that lets you pick up new tools fast: git, working in teams on shared codebases, understanding what's happening below the abstractions."
+    },
+    {
+      "question": "Can I get a recognised qualification at the end?",
+      "answer": "Yes — through the RNCP 6 framework. Pass the RNCP 6 examination and you hold a professional diploma recognised at bachelor level across Europe. 42 itself doesn't issue a data-analyst-specific certificate, but the work you produce serves as evidence stronger than most certifications."
+    }
+  ],
+  "stats": [
+    {
+      "value": "98%",
+      "label": "of advanced grads secure a job"
+    },
+    {
+      "value": "100%",
+      "label": "Free - no tuition"
+    },
+    {
+      "value": "42",
+      "label": "Campuses worldwide"
+    },
+    {
+      "value": "0",
+      "label": "Prerequisites"
+    }
+  ],
+  "ctaFinal": {
+    "title": "The data analyst bootcamp where the work follows you out.",
+    "description": "Power BI, SQL, Python, real projects, RNCP 6 path. All free, no tuition, no degree required. Apply year-round.",
+    "cta": "Start your data career →"
+  },
+  "schemaOrg": {
+    "course": {
+      "name": "42 Belgium - Data Analyst Bootcamp",
+      "description": "A free data analyst bootcamp at 42 Belgium, in Brussels and Antwerp. Covers SQL, Power BI, Python data tooling, and business intelligence through real projects, with the RNCP 6 framework providing bachelor-level European recognition.",
+      "provider": "42 Belgium",
+      "url": "https://42belgium.be/en/data-analyst-bootcamp",
+      "courseMode": "blended",
+      "educationalLevel": "beginner"
+    }
+  }
+}

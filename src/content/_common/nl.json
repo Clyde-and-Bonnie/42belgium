@@ -1,0 +1,178 @@
+{
+  "_comment": "In te vullen: gedeelde secties voor alle NL LPs (afterForty, whatYouBuild, realStories, howToApply, openDays). Zie _common/en.json als referentie voor de structuur.",
+  "afterForty": {
+    "heading": "Het leven na 42: 98% aan het werk.",
+    "description": "98% van de studenten die het gevorderde curriculum afronden vindt een job. Velen worden aangeworven tijdens een stage of terwijl ze nog aan hun 42-projecten werken. Je studeert af met een portfolio, concrete ervaring, en een wereldwijd alumninetwerk in elke grote tech-stad.",
+    "stat": {
+      "value": "98%",
+      "label": "van de gevorderde afgestudeerden vindt een job"
+    },
+    "careers": [
+      {
+        "icon": "fa-solid fa-code",
+        "label": "Softwareontwikkelaar of -engineer"
+      },
+      {
+        "icon": "fa-solid fa-chart-line",
+        "label": "Data scientist of AI-specialist"
+      },
+      {
+        "icon": "fa-solid fa-shield-halved",
+        "label": "Cybersecurity-analist"
+      },
+      {
+        "icon": "fa-solid fa-server",
+        "label": "DevOps- of systeemengineer"
+      },
+      {
+        "icon": "fa-solid fa-mobile-screen",
+        "label": "Mobile- en webontwikkelaar"
+      },
+      {
+        "icon": "fa-solid fa-rocket",
+        "label": "Ondernemer"
+      }
+    ],
+    "communityNote": "Afstuderen betekent geen afscheid. Alumni blijven student voor het leven — altijd welkom op campus om te delen, te mentoren, of te blijven leren."
+  },
+  "whatYouBuild": {
+    "heading": "Wat je écht gaat ontwikkelen.",
+    "intro": "Het 42 Belgium programma is opgebouwd rond echte projecten, geen colleges. Vier fasen, één traject — van je eerste regel code tot de start van je carrière.",
+    "phases": [
+      {
+        "number": "01",
+        "title": "Core Curriculum",
+        "duration": "6-24 maanden, gem. 18",
+        "icon": "fa-solid fa-code",
+        "description": "Je leert coderen vanaf nul, en bouwt je weg op door steeds complexere projecten. De core geeft elke student een stevige basis — hard skills én soft skills.",
+        "items": [
+          "**Talen** - C, Python, en andere onderweg",
+          "**Algoritmes & datastructuren** - de logica achter elke codebase",
+          "**UNIX, bestandssystemen, processen** - hoe software echt draait",
+          "**Netwerkprogrammering** - de architectuur achter moderne apps",
+          "**Object-georiënteerd programmeren** - code schrijven die schaalbaar is",
+          "**Client-server projecten** - de backend van echte systemen bouwen",
+          "**Webprogrammering** - van HTML tot full-stack deployment",
+          "**Grafische programmering** - visuele rendering, interfaces creëren",
+          "**Artificiële intelligentie** - de fundamenten van moderne systemen",
+          "**Gelijktijdige programmering** - multi-threading en parallelisme"
+        ]
+      },
+      {
+        "number": "02",
+        "title": "Eerste werkervaring",
+        "duration": "Aanbevolen",
+        "icon": "fa-solid fa-briefcase",
+        "description": "Na de Common Core gaan veel studenten op stage of nemen een eerste tech-job aan. Niet verplicht, maar sterk aanbevolen. Deze fase helpt vaak om je interesses te bevestigen en met scherpere doelen terug te keren naar 42.",
+        "items": [
+          "**Pas je vaardigheden toe** in echte omstandigheden",
+          "**Begrijp professionele workflows**, tools, en teamdynamiek",
+          "**Verken mogelijke carrièrepaden** voordat je je specialiseert"
+        ]
+      },
+      {
+        "number": "03",
+        "title": "Gevorderd Curriculum",
+        "duration": "Tot 5 jaar (flexibel tempo)",
+        "icon": "fa-solid fa-layer-group",
+        "description": "Kies je specialisatie en verdiep je — tot op masterniveau.\n\n**Hoe het werkt:** zoals in een videogame kan je proberen, falen, en opnieuw proberen tot het lukt. Naarmate je projecten valideert, stijgt je level en weerspiegelt het de vaardigheden die je hebt verworven. Op elk level ontdek je nieuwe domeinen van coderen en IT. Elk traject is uniek, terwijl iedereen een gemeenschappelijke basis deelt.",
+        "items": [
+          "Artificiële intelligentie & Data",
+          "Cybersecurity",
+          "Web- & mobile-ontwikkeling",
+          "Besturingssystemen",
+          "Grafische programmering"
+        ],
+        "flexibility": [
+          "Je hoeft je niet vast te leggen op één specialisatie of die volledig af te ronden.",
+          "Je kan tussen tracks bewegen, verschillende domeinen verkennen, en projecten kiezen die bij je doelen passen.",
+          "Elke student beslist zelf wanneer hij of zij afstudeert en officieel 42 Alumni wordt."
+        ],
+        "globalMobility": "Deze fase kan niet enkel in Brussel of Antwerpen gebeuren, maar op om het even welke andere 42-campus wereldwijd."
+      },
+      {
+        "number": "04",
+        "title": "Start van je carrière",
+        "duration": "98% aangenomen",
+        "icon": "fa-solid fa-rocket",
+        "description": "Veel studenten ondertekenen hun jobaanbieding tijdens deze fase — vaak zelfs voor ze officieel afstuderen. Industriële certificaten (AWS en andere) voegen professionele geloofwaardigheid toe.",
+        "items": [
+          "**Pas gevorderde vaardigheden toe** in langere, gespecialiseerde rollen",
+          "**Bouw diepere professionele expertise** en je netwerk uit",
+          "**Verzeker langetermijnkansen** - velen krijgen hier hun aanbod"
+        ]
+      }
+    ],
+    "plusNote": "Plus: industriële certificaten (AWS cloud en andere), en een filosofie van delen die vorm geeft aan hoe je leert."
+  },
+  "realStories": {
+    "heading": "Echte verhalen van echte studenten.",
+    "description": "Drie alumni vertellen hun 42-traject — in hun eigen woorden.",
+    "videos": [
+      {
+        "name": "Kevin",
+        "subtitle": "42 Stories · Piscine selectiesprint",
+        "youtubeId": "OO_dbpwed3s"
+      },
+      {
+        "name": "Morgane",
+        "subtitle": "42 Stories · Piscine selectiesprint",
+        "youtubeId": "DGQnrVNZRZ0"
+      },
+      {
+        "name": "Sam",
+        "subtitle": "42 Stories · Piscine selectiesprint",
+        "youtubeId": "sDcqpzBtjtM"
+      }
+    ]
+  },
+  "howToApply": {
+    "heading": "Hoe je je inschrijft bij 42 Belgium.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Online logica spel (~1u)",
+        "description": "Geen code nodig, het is gewoon logisch denken. Kies een rustige plek, je kan niet pauzeren of opnieuw beginnen. Blijf gefocust en ga door — je kan dit!"
+      },
+      {
+        "number": "02",
+        "title": "Ontmoeting - op campus of online",
+        "description": "Kom langs op onze campus in Brussel of Antwerpen en leer meer over het programma.\n\nSommige check-in sessies gebeuren ook online, maar vergeet niet je in te schrijven!"
+      },
+      {
+        "number": "03",
+        "title": "Begin de Piscine",
+        "description": "Je wordt 4 weken lang ondergedompeld op onze campus in Brussel of Antwerpen. Je krijgt een voorproefje van coderen, onze unieke aanpak, en het leven bij 42. Genoeg om écht te weten of 42 iets voor jou is."
+      },
+      {
+        "number": "04",
+        "title": "Start de Common Core",
+        "description": "Na het slagen voor de Piscine kan je officieel het Core Programma starten.\n\nJe krijgt 24/7 toegang tot de campus, werkt aan echte projecten, en ontdekt een hele community van mede-ontwikkelaars."
+      }
+    ],
+    "ctaLabel": "Schrijf je nu in →",
+    "microcopy": "Volgende Piscines op campus - je kan je op elk moment inschrijven."
+  },
+  "openDays": {
+    "heading": "Ontmoet ons tijdens een opendeurdag.",
+    "intro": "No pressure, geen verplichting. Bezoek de campus, ontmoet het team, stel al je vragen — in Brussel of Antwerpen.",
+    "campuses": [
+      {
+        "name": "Brussel",
+        "address": "Cantersteen 12",
+        "subHeading": "Naast het Centraal Station.",
+        "description": "Op twee minuten wandelen van het Centraal Station. Bezoek de campus, ontmoet huidige studenten, ontdek hoe peer-to-peer learning er echt uitziet.",
+        "image": "/assets/gallery/OpenDaysBrussels.png"
+      },
+      {
+        "name": "Antwerpen",
+        "address": "Mediaplein 1",
+        "subHeading": "In het hart van de stad, naast het station.",
+        "description": "Onze Antwerpen-campus ligt midden in het creatieve en media-district van de stad, in het DPG gebouw. Kom een middag doorbrengen met het team.",
+        "image": "/assets/gallery/42Belgium-Antwerp1.png"
+      }
+    ],
+    "ctaLabel": "Bekijk komende opendeurdagen",
+    "ctaHref": "https://www.eventbrite.com/cc/open-days-42-belgium-2935099"
+  }
+}

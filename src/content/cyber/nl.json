@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "title": "Cybersecurityopleiding Brussel - Gratis | 42 Belgium",
+    "description": "Gratis cybersecurityopleiding in Brussel en Antwerpen. Specialisatie binnen het 42-traject, met voorbereiding op AWS en RNCP, en een route naar werk in cybersecurity.",
+    "slug": "cyber-security-opleiding",
+    "primaryQuery": "cyber security opleiding / beveiliging opleidingen",
+    "convertingKeywords": [
+      "beveiliging opleidingen",
+      "cyber security opleiding",
+      "cursus hacken"
+    ],
+    "lpAngle": "classic"
+  },
+  "hero": {
+    "headline": "De cybersecurityopleiding die je klaarstoomt voor een job.",
+    "subheadline": "Gratis bij 42 Belgium, in Brussel en Antwerpen. Je analyseert kwetsbaarheden, schrijft exploits in lab omgevingen, beveiligt systemen en ontleedt echte incidenten — binnen het bredere software engineering-curriculum. AWS-prep beschikbaar, RNCP 6 & 7-pad open.",
+    "reassurance": "100% gratis · Geen diploma vereist · Brussel & Antwerpen · RNCP 6 & 7 mogelijk",
+    "cta": "Start je cybersecurityopleiding →",
+    "image": "/assets/gallery/cyber-hero.png",
+    "imageAlt": "Cybersecuritystudente die code op het scherm analyseert"
+  },
+  "clusters": [
+    {
+      "name": "CYBER SECURITY OPLEIDING",
+      "heading": "Een cybersecurityopleiding die toont wat je écht kunt.",
+      "body": "De cybersecurityopleiding bij 42 Belgium is een specialisatie in Fase 3 van het 42-curriculum, na de Common Core. Voor je aan de cyberspecialisatie begint, heb je al gewerkt met C, systemen, netwerken en databases: de fundamenten waarop alle beveiligingsopleidingen eigenlijk rusten. Vanaf daar werk je projectmatig: kwetsbaarheden analyseren, exploits schrijven in gecontroleerde omgevingen, systemen hardenen en incidenten reconstrueren. Een cybersecurityopleiding geeft je vaak concepten. Hier lever je zelf het bewijs: elk project in je portfolio is iets wat een securityrecruiter regel voor regel kan beoordelen. Een cybersecurity opleiding moet leiden tot echte vaardigheden, niet tot een afgevinkte lijst onderwerpen. Dat is hier het uitgangspunt.",
+      "keywords": [
+        "cyber security opleiding",
+        "beveiliging opleidingen",
+        "cybersecurity opleiding",
+        "opleiding cybersecurity"
+      ],
+      "bullets": [
+        "Specialisatie in Fase 3, na de Common Core",
+        "Analyseren, hardenen, auditen, heropbouwen",
+        "Naar het model van SOC en red team",
+        "Een portfolio dat recruiters echt beoordelen"
+      ]
+    },
+    {
+      "name": "ETHISCH HACKEN",
+      "heading": "Ethisch hacken: ingebouwd in de specialisatie, niet als losse module.",
+      "body": "Ethisch hacken is geen aparte cursus hacken bij 42: het zit verweven in de cybersecurityspecialisatie. Je leert code lezen met de blik van een aanvaller: waar zou ik aanvallen? Welke aannames van de developer kan ik onderuit halen? Je schrijft exploits in labomgevingen, bouwt CTF-uitdagingen en reverse-engineert binaries. Een ethical hacking opleiding die je alleen tools leert, maakt van jou een script kiddie. Wij richten ons op het mentale model: hoe denken aanvallers, waar lopen aannames fout, wat maakt systemen veerkrachtig? Na je specialisatie kun je de aanval schrijven én de verdediging.",
+      "keywords": [
+        "cursus hacken",
+        "ethical hacking opleiding"
+      ],
+      "image": "/assets/gallery/cyber-ethical-hacking.png",
+      "imageAlt": "Cybersecuritystudent die code analyseert in een donker lab"
+    },
+    {
+      "name": "JOBS & MARKT",
+      "heading": "Jobs in cybersecurity op de Belgische markt — en hoe je erbij komt.",
+      "body": "Jobs in cybersecurity behoren tot de moeilijkste functies om in te vullen in de IT-sector. Werkgevers zoeken specialisten — SOC-analisten, security engineers, junior pentesters, incident responders — en vinden er te weinig. Onze afgestudeerden komen rechtstreeks in zulke rollen terecht. Veel studenten beginnen al tijdens hun specialisatie met een stage bij een van onze partnerbedrijven. Vaak komt daar al een aanbod uit, nog voor je het traject afmaakt. 42 heeft in België een sterk netwerk: partners rekruteren uit elke lichting studenten, en alumni werken al in de teams waar jij naartoe wilt. De brug van opleiding naar jobs in cybersecurity is hier kort, omdat je vanaf het begin werkt aan vaardigheden waar de markt om vraagt.",
+      "keywords": [
+        "cyber security banen"
+      ],
+      "decoration": "/assets/code-blue.svg"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Welke certificaten kan ik behalen?",
+      "answer": "42 Belgium geeft zelf geen cyberspecifieke certificaten uit: de erkenning op diplomaniveau komt via het RNCP-kader. Met RNCP 6 krijg je een professioneel diploma dat in heel Europa erkend is op bachelorniveau; RNCP 7 komt overeen met masterniveau. Daarnaast bereidt het curriculum je voor op industriële examens zoals AWS Security. Het concrete werk dat je hebt geleverd, vormt je bewijs wanneer je die examens aflegt."
+    },
+    {
+      "question": "Hoeveel IT-ervaring heb ik nodig voor de cyberspecialisatie?",
+      "answer": "Geen, om bij 42 te starten. Maar de cyberspecialisatie zit in Fase 3, na de Common Core. Dat betekent dat je al C, systemen, netwerk- en databaseprojecten hebt afgewerkt voor je je specialiseert. De meeste studenten bereiken dit punt na 12 tot 18 maanden. Als je al IT-professional bent en je wilt omscholen, kun je sneller vooruitgaan, maar het curriculum slaat de fundamenten niet over."
+    },
+    {
+      "question": "Welke jobs in cybersecurity kun je doen na de opleiding?",
+      "answer": "Onze afgestudeerden komen terecht in rollen als SOC-analist, junior pentester, security engineer, cloud security specialist of incident responder. De Belgische cybersecuritymarkt is structureel onderbezet, en veel afgestudeerden krijgen al aanbiedingen tijdens hun stage bij onze partners. Het traject is een korte weg naar werk in cybersecurity."
+    }
+  ],
+  "stats": [
+    {
+      "value": "98%",
+      "label": "van de gevorderde afgestudeerden vindt een job"
+    },
+    {
+      "value": "100%",
+      "label": "gratis, zonder lesgeld"
+    },
+    {
+      "value": "42",
+      "label": "campussen wereldwijd"
+    },
+    {
+      "value": "0",
+      "label": "diploma's of voorkennis vereist"
+    }
+  ],
+  "ctaFinal": {
+    "title": "Een cybersecurityopleiding die leidt naar werk in cybersecurity.",
+    "description": "Fase 3-specialisatie, AWS- en RNCP-voorbereiding, brug naar de Belgische cybersecuritymarkt. Volledig gratis, geen diploma vereist. Inschrijvingen het hele jaar door open.",
+    "cta": "Start je cybersecurityopleiding →"
+  },
+  "schemaOrg": {
+    "course": {
+      "name": "42 Belgium - Cybersecurityopleiding",
+      "description": "Gratis cybersecurityopleiding in Brussel en Antwerpen, als Fase 3-specialisatie binnen het 42-curriculum. Voorbereiding op industriële certificaten waaronder AWS, en op het RNCP 6 & 7-kader voor Europese erkenning op bachelor- en masterniveau.",
+      "provider": "42 Belgium",
+      "url": "https://42belgium.be/nl/cyber-security-opleiding",
+      "courseMode": "blended",
+      "educationalLevel": "beginner"
+    }
+  }
+}

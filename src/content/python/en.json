@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "title": "Python Course & Certification - 100% Free | 42 Belgium",
+    "description": "A free Python course at 42 Belgium - learn Python by building real systems, not toy tutorials. Path to RNCP 6 European bachelor-level recognition.",
+    "slug": "python-course-certification",
+    "primaryQuery": "Python course / Python certification / learn Python",
+    "convertingKeywords": [
+      "python",
+      "python certification",
+      "learning python",
+      "coding python",
+      "learn python",
+      "learn python free"
+    ],
+    "lpAngle": "classic"
+  },
+  "hero": {
+    "headline": "A Python course that turns syntax into systems.",
+    "subheadline": "100% free at 42 Belgium, in Brussels and Antwerp. Python is part of the Common Core curriculum — you start with C, then move into Python, algorithms, and the systems work that real engineers do. RNCP 6 path available for formal recognition.",
+    "reassurance": "100% free · No degree required · Brussels & Antwerp · RNCP 6 path available",
+    "cta": "Start coding in Python →",
+    "image": "/assets/gallery/python-hero.jpg",
+    "imageAlt": "Student coding in Python at 42 Belgium"
+  },
+  "clusters": [
+    {
+      "name": "LEARN PYTHON",
+      "heading": "Learn Python by building, not by watching tutorials.",
+      "body": "Most ways to learn Python lead through tutorials: type this into the console, copy that into a notebook, repeat. Useful for a week. At 42 Belgium, learning Python happens differently. The Common Core treats Python as a working tool: you write scripts that solve real problems, you debug your own code, you read other people's code in peer reviews. Coding Python well isn't about syntax — it's about thinking in functions, knowing when to use a list versus a generator, building things that don't break in three months. You can learn Python free elsewhere — YouTube, Coursera, freeCodeCamp. What you can't get there is the engineering rhythm: real projects, peer feedback, code review, and a campus full of people learning Python alongside you.",
+      "keywords": [
+        "Python",
+        "learn Python",
+        "learn Python free",
+        "learning Python",
+        "coding Python"
+      ],
+      "bullets": [
+        "Real scripts from day one, not tutorial snippets",
+        "Debug your own code, not copy-paste fixes",
+        "Peer code reviews, like a real team",
+        "Think in functions: list vs generator, code that lasts"
+      ]
+    },
+    {
+      "name": "PYTHON CERTIFICATION",
+      "heading": "Python certification: what 42 actually offers.",
+      "body": "42 Belgium doesn't issue a Python certification of its own — Python is a tool inside the broader curriculum, not a separate course you pass with a stamp. If you came looking for a Python certification specifically, the honest answer is: most aren't worth as much as the work they signal. What 42 offers is different: a Python course inside the full Common Core, where the work itself becomes evidence. For formal European recognition, the RNCP 6 framework gives you a professional diploma at bachelor level — earned by passing the broader curriculum, not by typing through a 40-question multiple choice. If you want a vendor certification (PCEP, PCAP), the Python work here prepares you to pass them on the side.",
+      "keywords": [
+        "Python certification",
+        "Python course"
+      ],
+      "decoration": "/assets/code-blue.svg"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is this a standalone Python course?",
+      "answer": "No — Python at 42 Belgium is part of the Common Core curriculum, not a course you sign up for separately. You start with C in your first weeks, then Python comes in alongside algorithms, systems and data work. By the time you've shipped a few projects, Python is no longer a \"language you're learning\" — it's a tool you use."
+    },
+    {
+      "question": "How long until I can actually code in Python?",
+      "answer": "A few weeks. The Common Core takes 12 to 18 months end-to-end, but Python work starts early. The deeper question is when you can build production-ready Python: that's a function of how many projects you ship, which depends on you."
+    },
+    {
+      "question": "Will I get a Python certification?",
+      "answer": "Not directly from 42. We don't issue Python-specific certifications — the curriculum produces engineers, not certificate-holders. If you complete the broader curriculum, the RNCP 6 framework gives you a professional diploma recognised across Europe at bachelor level. For vendor certifications like PCEP or PCAP, the Python work here prepares you to take them on your own."
+    }
+  ],
+  "stats": [
+    {
+      "value": "98%",
+      "label": "of advanced grads secure a job"
+    },
+    {
+      "value": "100%",
+      "label": "Free - no tuition"
+    },
+    {
+      "value": "42",
+      "label": "Campuses worldwide"
+    },
+    {
+      "value": "0",
+      "label": "Prerequisites"
+    }
+  ],
+  "ctaFinal": {
+    "title": "The Python course that produces engineers, not certificate-holders.",
+    "description": "Python inside the Common Core, RNCP 6 path, real projects. All free, no tuition, no degree required. Apply year-round.",
+    "cta": "Start coding in Python →"
+  },
+  "schemaOrg": {
+    "course": {
+      "name": "42 Belgium - Python Course & Certification Path",
+      "description": "A free Python course at 42 Belgium, in Brussels and Antwerp. Python is part of the Common Core curriculum, taught through real projects rather than tutorials. RNCP 6 framework available for European bachelor-level recognition.",
+      "provider": "42 Belgium",
+      "url": "https://42belgium.be/en/python-course-certification",
+      "courseMode": "blended",
+      "educationalLevel": "beginner"
+    }
+  }
+}

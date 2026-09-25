@@ -1,0 +1,180 @@
+/* ──────────────────────────────────────────────────────────
+   Footer — styles matching 42belgium.be
+   ────────────────────────────────────────────────────────── */
+
+.footer {
+  background-color: #090909;
+  font-family: "futura-pt", "Futura", sans-serif;
+  position: relative;
+}
+
+/* Thin pink accent line running along the top of the footer */
+.footer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, #ED3491 0%, #ED3491 40%, rgba(237, 52, 145, 0) 100%);
+}
+
+.newsletterButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 22px;
+  color: #ffffff;
+  background-color: #00BABC;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  transition: filter 200ms ease;
+}
+
+.newsletterButton:hover {
+  filter: brightness(1.1);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 64px 24px 48px;
+}
+
+/* ─── Locations ─── */
+.cityName {
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.address {
+  font-size: 16px;
+  font-weight: 500;
+  color: #E8ECF2;
+  line-height: 1.6;
+}
+
+/* ─── Social ─── */
+.socialLink {
+  color: #04809F;
+  font-size: 24px;
+  transition: opacity 200ms ease;
+}
+
+.socialLink:hover {
+  opacity: 0.7;
+}
+
+/* ─── Nav columns ─── */
+.columnHeading {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.columnLink {
+  font-size: 18px;
+  font-weight: 500;
+  color: #E8ECF2;
+  transition: color 200ms ease;
+}
+
+.columnLink:hover {
+  color: #00BABC;
+}
+
+/* ─── CTA row ─── */
+.ctaRow {
+  margin-top: 48px;
+  padding-top: 32px;
+  border-top: 1px solid rgba(163, 173, 179, 0.2);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+@media (min-width: 640px) {
+  .ctaRow {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.applyButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 16px 20px;
+  color: #ffffff;
+  background: linear-gradient(90deg, #00BABC 0%, #7D8EE9 100%);
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: box-shadow 250ms ease;
+}
+
+.applyButton:hover {
+  box-shadow: 4px 4px 0 0 #ED3491;
+}
+
+.contactButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 20px;
+  color: #ffffff;
+  border: 1px solid rgba(163, 173, 179, 0.3);
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: color 200ms ease;
+}
+
+.contactButton:hover {
+  color: #00BABC;
+}
+
+/* ─── Bottom bar ─── */
+.bottomBar {
+  border-top: 1px solid rgba(163, 173, 179, 0.2);
+}
+
+.bottomContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+@media (min-width: 640px) {
+  .bottomContainer {
+    flex-direction: row;
+  }
+}
+
+.copyright {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(232, 236, 242, 0.5);
+}
+
+.legalLink {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(232, 236, 242, 0.5);
+  transition: color 200ms ease;
+}
+
+.legalLink:hover {
+  color: #00BABC;
+}

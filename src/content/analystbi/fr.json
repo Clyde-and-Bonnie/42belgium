@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "title": "Formation Data Analyst - Power BI, SQL, Python | 42 Belgium",
+    "description": "Formation Data Analyst gratuite à Bruxelles et Anvers. SQL, Power BI, Python, Tableau sur des données réelles. Voie RNCP 6 pour la reconnaissance bachelor.",
+    "slug": "formation-data-analyst",
+    "primaryQuery": "formation data analyst",
+    "convertingKeywords": [
+      "data analytics courses",
+      "formation data analyst",
+      "data analyst formation",
+      "data analyste formation"
+    ],
+    "lpAngle": "classic"
+  },
+  "hero": {
+    "headline": "Une formation data analyst construite autour de Power BI, SQL et de vraies données.",
+    "subheadline": "100% gratuit, à Bruxelles et Anvers. Tu travailles sur le vrai stack d'un data analyst : SQL, Power BI, Python (pandas), Tableau, sur des datasets concrets - pas sur des slides. Voie RNCP 6 pour la reconnaissance niveau bachelor.",
+    "reassurance": "100% gratuit · Sans diplôme requis · Bruxelles & Anvers · Voie RNCP 6",
+    "cta": "Lance ta carrière data →",
+    "image": "/assets/gallery/dataan-hero.png",
+    "imageAlt": "Étudiante data analyst travaillant sur des dashboards et du SQL au campus 42 Belgium"
+  },
+  "clusters": [
+    {
+      "name": "DATA ANALYTICS",
+      "heading": "Une formation data analyst construite sur des données réelles, pas sur des exercices.",
+      "body": "La plupart des formations data analyst s'arrêtent aux bases : syntaxe SQL, un dashboard Power BI, un notebook pandas tutorial. Chez 42 Belgium, la formation data analyst va plus loin. À travers la data analyst formation, tu travailles sur de vrais jeux de données : jointures complexes, valeurs manquantes, définitions concurrentes - les situations que les analystes rencontrent en entreprise. Notre formation data analyste couvre tout le workflow : extraction depuis des systèmes en production, nettoyage, modélisation, présentation de findings sur lesquels les décideurs peuvent agir. Tu ne te contentes pas d'apprendre ce que fait un data analyst - tu le fais. Les data analytics courses qu'on propose ne reproduisent pas un MOOC ; ils s'inscrivent dans un cursus complet en software engineering qui rend ton portfolio sérieusement défendable face à un recruteur.",
+      "keywords": [
+        "data analytics courses",
+        "formation data analyst",
+        "data analyst formation",
+        "data analyste formation"
+      ],
+      "decoration": "/assets/3-chevrons-pink.svg"
+    },
+    {
+      "name": "SQL & OUTILS",
+      "heading": "SQL, Power BI, Tableau : le stack qu'un data analyst utilise vraiment.",
+      "body": "Un data analyst moderne vit dans trois ou quatre outils en parallèle. La formation à 42 Belgium te donne une maîtrise opérationnelle de ce stack. Power BI pour les dashboards et le reporting que les décideurs lisent en un coup d'œil. Tableau pour les analyses visuelles. La formation SQL va au-delà du SELECT : window functions, CTEs, optimisation de requêtes, travail multi-schémas. Si tu cherches une SQL certification spécifique, sache que 42 ne délivre pas de certifs SQL isolées - en revanche, la voie RNCP 6 donne un diplôme professionnel reconnu au niveau bachelor en Europe. Les outils sont l'évidence ; la vraie compétence, c'est structurer le problème pour que les données puissent y répondre.",
+      "keywords": [
+        "formation SQL",
+        "SQL certification",
+        "Power BI",
+        "Tableau"
+      ],
+      "bullets": [
+        "Power BI — des dashboards lisibles d'un coup d'œil",
+        "SQL au-delà du SELECT — window functions, CTE, optimisation",
+        "Tableau pour l'analyse visuelle, requêtes versionnées et reproductibles",
+        "La vraie compétence : structurer le problème pour que la data réponde"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "En quoi c'est différent d'un cours Coursera Data Analyst ?",
+      "answer": "Deux choses. D'abord, le périmètre : la formation 42 Belgium s'inscrit dans un cursus complet en software engineering, donc tu n'apprends pas que l'analyse — tu comprends comment la donnée circule dans des systèmes réels. Ensuite, le format : tu travailles sur des projets avec des pairs, en présentiel sur le campus, avec des code reviews — pas seul devant des vidéos. Ton portfolio contient du travail concret que les recruteurs peuvent évaluer, pas un certificat de plus."
+    },
+    {
+      "question": "Quels outils et langages tu vas vraiment apprendre ?",
+      "answer": "SQL sur plusieurs dialectes, Python (pandas, NumPy, bases de scikit-learn), Power BI pour le dashboarding, Tableau, et les outils data qui gravitent autour. Tu acquiers aussi les fondations engineering qui te permettent d'apprendre vite un nouvel outil par la suite : git, travail en équipe sur des codebases partagées, compréhension de ce qui tourne sous les abstractions."
+    },
+    {
+      "question": "Est-ce qu'on peut décrocher une certification reconnue ?",
+      "answer": "Oui, via le cadre RNCP 6. En réussissant l'examen RNCP 6, tu obtiens un diplôme professionnel reconnu au niveau bachelor dans toute l'Europe. 42 ne délivre pas elle-même de certification data analyst spécifique, mais le travail livré pendant le cursus constitue souvent une preuve plus forte qu'une certif standard."
+    }
+  ],
+  "stats": [
+    {
+      "value": "98%",
+      "label": "des diplômés du cursus avancé décrochent un job"
+    },
+    {
+      "value": "100%",
+      "label": "Gratuit - aucun frais"
+    },
+    {
+      "value": "42",
+      "label": "Campus dans le monde"
+    },
+    {
+      "value": "0",
+      "label": "Prérequis"
+    }
+  ],
+  "ctaFinal": {
+    "title": "La formation data analyst qui rend ton portfolio défendable.",
+    "description": "Power BI, SQL, Python, projets concrets, voie RNCP 6. 100% gratuit, sans diplôme exigé. Candidature toute l'année.",
+    "cta": "Lance ta carrière data →"
+  },
+  "schemaOrg": {
+    "course": {
+      "name": "42 Belgium - Formation Data Analyst",
+      "description": "Formation data analyst gratuite à Bruxelles et Anvers, dans le cadre du cursus 42. Couvre SQL, Power BI, Python data tooling et business intelligence à travers des projets réels, avec voie ouverte vers le diplôme RNCP 6.",
+      "provider": "42 Belgium",
+      "url": "https://42belgium.be/fr/formation-data-analyst",
+      "courseMode": "blended",
+      "educationalLevel": "beginner"
+    }
+  }
+}

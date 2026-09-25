@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "title": "Python cursus - Leer Python door projecten | 42 Belgium",
+    "description": "Gratis Python cursus bij 42 Belgium: leer Python door echte projecten te bouwen, niet via tutorials. Onderdeel van het 42-curriculum, met traject naar RNCP 6-erkenning.",
+    "slug": "python-cursus-beginners",
+    "primaryQuery": "Python cursus / Python leren / Python voor beginners",
+    "convertingKeywords": [
+      "online cursus python",
+      "python programming for beginners",
+      "python cursus",
+      "python leren"
+    ],
+    "lpAngle": "classic"
+  },
+  "hero": {
+    "headline": "De Python cursus waarin je leert door echte projecten te bouwen.",
+    "subheadline": "100% gratis, in Brussel en Antwerpen. Python maakt deel uit van de Common Core in het 42-curriculum. Je start met C, daarna komen Python, algoritmen en het systeemwerk dat echte engineers doen. Met een traject naar RNCP 6-erkenning op bachelorniveau.",
+    "reassurance": "100% gratis · Geen diploma vereist · Brussel & Antwerpen · RNCP 6 mogelijk",
+    "cta": "Start met Python →",
+    "image": "/assets/gallery/python-hero.jpg",
+    "imageAlt": "Student codeert in Python op de campus van 42 Belgium"
+  },
+  "clusters": [
+    {
+      "name": "PYTHON LEREN",
+      "heading": "Python leren door te coderen, niet door video's te kijken.",
+      "body": "De meeste mensen beginnen Python te leren via tutorials: typ dit in de console, kopieer dat in een notebook, herhaal. Een week lang nuttig, maar daarna wil je bouwen. Bij 42 Belgium leer je Python anders. De Common Core behandelt Python als een werkinstrument: je schrijft scripts die echte problemen oplossen, je debugt je eigen code en je leest de code van anderen tijdens peer reviews. Een Python cursus die alleen syntaxis traint, maakt van jou nog geen developer. Een online cursus Python is prima om te starten, maar het ritme van engineering krijg je pas door echt te bouwen. Python programmeren is hier geen aparte module. Het is een vaardigheid die je ontwikkelt door projecten op te leveren, samen met andere lerenden.",
+      "keywords": [
+        "Python leren",
+        "Python cursus",
+        "online cursus Python",
+        "Python programmeren"
+      ],
+      "bullets": [
+        "Echte scripts vanaf dag één, geen tutorial-snippets",
+        "Je eigen code debuggen, geen copy-paste fixes",
+        "Peer code reviews, als een echt team",
+        "Denken in functies: list versus generator, code die blijft"
+      ]
+    },
+    {
+      "name": "PYTHON VOOR BEGINNERS & PROJECTEN",
+      "heading": "Echte Python-projecten vanaf dag één — geen toy examples.",
+      "body": "Wat de meeste mensen zoeken wanneer ze \"Python projects for beginners\" intypen? Concrete dingen om te bouwen, niet nóg meer tutorials. Daar zit precies het verschil bij 42 Belgium. Het curriculum bestaat uit projecten, niet uit videomodules met daarna een quiz. Een Python programming for beginners-track bij 42 betekent dat je vanaf de eerste weken werkt aan opdrachten die echt iets doen. Je code wordt nagekeken door peers en beoordeeld op kwaliteit, leesbaarheid en aanpak. De Python programmeren cursus die we aanbieden is dus geen cursus in de klassieke zin. Het is een reeks uitdagingen waarvoor je broncode schrijft die anderen moeten kunnen lezen, testen en verbeteren. Dat is wat junior developers in Belgische techbedrijven onderscheidt: ze hebben gebouwd, niet alleen gekeken.",
+      "keywords": [
+        "Python programming for beginners",
+        "Python projects for beginners",
+        "Python programmeren cursus"
+      ],
+      "decoration": "/assets/code-blue.svg"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is dit een losstaande Python cursus?",
+      "answer": "Nee. Python bij 42 Belgium is onderdeel van de Common Core. Het is dus geen aparte cursus waarvoor je je afzonderlijk inschrijft. Je begint met C in de eerste weken. Daarna komt Python erbij, naast algoritmen, systemen en databasewerk. Tegen de tijd dat je een paar projecten hebt opgeleverd, is Python geen \"taal die je leert\" meer. Het is gewoon je tool."
+    },
+    {
+      "question": "Hoe lang duurt het voor ik écht Python kan schrijven?",
+      "answer": "Een paar weken om de basis te gebruiken. De Common Core duurt in totaal 12 tot 18 maanden, maar Python-werk begint vroeg. De belangrijkere vraag is hoeveel tijd je nodig hebt om production-ready Python te schrijven. Dat hangt af van het aantal projecten dat je oplevert, en dat tempo bepaal je zelf."
+    },
+    {
+      "question": "Krijg ik een Python-certificaat?",
+      "answer": "Niet rechtstreeks van 42. We geven geen Python-specifieke certificaten, het curriculum vormt engineers. Als je het volledige curriculum afmaakt, geeft het RNCP 6-kader je een professioneel diploma dat in Europa erkend wordt op bachelorniveau. Voor vendor-certificaten zoals PCEP of PCAP bereidt het Python-werk je wel voor om die ernaast te behalen."
+    }
+  ],
+  "stats": [
+    {
+      "value": "98%",
+      "label": "van de gevorderde afgestudeerden vindt een job"
+    },
+    {
+      "value": "100%",
+      "label": "Gratis, geen lesgeld"
+    },
+    {
+      "value": "42",
+      "label": "Campussen wereldwijd"
+    },
+    {
+      "value": "0",
+      "label": "Vereisten"
+    }
+  ],
+  "ctaFinal": {
+    "title": "De Python cursus die engineers vormt, geen certificaathouders.",
+    "description": "Python in de Common Core, echte projecten en een traject naar RNCP 6-erkenning. Volledig gratis, geen diploma vereist. Inschrijven kan het hele jaar door.",
+    "cta": "Start met Python →"
+  },
+  "schemaOrg": {
+    "course": {
+      "name": "42 Belgium - Python cursus",
+      "description": "Gratis Python cursus bij 42 Belgium, in Brussel en Antwerpen, als onderdeel van de Common Core van het 42-curriculum. Leer Python via echte projecten, met een traject naar RNCP 6-erkenning op bachelorniveau in Europa.",
+      "provider": "42 Belgium",
+      "url": "https://42belgium.be/nl/python-cursus-beginners",
+      "courseMode": "blended",
+      "educationalLevel": "beginner"
+    }
+  }
+}

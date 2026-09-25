@@ -1,0 +1,379 @@
+/* ──────────────────────────────────────────────────────────
+   Header — styles exactly matching 42belgium.be (Elementor)
+   ────────────────────────────────────────────────────────── */
+
+/* Shared typography tokens */
+.navFont {
+  font-family: "futura-pt", "Futura", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 20px;
+}
+
+.dropdownFont {
+  font-family: "futura-pt", "Futura", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.applyFont {
+  font-family: "futura-pt", "Futura", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+/* ─── Header shell ─── */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 72px;
+  z-index: 999;
+  background-color: transparent;
+  /* Bottom border lives on the full-width shell so it spans the viewport
+     even though the inner .container is capped at 1470px. */
+  border-bottom: 1px solid rgba(163, 173, 179, 0.5);
+  transition: background-color 500ms ease-in-out, border-color 500ms ease-in-out;
+}
+
+/* Slightly taller bar on desktop; the mobile bar stays compact (72px above). */
+@media (min-width: 1024px) {
+  .header {
+    height: 100px;
+  }
+}
+
+.header.scrolled {
+  background-color: #ffffff;
+  border-bottom-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Static variant (Proposal C): in-flow header so the user scrolls past it
+   and the dock takes over. Keeps the dark semi-translucent styling from the
+   deployed site reference. */
+.header.static {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.92);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.header.static.scrolled {
+  background-color: rgba(0, 0, 0, 0.92);
+}
+
+.header.static .logo,
+.header.static.scrolled .logo {
+  filter: none;
+}
+
+.header.static .navLink,
+.header.static.scrolled .navLink {
+  color: #ffffff;
+}
+
+.header.static .langLink.active,
+.header.static.scrolled .langLink.active {
+  color: #ffffff;
+}
+
+.container {
+  max-width: 1470px;
+  margin: 0 auto;
+  height: 100%;
+  padding: 0 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (min-width: 1024px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    justify-content: initial;
+  }
+}
+
+/* ─── Logo ─── */
+.logoLink {
+  display: inline-flex;
+  align-items: center;
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+  transition: filter 500ms ease-in-out;
+}
+
+@media (min-width: 1024px) {
+  .logo {
+    width: 140px;
+  }
+}
+
+.header.scrolled .logo {
+  filter: invert(1);
+}
+
+/* ─── Desktop nav ─── */
+.nav {
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 1024px) {
+  .nav {
+    display: flex;
+  }
+}
+
+.navItem {
+  position: relative;
+}
+
+.navLink {
+  composes: navFont;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 13px 20px;
+  color: #ffffff;
+  border-bottom: 2px solid transparent;
+  transition: color 200ms ease-in-out, border-color 200ms ease-in-out;
+}
+
+.navLink:hover,
+.navLink:focus,
+.navLink.active {
+  color: #00BABC;
+  border-bottom-color: #00BABC;
+}
+
+.header.scrolled .navLink {
+  color: #000000;
+}
+
+.header.scrolled .navLink:hover,
+.header.scrolled .navLink:focus,
+.header.scrolled .navLink.active {
+  color: #00BABC;
+  border-bottom-color: #00BABC;
+}
+
+.navChevron {
+  margin-left: 4px;
+  opacity: 0.6;
+}
+
+/* ─── Dropdown ─── */
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: max-content;
+  background: #ffffff;
+  box-shadow: 6px 6px 0 0 #ED3491;
+  padding: 0;
+}
+
+.dropdownItem {
+  composes: dropdownFont;
+  display: block;
+  padding: 13px 20px;
+  color: #000000;
+  white-space: nowrap;
+  transition:
+    background-color 300ms ease-in-out 100ms,
+    color 300ms ease-in-out 100ms;
+}
+
+.dropdownItem:hover,
+.dropdownItem:focus {
+  background-color: #ED3491;
+  color: #ffffff;
+}
+
+/* ─── Right cluster (lang + apply) ─── */
+.rightCluster {
+  display: none;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 16px;
+}
+
+@media (min-width: 1024px) {
+  .rightCluster {
+    display: flex;
+  }
+}
+
+.langSwitcher {
+  display: flex;
+  align-items: center;
+}
+
+.langLink {
+  composes: navFont;
+  padding: 0 4px;
+  color: #a1a1aa;
+  transition: color 200ms ease-in-out;
+}
+
+.langLink.active {
+  color: #ffffff;
+}
+
+.langLink:hover {
+  color: #ffffff;
+}
+
+.header.scrolled .langLink.active {
+  color: #000000;
+}
+
+.header.scrolled .langLink:hover {
+  color: #000000;
+}
+
+/* ─── Apply CTA ─── */
+.applyButton {
+  composes: applyFont;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 16px 20px;
+  color: #ffffff;
+  background: linear-gradient(90deg, #00BABC 0%, #7D8EE9 100%);
+  transition: box-shadow 250ms ease-in-out;
+}
+
+.applyButton:hover,
+.applyButton:focus {
+  box-shadow: 4px 4px 0 0 #ED3491;
+}
+
+/* ─── Mobile toggle ─── */
+.mobileToggle {
+  display: inline-flex;
+  justify-self: end;
+  padding: 8px;
+  color: #ffffff;
+  transition: color 500ms ease-in-out;
+}
+
+@media (min-width: 1024px) {
+  .mobileToggle {
+    display: none;
+  }
+}
+
+/* ─── Mobile actions: hamburger + compact Apply CTA ─── */
+.mobileActions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  justify-self: end;
+}
+
+@media (min-width: 1024px) {
+  .mobileActions {
+    display: none;
+  }
+}
+
+/* Same teal as the hero Apply button (var(--color-primary)), same destination. */
+.mobileHeaderApply {
+  composes: applyFont;
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 16px;
+  font-size: 14px;
+  line-height: 1;
+  color: #ffffff;
+  background: var(--color-primary);
+  white-space: nowrap;
+}
+
+.header.scrolled .mobileToggle {
+  color: #000000;
+}
+
+/* ─── Mobile menu ─── */
+.mobileMenu {
+  display: block;
+  background-color: #090909;
+  border-top: 1px solid #27272a;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+@media (min-width: 1024px) {
+  .mobileMenu {
+    display: none;
+  }
+}
+
+.mobileNav {
+  padding: 16px 24px;
+}
+
+.mobileNavLink {
+  composes: navFont;
+  display: block;
+  padding: 12px 0;
+  color: #ffffff;
+  border-bottom: 1px solid #27272a;
+}
+
+.mobileChildList {
+  padding-left: 16px;
+}
+
+.mobileChildLink {
+  composes: dropdownFont;
+  display: block;
+  padding: 8px 0;
+  color: #E8ECF2;
+  transition: color 200ms ease-in-out;
+}
+
+.mobileChildLink:hover {
+  color: #00BABC;
+}
+
+.mobileApply {
+  composes: applyFont;
+  display: block;
+  margin-top: 16px;
+  padding: 16px 20px;
+  text-align: center;
+  color: #ffffff;
+  background: linear-gradient(90deg, #00BABC 0%, #7D8EE9 100%);
+}
+
+.mobileLangRow {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding-top: 16px;
+  margin-top: 16px;
+  border-top: 1px solid #27272a;
+}
+
+.mobileLangLink {
+  composes: navFont;
+  color: #a1a1aa;
+}
+
+.mobileLangLink.active {
+  color: #ffffff;
+}

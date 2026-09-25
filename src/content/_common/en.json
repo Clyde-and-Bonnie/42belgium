@@ -1,0 +1,145 @@
+{
+  "_comment": "Sections shared across every English landing page. Any cluster file (e.g. opportunity/en.json) can override these by defining the same key. Keep this file aligned with the program (not with a specific cluster's SEO angle).",
+  "afterForty": {
+    "heading": "Life after 42: 98% employment.",
+    "description": "98% of students who complete the advanced curriculum secure a job. Many are recruited during internships or while still working on projects at 42. You graduate with a portfolio, a track record, and a global alumni network in every major tech city.",
+    "stat": { "value": "98%", "label": "of advanced grads secure a job" },
+    "careers": [
+      { "icon": "fa-solid fa-code", "label": "Software developer or engineer" },
+      { "icon": "fa-solid fa-chart-line", "label": "Data scientist or AI specialist" },
+      { "icon": "fa-solid fa-shield-halved", "label": "Cybersecurity analyst" },
+      { "icon": "fa-solid fa-server", "label": "DevOps or systems engineer" },
+      { "icon": "fa-solid fa-mobile-screen", "label": "Mobile and web developer" },
+      { "icon": "fa-solid fa-rocket", "label": "Entrepreneur or startup founder" }
+    ],
+    "communityNote": "Graduation doesn't mean goodbye. Alumni are students for life - always welcome back to campus to exchange, mentor, or keep learning."
+  },
+  "whatYouBuild": {
+    "heading": "What you'll actually build.",
+    "intro": "The 42 Belgium program is structured around real projects, not lectures. Four phases, one trajectory - from your first line of code to your career launch.",
+    "phases": [
+      {
+        "number": "01",
+        "title": "Core Curriculum",
+        "duration": "6-24 months, avg 18",
+        "icon": "fa-solid fa-code",
+        "description": "You learn to code from scratch, then build your way up through progressively harder projects. The Common Core gives every student a solid foundation - both hard and soft skills.",
+        "items": [
+          "**Languages** - C, Python, and others along the way",
+          "**Algorithms & data structures** - the logic behind every codebase",
+          "**UNIX, file systems, processes** - how software actually runs",
+          "**Network programming** - the architecture behind modern apps",
+          "**Object-oriented programming** - writing code that scales",
+          "**Client-server projects** - building the backend of real systems",
+          "**Web programming** - from HTML to full-stack deployment",
+          "**Graphics programming** - rendering pixels, building interfaces",
+          "**Artificial intelligence** - the fundamentals powering modern systems",
+          "**Concurrent programming** - multi-threading and parallelism"
+        ]
+      },
+      {
+        "number": "02",
+        "title": "First work experience",
+        "duration": "Recommended",
+        "icon": "fa-solid fa-briefcase",
+        "description": "After the Common Core, many students take a first internship or job in tech. Not mandatory, but strongly recommended. This phase often helps students confirm their interests and return to 42 with clearer goals.",
+        "items": [
+          "**Apply your skills** in real-world conditions",
+          "**Understand professional workflows**, tools, and team dynamics",
+          "**Explore different career** paths before specialising"
+        ]
+      },
+      {
+        "number": "03",
+        "title": "Advanced Curriculum",
+        "duration": "Up to 5 years (flexible pace)",
+        "icon": "fa-solid fa-layer-group",
+        "description": "Choose your specialisation and go deeper - up to a master-equivalent level.\n\n**How it works:** Like in a video game, you can try, fail, and try again until you succeed. As you complete and validate projects, your level increases to reflect the skills you've mastered along the way. At each level, you discover new areas of coding and IT. This makes every student's journey unique, while still covering a shared foundation.",
+        "items": [
+          "Artificial Intelligence & Data",
+          "Cybersecurity",
+          "Web & Mobile development",
+          "Operating systems",
+          "Graphical programming"
+        ],
+        "flexibility": [
+          "You are not obligated to stick to one specialisation or complete it fully.",
+          "You can move between tracks, experiment with different fields, and choose projects that fit your goals.",
+          "Each student is free to decide when to graduate and officially become a 42 Alumni."
+        ],
+        "globalMobility": "This phase can be pursued not only in Brussels or Antwerp but also at any other 42 campus worldwide."
+      },
+      {
+        "number": "04",
+        "title": "Career launch",
+        "duration": "98% hired",
+        "icon": "fa-solid fa-rocket",
+        "description": "Many students secure job offers during this phase - often before they officially graduate. Industry certifications (AWS and others) add professional credibility.",
+        "items": [
+          "**Put advanced skills into practice** in longer, specialised roles",
+          "**Build deeper professional expertise** and network",
+          "**Secure long-term opportunities** - many receive offers here"
+        ]
+      }
+    ],
+    "plusNote": "Plus: industry certifications (AWS cloud and others), and a philosophy of sharing that shapes how you learn."
+  },
+  "realStories": {
+    "heading": "Real stories from real students.",
+    "description": "Three alumni share what the 42 journey was like - in their own words.",
+    "videos": [
+      { "name": "Kevin", "subtitle": "42 Stories · Piscine selection sprint", "youtubeId": "OO_dbpwed3s" },
+      { "name": "Morgane", "subtitle": "42 Stories · Piscine selection sprint", "youtubeId": "DGQnrVNZRZ0" },
+      { "name": "Sam", "subtitle": "42 Stories · Piscine selection sprint", "youtubeId": "sDcqpzBtjtM" }
+    ]
+  },
+  "howToApply": {
+    "heading": "How to join 42 Belgium.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Online logic test (~1 hour)",
+        "description": "No coding needed, it's just logic. Choose a quiet spot, as you can't pause or restart. Stay focused and keep going - you've got this!"
+      },
+      {
+        "number": "02",
+        "title": "Meeting - on campus or online",
+        "description": "Come visit our campus in Brussels or Antwerp and learn more about the program.\n\nSome check-in sessions are also online, but don't forget to register!"
+      },
+      {
+        "number": "03",
+        "title": "Enter the Piscine",
+        "description": "You'll be immersed for 4 weeks on our campus in Brussels or Antwerp. You'll get a taste of coding, our unique approach, and life at 42. Enough to really know if 42 is for you."
+      },
+      {
+        "number": "04",
+        "title": "Start the Common Core",
+        "description": "After passing the Piscine, you can officially start the Core Program.\n\nYou'll have 24/7 access to the campus, work on real projects, and discover a community full of fellow coders."
+      }
+    ],
+    "ctaLabel": "Apply now →",
+    "microcopy": "Next Piscine dates on campus - apply anytime."
+  },
+  "openDays": {
+    "heading": "Come meet us at an Open Day.",
+    "intro": "No pressure, no commitment. Walk the campus, meet the team, ask every question you have - in Brussels or Antwerp.",
+    "campuses": [
+      {
+        "name": "Brussels",
+        "address": "Canterssteen 12",
+        "subHeading": "Next to Central Station.",
+        "description": "A two-minute walk from the Central Station. Visit the campus, meet current students, see how peer-to-peer learning actually looks.",
+        "image": "/assets/gallery/OpenDaysBrussels.png"
+      },
+      {
+        "name": "Antwerp",
+        "address": "Mediaplein 1",
+        "subHeading": "In the heart of the city.",
+        "description": "Our Antwerp campus sits in the thick of the city's creative and media district, in the DPG building. Come spend an afternoon with the team.",
+        "image": "/assets/gallery/42Belgium-Antwerp1.png"
+      }
+    ],
+    "ctaLabel": "See upcoming Open Days",
+    "ctaHref": "https://www.eventbrite.com/cc/open-days-42-belgium-2935099"
+  }
+}

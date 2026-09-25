@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "title": "Data Science Master - Stats, ML, Python | 42 Belgium",
+    "description": "A free master-level data science program at 42 Belgium - statistics, ML, Python, deep learning. Postgraduate rigour with RNCP 7 European recognition.",
+    "slug": "data-science-master",
+    "primaryQuery": "data science master / master data sciences",
+    "convertingKeywords": [
+      "data science master",
+      "data science course",
+      "deep learning"
+    ],
+    "lpAngle": "classic"
+  },
+  "hero": {
+    "headline": "A data science master program built around statistics, ML, and Python — at depth.",
+    "subheadline": "For technical graduates and engineers, at 42 Belgium in Brussels and Antwerp. The data science work sits in the AI specialisation in Phase 3 — statistics, ML algorithms, deep learning, Python at production depth. 100% free. RNCP 7 path available for master-level European recognition.",
+    "reassurance": "100% free · No tuition · Brussels & Antwerp · RNCP 7 path available",
+    "cta": "Apply to the Data Science program →",
+    "image": "/assets/gallery/datasc-hero.png",
+    "imageAlt": "Data science student working on ML models at 42 Belgium"
+  },
+  "clusters": [
+    {
+      "name": "MASTER-LEVEL PROGRAMS",
+      "heading": "A data science master path that takes statistics and ML seriously.",
+      "body": "If you're searching for a data science master, you're probably already comfortable with the math. The 42 Belgium data science master path takes that seriously: no toy statistics, no surface-level ML. It sits in the AI specialisation in Phase 3, after the Common Core has built the engineering baseline. You don't take a data science bootcamp here — the work is longer, deeper, and judged on the model code you write rather than the notebooks you copy. 42 doesn't itself issue a master degree, but the RNCP 7 framework gives a professional diploma recognised at master level across Europe. The deeper signal: hiring engineers can read what you've built and tell whether you understand it.",
+      "keywords": [
+        "data science master",
+        "master data sciences",
+        "data science bootcamp"
+      ],
+      "decoration": "/assets/3-chevrons-pink.svg",
+      "decorationPosition": "top-left"
+    },
+    {
+      "name": "DATA SCIENCE TRAINING",
+      "heading": "The data science course where the math holds up under stress.",
+      "body": "Most data science courses skim the surface: regression, classification, a sklearn notebook, a Kaggle dataset. The 42 Belgium data science course goes deeper. Statistical foundations are explicit — probability distributions, hypothesis testing, bias-variance trade-offs, regularisation, the why behind each technique. The machine learning program covers algorithms from first principles: you implement what you'll later use, you understand when a model fails and why. Deep learning means convolutional networks, recurrent networks, transformers — and the engineering around training them at scale: gradient descent debugging, hyperparameter optimisation, distributed training basics. The point isn't to make you a researcher; it's to make sure that when a production ML system breaks, you understand what's actually happening. That's the difference between someone who runs models and someone who designs them.",
+      "keywords": [
+        "data science course",
+        "deep learning",
+        "machine learning program"
+      ],
+      "bullets": [
+        "Statistics, explicit: distributions, hypothesis testing, bias-variance",
+        "ML from first principles — you implement it, you debug it",
+        "Deep learning: CNNs, RNNs, transformers, training at scale",
+        "Designed to diagnose production ML, not just run notebooks"
+      ]
+    },
+    {
+      "name": "DATA ENGINEERING",
+      "heading": "Looking for data engineering? It's a different track.",
+      "body": "A data engineer's job overlaps with data science but isn't the same: data pipelines, ETL, warehousing, infrastructure for ML — engineering-heavy, less statistics-heavy. The 42 Belgium curriculum does cover the foundations a data engineer needs (databases, distributed systems, cloud, pipelines), but the data science specialisation focuses on the modelling side. If you're sure you want pure data engineering, look at the infrastructure specialisation instead — it maps more closely. If you want the option of either or both, the 42 curriculum's breadth means you can specialise late, and many graduates work across the data engineer / data scientist boundary in their first roles. The honest part: this page is built for the data science track.",
+      "keywords": [
+        "data engineer"
+      ],
+      "decoration": "/assets/code-blue.svg"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is this an actual master's degree?",
+      "answer": "42 Belgium doesn't issue its own master's degree. The data science specialisation maps onto RNCP 7 — the European framework that recognises master-equivalent qualifications. Pass RNCP 7 and you hold a professional diploma recognised at master level across Europe. The work itself — modelling, statistics, production ML — is what hiring engineers evaluate."
+    },
+    {
+      "question": "What math and CS background do I need to enter?",
+      "answer": "None to enter — everyone starts with the Common Core regardless of prior level. But the data science specialisation in Phase 3 is engineer-level, and the math comes back hard: linear algebra, multivariate calculus, probability theory, optimisation. Coming in with strong math fundamentals lets you focus on the ML rather than the prerequisites. Coming in cold means you build them along the way."
+    },
+    {
+      "question": "What roles do graduates take?",
+      "answer": "Data scientist, ML engineer, applied research engineer, MLOps engineer, quantitative analyst — and in some cases data engineer, though that's adjacent rather than the primary track. The Belgian and European job markets are short on people who can ship production ML at depth, and the 42 specialisation targets that gap."
+    }
+  ],
+  "stats": [
+    {
+      "value": "98%",
+      "label": "of advanced grads secure a job"
+    },
+    {
+      "value": "100%",
+      "label": "Free - no tuition"
+    },
+    {
+      "value": "42",
+      "label": "Campuses worldwide"
+    },
+    {
+      "value": "0",
+      "label": "Prerequisites"
+    }
+  ],
+  "ctaFinal": {
+    "title": "The data science master path that produces builders, not slide-decks.",
+    "description": "AI specialisation in Phase 3, statistics + ML + Python at depth, RNCP 7 path. All free, no tuition, no degree required. Apply year-round.",
+    "cta": "Apply to the Data Science program →"
+  },
+  "schemaOrg": {
+    "course": {
+      "name": "42 Belgium - Data Science Master Program",
+      "description": "A free master-level data science program at 42 Belgium, in Brussels and Antwerp. Statistics, machine learning, deep learning and Python at production depth, with RNCP 7 European master-level recognition.",
+      "provider": "42 Belgium",
+      "url": "https://42belgium.be/en/data-science-master",
+      "courseMode": "blended",
+      "educationalLevel": "beginner"
+    }
+  }
+}

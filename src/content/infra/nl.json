@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "title": "DevOps opleiding & systeembeheer - Gratis | 42 Belgium",
+    "description": "Gratis DevOps opleiding bij 42 Belgium: Linux, netwerken, cloud en voorbereiding op AWS-certificering. Voor IT'ers klaar voor de stap naar DevOps.",
+    "slug": "devops-opleiding-systeembeheer",
+    "primaryQuery": "DevOps opleiding / systeembeheer opleiding",
+    "convertingKeywords": [
+      "DevOps opleiding",
+      "systeembeheer opleiding",
+      "cloud engineer opleiding"
+    ],
+    "lpAngle": "classic"
+  },
+  "hero": {
+    "headline": "De DevOps opleiding die van systeembeheerders cloud engineers maakt.",
+    "subheadline": "100% gratis bij 42 Belgium, in Brussel en Antwerpen. Infrastructuurwerk zit ingebed in een volledig software engineering-curriculum: Linux internals, netwerken, containers, cloudplatformen en CI/CD. Voorbereiding op AWS-certificering beschikbaar. Met een traject naar RNCP 6-erkenning op bachelorniveau.",
+    "reassurance": "100% gratis · Geen diploma vereist · Brussel & Antwerpen · AWS-prep + RNCP 6 mogelijk",
+    "cta": "Start je Infra/DevOps-opleiding →",
+    "image": "/assets/gallery/infra-hero.jpg",
+    "imageAlt": "Studenten in het computerlokaal op de 42 Belgium-campus"
+  },
+  "clusters": [
+    {
+      "name": "DEVOPS & CLOUD",
+      "heading": "Een DevOps opleiding waarin je infrastructuur opzet, niet alleen schema's tekent.",
+      "body": "Een DevOps opleiding telt pas als je achteraf echt iets kunt lanceren. Bij 42 Belgium is infrastructuurwerk geen aparte module. Het loopt door het curriculum, van systeemniveau en C-programmering tot containerized deployments in de specialisaties van fase 3. Een serieuze cloud engineer opleiding behandelt wat productie vandaag betekent: AWS, Linux-servers, netwerkfundamenten, Docker, basis Kubernetes en infrastructure-as-code patronen. Voor wie industriecertificeringen wil, bereidt het curriculum je voor op AWS-certificeringsexamens zoals Solutions Architect, SysOps en DevOps Engineer. 42 reikt die certificaten niet zelf uit; onze partner AWS doet dat. Het doel is niet een certificaat aan de muur. Het doel is dat je de reflex ontwikkelt om systemen veilig te testen: observeren wat faalt en een oplossing uitrollen voor de wachtdienst het probleem voelt.",
+      "keywords": [
+        "DevOps opleiding",
+        "cloud engineer opleiding",
+        "AWS certificering"
+      ],
+      "bullets": [
+        "AWS, Linux, Docker, Kubernetes, CI/CD, IaC",
+        "Infrastructuur door het hele curriculum, geen losse module",
+        "AWS-certificering: Solutions Architect, SysOps, DevOps Engineer",
+        "Breken in staging, fixen voor de wachtdienst het merkt"
+      ]
+    },
+    {
+      "name": "NETWERK & SYSTEEMBEHEER",
+      "heading": "Linux, netwerken, system internals: het fundament onder DevOps.",
+      "body": "Voor je jezelf netwerkbeheerder of DevOps engineer kunt noemen, moet je begrijpen wat er onder de abstractielaag gebeurt. De Common Core bij 42 Belgium pakt dat serieus aan. De systeembeheer opleiding loopt via projecten, niet via klik handleidingen. Je bouwt een mini shell, beheert processen en configureert services van nul. Opleidingen tot netwerkbeheerder die op de markt circuleren, stoppen vaak bij routinetaken. Hier ga je dieper: je leert waarom TCP retransmits doet, waarom een DNS-query faalt en waarom een proces geheugen opvreet. De Linux cursus is geen aparte unit. Linux loopt door alles wat je in de Common Core schrijft. Hoe dieper je in Linux en netwerken gaat, hoe minder verrassend de cloud wordt.",
+      "keywords": [
+        "systeembeheer opleiding",
+        "netwerk beheerder opleiding",
+        "opleiding netwerkbeheerder",
+        "Linux cursus"
+      ],
+      "image": "/assets/gallery/devop.png",
+      "imageAlt": "Studenten werken samen aan Linux en netwerken in het 42 Belgium-lab",
+      "imageLeft": true
+    }
+  ],
+  "faq": [
+    {
+      "question": "Ik ben al systeembeheerder. Heb ik het volledige curriculum nodig?",
+      "answer": "Dat hangt af van waar je naartoe wilt. Voor senior DevOps of platform engineering: waarschijnlijk wel. Het gat dat de meeste systeembeheerders hebben, zit vaak aan de softwarekant: services schrijven, niet alleen runnen. De Common Core bij 42 sluit dat gat. Je gaat er waarschijnlijk sneller door dan iemand die vanaf nul start, maar je slaat de basis niet over. In fase 3 kun je daarna meer focus leggen op infrastructuurdiepte."
+    },
+    {
+      "question": "Krijg je AWS-, Azure- of GCP-certificaten?",
+      "answer": "42 Belgium geeft zelf geen cloudcertificaten uit. Die komen rechtstreeks van AWS, Microsoft en Google. Wat het curriculum wel doet: je voorbereiden op certificaten die ertoe doen, zoals AWS Solutions Architect, SysOps en DevOps Engineer, plus de equivalenten op Azure en GCP. Het praktische werk dat je oplevert, is je bewijs in gesprekken — los van de certificaten die je beslist te behalen."
+    },
+    {
+      "question": "In welke functies komen infra-afgestudeerden terecht?",
+      "answer": "Afgestudeerden starten vaak als DevOps engineer, cloud engineer, SRE, platform engineer, netwerkengineer of infrastructure-as-code-specialist. De Belgische markt heeft een tekort aan senior infratalent en neemt graag juniors aan met bewijs dat ze kunnen deployen. Veel afgestudeerden starten via een stage bij onze partners en gaan nog voor het einde van het traject over naar een vast contract."
+    }
+  ],
+  "stats": [
+    {
+      "value": "98%",
+      "label": "van de gevorderde afgestudeerden vindt een job"
+    },
+    {
+      "value": "100%",
+      "label": "Gratis, geen lesgeld"
+    },
+    {
+      "value": "42",
+      "label": "Campussen wereldwijd"
+    },
+    {
+      "value": "0",
+      "label": "Vereisten"
+    }
+  ],
+  "ctaFinal": {
+    "title": "De DevOps opleiding waarin je infrastructuur opzet, niet alleen schema's tekent.",
+    "description": "Linux, netwerken, AWS-prep en een traject naar RNCP 6-erkenning. Binnen een volledig software engineering-curriculum. Volledig gratis, geen diploma vereist.",
+    "cta": "Start je Infra/DevOps-opleiding →"
+  },
+  "schemaOrg": {
+    "course": {
+      "name": "42 Belgium - DevOps & systeembeheer opleiding",
+      "description": "Gratis DevOps- en infrastructuuropleiding bij 42 Belgium, in Brussel en Antwerpen. Linux, netwerken, cloud computing, voorbereiding op AWS-certificering en CI/CD via echte projecten. Met een traject naar RNCP 6-erkenning op bachelorniveau.",
+      "provider": "42 Belgium",
+      "url": "https://42belgium.be/nl/devops-opleiding-systeembeheer",
+      "courseMode": "blended",
+      "educationalLevel": "beginner"
+    }
+  }
+}
