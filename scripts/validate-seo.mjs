@@ -16,6 +16,8 @@
  *   - No smart quotes (curly apostrophes) — paste-from-Word artefact
  *
  * Per JSON file (cluster + _common):
+ *   - Valid JSON, and the structure the site expects: no unknown key, no
+ *     missing required key, right value types (mirror of src/lib/i18n.ts)
  *   - Image audit: every /assets/... path exists in public/, lowercase-hyphenated
  *     filename, size < 200 KB
  *
@@ -31,9 +33,10 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const CONTENT_DIR = path.join(__dirname, "..", "src", "content");
 const PUBLIC_DIR = path.join(__dirname, "..", "public");
 
-// --structural-only enforces just the two checks that mean "this page is
-// broken": the file must be valid JSON, and the images it points at must
-// exist. The SEO checklist still runs and still prints, but as advice.
+// --structural-only enforces just the checks that mean "this page is
+// broken": the file must be valid JSON with the structure the site expects,
+// and the images it points at must exist. The SEO checklist still runs and
+// still prints, but as advice.
 // CI uses this on pull requests so an editor is never blocked by an SEO
 // judgement call; `npm run validate:seo` with no flag stays the full,
 // blocking checklist for Clyde & Bonnie.
@@ -94,6 +97,209 @@ function extractBody(content) {
   return parts.join(" ");
 }
 
+// ── Content structure ──────────────────────────────────────────────────────
+// Mirror of the PageContent types in src/lib/i18n.ts. A key the site does
+// not know (e.g. "faq_typo") or a required key that is missing builds fine
+// but silently drops a section from the page, so both are errors in every
+// mode. Keys starting with "_" are comments and always allowed. Keep this in
+// sync with i18n.ts when a content field is added.
+const str = { type: "string" };
+const num = { type: "number" };
+const bool = { type: "boolean" };
+const list = (of) => ({ type: "array", of });
+const oneOf = (...values) => ({ type: "string", values });
+// Keys ending in "?" are optional.
+const obj = (fields) => ({ type: "object", fields });
+
+const SHARED_SCHEMA = {
+  "afterForty?": obj({
+    heading: str,
+    description: str,
+    stat: obj({ value: str, label: str }),
+    careers: list(obj({ icon: str, label: str })),
+    "communityNote?": str,
+  }),
+  "whatYouBuild?": obj({
+    heading: str,
+    intro: str,
+    phases: list(
+      obj({
+        number: str,
+        title: str,
+        duration: str,
+        description: str,
+        items: list(str),
+        "icon?": str,
+        "flexibility?": list(str),
+        "globalMobility?": str,
+      })
+    ),
+    "plusNote?": str,
+  }),
+  "realStories?": obj({
+    heading: str,
+    description: str,
+    videos: list(obj({ name: str, subtitle: str, youtubeId: str })),
+  }),
+  "howToApply?": obj({
+    heading: str,
+    steps: list(obj({ number: str, title: str, description: str })),
+    ctaLabel: str,
+    "microcopy?": str,
+  }),
+  "openDays?": obj({
+    heading: str,
+    intro: str,
+    campuses: list(obj({ name: str, address: str, subHeading: str, description: str, image: str })),
+    ctaLabel: str,
+    ctaHref: str,
+  }),
+};
+
+const PAGE_SCHEMA = obj({
+  meta: obj({
+    title: str,
+    description: str,
+    slug: str,
+    primaryQuery: str,
+    convertingKeywords: list(str),
+    "lpAngle?": oneOf("classic", "bold"),
+  }),
+  hero: obj({
+    headline: str,
+    subheadline: str,
+    "reassurance?": str,
+    cta: str,
+    "image?": str,
+    "imageAlt?": str,
+  }),
+  clusters: list(
+    obj({
+      name: str,
+      heading: str,
+      body: str,
+      keywords: list(str),
+      "bullets?": list(str),
+      "lowBarrier?": bool,
+      "dontAsk?": list(str),
+      "lookFor?": list(str),
+      "subheading?": str,
+      "bodyPart2?": str,
+      "image?": str,
+      "imageAlt?": str,
+      "imageLeft?": bool,
+      "comparison?": obj({
+        leftLabel: str,
+        rightLabel: str,
+        "criteria?": list(str),
+        rows: list(obj({ left: str, right: str })),
+      }),
+      "decoration?": str,
+      "decorationPosition?": oneOf("top-left", "top-right", "bottom-left", "bottom-right"),
+      "decorationOpacity?": num,
+    })
+  ),
+  ...SHARED_SCHEMA,
+  "faq?": list(obj({ question: str, answer: str })),
+  "stats?": list(obj({ value: str, label: str })),
+  "ctaFinal?": obj({ title: str, description: str, cta: str }),
+  "schemaOrg?": obj({
+    "course?": obj({
+      name: str,
+      description: str,
+      provider: str,
+      url: str,
+      "courseMode?": str,
+      "educationalLevel?": str,
+    }),
+  }),
+});
+
+// _common/<lang>.json only holds the sections shared by every page.
+const COMMON_SCHEMA = obj(SHARED_SCHEMA);
+
+function typeOf(value) {
+  if (Array.isArray(value)) return "array";
+  if (value === null) return "null";
+  return typeof value;
+}
+
+// Closest known key, to turn "unknown key faq_typo" into a fix.
+function closestKey(key, known) {
+  const dist = (a, b) => {
+    const d = Array.from({ length: a.length + 1 }, (_, i) => [i]);
+    for (let j = 1; j <= b.length; j++) d[0][j] = j;
+    for (let i = 1; i <= a.length; i++)
+      for (let j = 1; j <= b.length; j++)
+        d[i][j] = Math.min(d[i - 1][j] + 1, d[i][j - 1] + 1, d[i - 1][j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1));
+    return d[a.length][b.length];
+  };
+  let best = null;
+  for (const k of known) {
+    const a = key.toLowerCase();
+    const b = k.toLowerCase();
+    // "faq_old" → the known key it starts or ends with (longest wins).
+    const score = a.startsWith(b) || a.endsWith(b) ? -b.length : dist(a, b);
+    if (score <= Math.max(2, Math.floor(k.length / 3)) && (!best || score < best.score)) best = { k, score };
+  }
+  return best?.k;
+}
+
+function checkShape(value, schema, where, problems) {
+  const actual = typeOf(value);
+  if (actual !== schema.type) {
+    problems.push(`${where} should be ${schema.type === "array" ? "a list" : `a ${schema.type}`}, found ${actual}`);
+    return;
+  }
+  if (schema.values && !schema.values.includes(value)) {
+    problems.push(`${where} is "${value}" — allowed values: ${schema.values.join(", ")}`);
+  }
+  if (schema.type === "array") {
+    value.forEach((item, i) => checkShape(item, schema.of, `${where}[${i}]`, problems));
+  }
+  if (schema.type === "object") {
+    const fields = Object.entries(schema.fields).map(([k, s]) => ({
+      key: k.replace(/\?$/, ""),
+      optional: k.endsWith("?"),
+      schema: s,
+    }));
+    const known = fields.map((f) => f.key);
+    for (const key of Object.keys(value)) {
+      if (key.startsWith("_") || known.includes(key)) continue;
+      const hint = closestKey(key, known);
+      problems.push(`unknown key "${key}"${where ? ` in ${where}` : ""}${hint ? ` — did you mean "${hint}"?` : ""}`);
+    }
+    for (const f of fields) {
+      const path_ = where ? `${where}.${f.key}` : f.key;
+      if (value[f.key] === undefined) {
+        if (!f.optional) problems.push(`missing required key "${path_}"`);
+        continue;
+      }
+      checkShape(value[f.key], f.schema, path_, problems);
+    }
+  }
+}
+
+// Runs on every JSON file (cluster + _common). Returns false when the file
+// can't be parsed, so the caller skips the other checks for it.
+function structureCheck(filePath, isCommon) {
+  const rel = path.relative(CONTENT_DIR, filePath);
+  let content;
+  try {
+    content = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+  } catch (err) {
+    // A missing comma or a smart quote pasted from Word is the most common
+    // edit mistake. Report it like any other error so the PR check shows the
+    // fix instead of a Node stack trace.
+    log("ERROR", rel, `invalid JSON — ${err.message}`);
+    return false;
+  }
+  const problems = [];
+  checkShape(content, isCommon ? COMMON_SCHEMA : PAGE_SCHEMA, "", problems);
+  for (const p of problems) log("ERROR", rel, p);
+  return true;
+}
+
 const results = { errors: 0, warnings: 0, ok: 0, stubs: 0 };
 
 function log(level, page, msg) {
@@ -106,16 +312,8 @@ function log(level, page, msg) {
 
 function validate(filePath) {
   const rel = path.relative(CONTENT_DIR, filePath);
-  let content;
-  try {
-    content = JSON.parse(fs.readFileSync(filePath, "utf-8"));
-  } catch (err) {
-    // A missing comma or a smart quote pasted from Word is the most common
-    // edit mistake. Report it like any other error so the PR check shows the
-    // fix instead of a Node stack trace.
-    log("ERROR", rel, `invalid JSON — ${err.message}`);
-    return;
-  }
+  // structureCheck() already rejected files that don't parse.
+  const content = JSON.parse(fs.readFileSync(filePath, "utf-8"));
   const issues = [];
 
   // Legacy stub detection — kept for theoretical edge cases.
@@ -293,16 +491,16 @@ function checkFile(full) {
   const name = path.basename(full);
   if (!full.endsWith(".json")) return;
 
-  // Image audit runs on every JSON (cluster + _common).
+  // Top-level _-prefixed files are not page content.
+  if (name.startsWith("_")) return;
+  const isCommon = path.relative(CONTENT_DIR, full).split(path.sep).some((seg) => seg.startsWith("_"));
+
+  // Structure and image audit run on every JSON (cluster + _common).
+  if (!structureCheck(full, isCommon)) return;
   imageAudit(full);
 
-  // SEO checks only on cluster files (skip _common/ and other _-prefixed files)
-  if (name.startsWith("_")) return;
-  // _common is a directory not a file — already handled above. But just
-  // in case: if a parent dir of `full` starts with _, skip too.
-  const inUnderscoreDir = path.relative(CONTENT_DIR, full).split(path.sep).some((seg) => seg.startsWith("_"));
-  if (inUnderscoreDir) return;
-
+  // SEO checks only on cluster files, not _common/.
+  if (isCommon) return;
   validate(full);
 }
 
@@ -336,7 +534,7 @@ console.log(
 );
 if (structuralOnly) {
   console.log(
-    `${c.gray}Only invalid JSON and missing images fail this run. SEO findings below are advice.${c.reset}`
+    `${c.gray}Only invalid JSON, a wrong structure (unknown, missing or mistyped key) and missing images fail this run. SEO findings below are advice.${c.reset}`
   );
 }
 if (args.length > 0) {
